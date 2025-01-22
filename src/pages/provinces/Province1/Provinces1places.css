@@ -1,0 +1,45 @@
+/* Province1places.css */
+
+.province1-places-container {
+    max-width: 800px; /* Limit the width of the carousel */
+    margin: auto; /* Center the carousel */
+    margin-top: 3vh;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .province1-title {
+    text-align: center; /* Center the title */
+    font-size: 2rem; /* Larger font size for the title */
+    margin-bottom: 20px; /* Space below the title */
+    color: #343a40; /* Darker text color */
+    font-family: 'Arial', sans-serif; /* Font style */
+  }
+  
+  .place-image {
+    height: 400px; /* Fixed height for images */
+    object-fit: cover; /* Cover the area without distortion */
+    border-radius: 8px; /* Rounded image corners */
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 15px; /* Padding around the text */
+    border-radius: 8px; /* Rounded corners for caption */
+    color: #ffffff; /* White text color */
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    filter: invert(1); /* Invert control colors for better visibility */
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    background-color: #007bff; /* Active indicator color */
+  }
+  
+  .carousel-indicators .active {
+    background-color: #0056b3; /* Darker color for active indicator */
+  }

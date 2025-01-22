@@ -1,0 +1,87 @@
+/* Global styles for the container */
+.mountain-trails-container {
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(135deg, #e9f5f8, #f7f7f7);
+  border-radius: 12px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles */
+.mountain-trails-container h1 {
+  font-size: 2.5rem;
+  color: #3c3c3c;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Carousel Image */
+.carousel-item img {
+  border-radius: 12px;
+  transition: transform 0.4s ease-in-out;
+}
+
+.carousel-item img:hover {
+  transform: scale(1.05);
+}
+
+/* Carousel Caption Styling */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  color: #f5f5f5;
+  text-align: left;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.carousel-caption h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 10px;
+  text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption p {
+  margin: 5px 0;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #d9d9d9;
+}
+
+.carousel-caption p strong {
+  color: #ffffff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .mountain-trails-container h1 {
+    font-size: 2rem;
+  }
+
+  .carousel-caption {
+    font-size: 0.9rem;
+    padding: 15px;
+  }
+
+  .carousel-caption h3 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

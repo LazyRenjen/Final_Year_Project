@@ -1,0 +1,155 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9fafb; /* Equivalent to bg-gray-50 */
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation */
+nav {
+  background-color: #ffffff; /* White background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for navigation bar */
+}
+
+nav .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem; /* Equivalent to h-16 */
+}
+
+nav button {
+  font-size: 1rem; /* Base font size */
+  padding: 0 1rem;
+  color: #374151; /* Equivalent to text-gray-700 */
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+nav button:hover {
+  color: #1f2937; /* Equivalent to text-gray-900 */
+}
+
+nav .relative .absolute {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 50;
+}
+
+nav .relative:hover .absolute {
+  display: block;
+}
+
+nav .relative .absolute a {
+  display: block;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem; /* Equivalent to text-sm */
+  color: #374151; /* Equivalent to text-gray-700 */
+  text-decoration: none;
+}
+
+nav .relative .absolute a:hover {
+  background-color: #f3f4f6; /* Equivalent to bg-gray-100 */
+}
+
+/* Top Gear Carousel */
+.card {
+  border: 1px solid #e5e7eb; /* Equivalent to border-gray-200 */
+  border-radius: 0.5rem; /* Equivalent to rounded-lg */
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-color: #ffffff;
+}
+
+.card img {
+  width: 100%;
+  height: 12rem; /* Equivalent to h-48 */
+  object-fit: cover;
+}
+
+.card h3 {
+  font-size: 1.25rem; /* Equivalent to text-xl */
+  margin-bottom: 0.5rem;
+}
+
+.card .price {
+  font-weight: bold;
+  font-size: 1.125rem; /* Equivalent to text-lg */
+}
+
+.card .rating {
+  display: flex;
+  align-items: center;
+}
+
+.card .rating svg {
+  width: 1rem; /* Equivalent to w-4 */
+  height: 1rem; /* Equivalent to h-4 */
+  margin-right: 0.25rem; /* Equivalent to mr-1 */
+}
+
+.card button {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #3b82f6; /* Equivalent to bg-blue-500 */
+  color: #ffffff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #2563eb; /* Darker blue */
+}
+
+/* Buttons for Carousel */
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #ffffff;
+  padding: 0.5rem;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.carousel-button:hover {
+  background-color: #f3f4f6; /* Equivalent to bg-gray-100 */
+}
+
+.carousel-button.left {
+  left: -1rem; /* Equivalent to -ml-4 */
+}
+
+.carousel-button.right {
+  right: -1rem; /* Equivalent to -mr-4 */
+}
+
+/* Featured Treks */
+.grid {
+  display: grid;
+  gap: 1.5rem; /* Equivalent to gap-6 */
+}
+
+.grid.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid.grid-cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* Trekking Seasons */
+.card p {
+  color: #6b7280; /* Equivalent to text-gray-600 */
+  margin-top: 0.5rem;
+}

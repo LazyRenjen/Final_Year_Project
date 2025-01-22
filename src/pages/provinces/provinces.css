@@ -1,0 +1,230 @@
+/* Base Container */
+.provinces-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Title Styling */
+.provinces-title {
+  text-align: center;
+  color: #1a1a1a;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  position: relative;
+}
+
+.provinces-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  border-radius: 2px;
+}
+
+/* Navigation Styling */
+.provinces-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+  padding: 0.5rem;
+}
+
+.province-nav-item {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background-color: #f8f9fa;
+  color: #4a5568;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.province-nav-item:hover {
+  background-color: #edf2f7;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.province-nav-item.active {
+  background-color: #00875A;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 135, 90, 0.3);
+}
+
+/* Province Navigation Controls */
+.province-navigation {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.nav-btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #ffffff;
+  border: 2px solid #00875A;
+  color: #00875A;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  background-color: #00875A;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Content Layout */
+.province-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+  background-color: white;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+/* Province Info Styling */
+.province-info {
+  animation: slideIn 0.5s ease-out;
+}
+
+.province-info h2 {
+  color: #00875A;
+  margin-bottom: 1.5rem;
+  font-size: 2.25rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.province-details {
+  display: grid;
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+}
+
+.info-item {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.info-item .label {
+  font-weight: 600;
+  color: #4a5568;
+  min-width: 120px;
+  position: relative;
+}
+
+.info-item .label::after {
+  content: ':';
+  position: absolute;
+  right: 0;
+}
+
+.info-item .value {
+  color: #2d3748;
+  font-weight: 500;
+}
+
+.province-description {
+  line-height: 1.8;
+  color: #4a5568;
+  margin-bottom: 2rem;
+  padding: 0 0.5rem;
+}
+
+/* Map Container Styling */
+.map-container {
+  width: 100%;
+  height: 450px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.map-container:hover {
+  transform: scale(1.02);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .province-content {
+    grid-template-columns: 1.2fr 0.8fr;
+  }
+  
+  .provinces-nav {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .provinces-title {
+    font-size: 2rem;
+  }
+
+  .provinces-nav {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0 1rem;
+  }
+
+  .province-nav-item {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .province-content {
+    padding: 1.5rem;
+    gap: 2rem;
+  }
+
+  .province-info h2 {
+    font-size: 1.75rem;
+  }
+
+  .map-container {
+    height: 350px;
+  }
+}

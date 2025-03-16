@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './SignUp.css';  
+import './signup.css';  
 
 const SignUpForm = () => {
   const [formData, setFormData] = useState({
@@ -13,18 +13,53 @@ const SignUpForm = () => {
 
   const [errorMessage, setErrorMessage] = useState("");
 
+  // ✅ Improved password validation function
+  const validatePassword = (password) => {
+    const strongPasswordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+    if (!strongPasswordRegex.test(password)) {
+      return "Password must be at least 8 characters, include uppercase, lowercase, number, and special character.";
+    }
+    return null;
+  };
+
+  // ✅ New phone validation function
+  const validatePhone = (phone) => {
+    const phoneRegex = /^[0-9]{10}$/; // Allows only 10 digits
+    return phoneRegex.test(phone) ? null : "Invalid phone number. Must be 10 digits.";
+  };
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
+
+    // ✅ Validate password in real-time
+    if (name === "password") {
+      const passwordError = validatePassword(value);
+      setErrorMessage(passwordError || "");
+    }
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     const { username, email, phone, password, confirmPassword } = formData;
-
-    // Basic validation
+  
+    // ✅ Validate required fields
     if (!username || !email || !phone || !password || !confirmPassword) {
       setErrorMessage("All fields are required.");
+      return;
+    }
+
+    // ✅ Validate phone number
+    const phoneError = validatePhone(phone);
+    if (phoneError) {
+      setErrorMessage(phoneError);
+      return;
+    }
+
+    // ✅ Validate password
+    const passwordError = validatePassword(password);
+    if (passwordError) {
+      setErrorMessage(passwordError);
       return;
     }
 
@@ -32,10 +67,34 @@ const SignUpForm = () => {
       setErrorMessage("Passwords do not match.");
       return;
     }
-
-    setErrorMessage("");
-    alert("Form submitted successfully!");
-    // Perform further actions like API calls here
+  
+    try {
+      const response = await fetch('http://localhost:5000/signup', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          username,
+          email,
+          phone,
+          password,
+        }),
+      });
+  
+      const data = await response.json();
+      
+      if (!response.ok) {
+        throw new Error(data.message || 'Failed to sign up');
+      }
+  
+      alert(data.message || 'User registered successfully!');
+      setErrorMessage("");
+      setFormData({ username: "", email: "", phone: "", password: "", confirmPassword: "" }); // ✅ Reset form on success
+    } catch (error) {
+      console.error('Signup error:', error);
+      setErrorMessage(error.message || 'Error registering user');
+    }
   };
 
   return (
@@ -43,6 +102,7 @@ const SignUpForm = () => {
       <h2 className="form-title">Sign Up</h2>
       {errorMessage && <p className="error-message">{errorMessage}</p>}
       <form onSubmit={handleSubmit}>
+
         <div className="form-group">
           <label htmlFor="username" className="form-label">Username</label>
           <input
@@ -55,6 +115,7 @@ const SignUpForm = () => {
             required
           />
         </div>
+
         <div className="form-group">
           <label htmlFor="email" className="form-label">Email</label>
           <input
@@ -67,6 +128,7 @@ const SignUpForm = () => {
             required
           />
         </div>
+
         <div className="form-group">
           <label htmlFor="phone" className="form-label">Phone Number</label>
           <input
@@ -79,6 +141,7 @@ const SignUpForm = () => {
             required
           />
         </div>
+
         <div className="form-group">
           <label htmlFor="password" className="form-label">Password</label>
           <input
@@ -91,6 +154,7 @@ const SignUpForm = () => {
             required
           />
         </div>
+
         <div className="form-group">
           <label htmlFor="confirm-password" className="form-label">Confirm Password</label>
           <input
@@ -103,6 +167,7 @@ const SignUpForm = () => {
             required
           />
         </div>
+
         <button type="submit" className="form-submit">Sign Up</button>
       </form>
       <p className="login-link">

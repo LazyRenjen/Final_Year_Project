@@ -1,51 +1,93 @@
-import './Footer.css'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Facebook, Instagram, Twitter, Music } from 'lucide-react';
+import './Footer.css';
 
 const Footer = () => {
+  // Map of link names to their routes
+  const linkRoutes = {
+    'Home': '/',
+    'Provinces': '/provinces',
+    'Mountain Trails': '/mountain-trails',
+    'Trekking Gears': '/trekking-gears',
+    'Trip By Days': '/trip-by-days',
+    'Community Hub': '/community',
+    'Travel Notices': '/Travel',
+    'Sustainability': '/Sustainability'
+  };
+
   return (
     <footer className="footer">
-      <div className="footer-section">
-        <h3>Site Map</h3>
-        <ul>
-          <li>
-            <i className="icon">🏠</i>
-            <a href="./">Home</a>
-          </li>
-          <li>
-            <i className="icon">📁</i>
-            <a href="/portfolio">Portfolio</a>
-          </li>
-          <li>
-            <i className="icon">🔒</i>
-            <a href="/privacy">Privacy</a>
-          </li>
-        </ul>
-      </div>
+      <div className="footer-container">
+        {/* About Us Section */}
+        <div className="footer-section about-section">
+          <h3 className="footer-heading">About Us</h3>
+          <p className="footer-text">
+            At Nepal Travel Guide, we are dedicated to providing you with exceptional travel experiences. Our expert team is here to assist you in exploring the beauty of Nepal and crafting unforgettable adventures.
+          </p>
+          <button className="learn-more-btn">
+            Learn More
+          </button>
+        </div>
 
-      <div className="footer-section">
-        <h3>About Me</h3>
-        <p>Hi, I'm Mary Smith. I'm a web designer and developer.</p>
-        <p>I created this sample web page to showcase some of my digital creation skills.</p>
-      </div>
+        {/* Quick Links Section */}
+        <div className="footer-section links-section">
+          <h3 className="footer-heading">Quick Links</h3>
+          <ul className="footer-links">
+            {['Home', 'Provinces', 'Mountain Trails', 'Trekking Gears', 'Trip By Days', 'Community Hub', 'Travel Notices', 'Sustainability'].map((link) => (
+              <li key={link}>
+                <Link to={linkRoutes[link]} className="footer-link">
+                  {link}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
 
-      <div className="footer-section">
-        <h3>Contact</h3>
-        <ul>
-          <li>
-            <i className="icon">📧</i>
-            <a href="mailto:contact@example.com">Email</a>
-          </li>
-          <li>
-            <i className="icon">💻</i>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
-          </li>
-          <li>
-            <i className="icon">👔</i>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          </li>
-        </ul>
+        {/* Rest of your footer component remains the same */}
+        {/* Contact Us Section */}
+        <div className="footer-section contact-section">
+          <h3 className="footer-heading">Contact Us</h3>
+          <p className="footer-text">
+            If you have any questions or need assistance, feel free to reach out to us. We're here to help!
+          </p>
+          <div className="contact-info">
+            <p className="contact-item">
+              <span className="contact-icon">📍</span> Kathmandu, Nepal
+            </p>
+            <a 
+              href="mailto:info@thenepaltravelguide.com" 
+              className="contact-item contact-email"
+            >
+              <span className="contact-icon">✉️</span> info@thenepaltravelguide.com
+            </a>
+          </div>
+          <button className="contact-btn">
+            Contact Us
+          </button>
+        </div>
+
+        {/* Follow Us Section */}
+        <div className="footer-section social-section">
+          <h3 className="footer-heading">Follow Us</h3>
+          <div className="social-icons">
+            <a href="#www.facebook.com" className="social-icon">
+              <Facebook size={20} />
+            </a>
+            <a href="#" className="social-icon">
+              <Instagram size={20} />
+            </a>
+            <a href="#" className="social-icon">
+              <Twitter size={20} />
+            </a>
+            <a href="#" className="social-icon">
+              <Music size={20} />
+            </a>
+          </div>
+        </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

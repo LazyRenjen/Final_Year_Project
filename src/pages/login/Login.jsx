@@ -1,33 +1,49 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-// This import is missing at the top of Login.js
-import { Link } from 'react-router-dom';
-import './Login.css';
-
+import { Link } from "react-router-dom";
+import axios from "axios";
+import "./Login.css";
+ 
 const Login = () => {
   const [formData, setFormData] = useState({
     email: "",
     password: "",
   });
-
+  const [errorMessage, setErrorMessage] = useState("");
   const navigate = useNavigate();
 
+  // ✅ Fix: Added handleChange function
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Mock login logic
-    const isAuthenticated = formData.email === "user@example.com" && formData.password === "password";
+    setErrorMessage("");
 
-    if (isAuthenticated) {
-      console.log("Login Successful");
-      navigate("/dashboard"); // Navigate to dashboard or any protected route
-    } else {
-      console.log("Invalid credentials");
-      alert("Invalid email or password!");
+    if (!formData.email || !formData.password) {
+      setErrorMessage("Please fill in all fields");
+      return;
+    }
+
+    try {
+      const response = await axios.post("http://localhost:5000/login", formData);
+      
+      if (response.data.success) {
+  
+        localStorage.setItem("user", JSON.stringify(response.data.user));
+        navigate("/");
+        window.location.reload();
+      } else {
+        console.log(setErrorMessage(response.data.message));
+      }
+    } catch (error) {
+      const message =
+        error.response?.data?.message ||
+        error.message ||
+        "Login failed. Please try again.";
+      setErrorMessage(message);
     }
   };
 
@@ -59,6 +75,8 @@ const Login = () => {
             required
           />
         </div>
+        {/* ✅ Fix: Display error messages */}
+        {errorMessage && <p className="error-message">{errorMessage}</p>}
         <button type="submit" className="form-submit">Login</button>
       </form>
       <p>

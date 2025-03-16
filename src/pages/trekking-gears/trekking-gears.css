@@ -1,155 +1,416 @@
-/* General Styles */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f9fafb; /* Equivalent to bg-gray-50 */
-  margin: 0;
-  padding: 0;
-}
-
-/* Navigation */
-nav {
-  background-color: #ffffff; /* White background */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for navigation bar */
-}
-
-nav .flex {
+/* Navbar */
+.navbar {
+  background-color: #f8f9fa;
+  padding: 1rem 0;
+ }
+ 
+ .navbar__container {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 4rem; /* Equivalent to h-16 */
-}
-
-nav button {
-  font-size: 1rem; /* Base font size */
-  padding: 0 1rem;
-  color: #374151; /* Equivalent to text-gray-700 */
-  background: none;
+  justify-content: center;
+ }
+ 
+ .navbar__items {
+  display: flex;
+  gap: 2rem;
+ }
+ 
+ .navbar__item {
+  position: relative;
+ }
+ 
+ .navbar__button {
+  background-color: transparent;
   border: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #333;
   cursor: pointer;
-  transition: color 0.3s ease;
-}
-
-nav button:hover {
-  color: #1f2937; /* Equivalent to text-gray-900 */
-}
-
-nav .relative .absolute {
-  display: none;
+  padding: 0.5rem 0;
+ }
+ 
+ .navbar__dropdown {
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #ffffff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  z-index: 50;
-}
-
-nav .relative:hover .absolute {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  display: none;
+  z-index: 100;
+ }
+ 
+ .navbar__item.group:hover .navbar__dropdown {
   display: block;
-}
-
-nav .relative .absolute a {
+ }
+ 
+ .navbar__dropdown-item {
   display: block;
-  padding: 0.5rem 1rem;
-  font-size: 0.875rem; /* Equivalent to text-sm */
-  color: #374151; /* Equivalent to text-gray-700 */
+  color: #333;
   text-decoration: none;
-}
-
-nav .relative .absolute a:hover {
-  background-color: #f3f4f6; /* Equivalent to bg-gray-100 */
-}
-
-/* Top Gear Carousel */
-.card {
-  border: 1px solid #e5e7eb; /* Equivalent to border-gray-200 */
-  border-radius: 0.5rem; /* Equivalent to rounded-lg */
+  padding: 0.5rem 0;
+  transition: color 0.3s;
+ }
+ 
+ .navbar__dropdown-item:hover {
+  color: #007bff;
+ }
+ 
+ /* Carousel */
+ .carousel {
+  margin: 2rem 0;
+ }
+ 
+ .carousel__title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+ }
+ 
+ .carousel__wrapper {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+ }
+ 
+ .carousel__items {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem;
+  overflow-x: hidden;
+ }
+ 
+ .carousel__card {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  background-color: #ffffff;
-}
-
-.card img {
+ }
+ 
+ .carousel__image-container {
+  height: 200px;
+  overflow: hidden;
+ }
+ 
+ .carousel__image {
   width: 100%;
-  height: 12rem; /* Equivalent to h-48 */
+  height: 100%;
   object-fit: cover;
-}
-
-.card h3 {
-  font-size: 1.25rem; /* Equivalent to text-xl */
+ }
+ 
+ .carousel__details {
+  padding: 1rem;
+ }
+ 
+ .carousel__gear-name {
+  font-size: 1.2rem;
+  font-weight: 500;
   margin-bottom: 0.5rem;
-}
-
-.card .price {
-  font-weight: bold;
-  font-size: 1.125rem; /* Equivalent to text-lg */
-}
-
-.card .rating {
+ }
+ 
+ .carousel__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+ }
+ 
+ .carousel__price {
+  font-weight: 500;
+ }
+ 
+ .carousel__rating {
   display: flex;
   align-items: center;
-}
-
-.card .rating svg {
-  width: 1rem; /* Equivalent to w-4 */
-  height: 1rem; /* Equivalent to h-4 */
-  margin-right: 0.25rem; /* Equivalent to mr-1 */
-}
-
-.card button {
-  width: 100%;
-  padding: 0.5rem;
-  background-color: #3b82f6; /* Equivalent to bg-blue-500 */
-  color: #ffffff;
+  color: #ffc107;
+ }
+ 
+ .carousel__icon {
+  margin-right: 0.25rem;
+ }
+ 
+ .carousel__actions {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+ }
+ 
+ .carousel__button {
+  background-color: #007bff;
+  color: #fff;
   border: none;
-  border-radius: 0.25rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-size: 1rem;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.card button:hover {
-  background-color: #2563eb; /* Darker blue */
-}
-
-/* Buttons for Carousel */
-.carousel-button {
+  transition: background-color 0.3s;
+ }
+ 
+ .carousel__button:hover {
+  background-color: #0056b3;
+ }
+ 
+ .carousel__nav {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: #ffffff;
-  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  padding: 0.75rem;
   border-radius: 50%;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-}
-
-.carousel-button:hover {
-  background-color: #f3f4f6; /* Equivalent to bg-gray-100 */
-}
-
-.carousel-button.left {
-  left: -1rem; /* Equivalent to -ml-4 */
-}
-
-.carousel-button.right {
-  right: -1rem; /* Equivalent to -mr-4 */
-}
-
-/* Featured Treks */
-.grid {
+  transition: background-color 0.3s;
+ }
+ 
+ .carousel__nav:hover {
+  background-color: #f8f9fa;
+ }
+ 
+ .carousel__nav--prev {
+  left: 1rem;
+ }
+ 
+ .carousel__nav--next {
+  right: 1rem;
+ }
+ 
+ .carousel__nav-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+ }
+ 
+ /* Combo Packs */
+ .combo-pack {
+  margin: 2rem 0;
+ }
+ 
+ .combo-pack__title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+ }
+ 
+ .combo-pack__wrapper {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+ }
+ 
+ .combo-pack__items {
   display: grid;
-  gap: 1.5rem; /* Equivalent to gap-6 */
-}
-
-.grid.grid-cols-3 {
   grid-template-columns: repeat(3, 1fr);
-}
-
-.grid.grid-cols-4 {
+  gap: 1.5rem;
+  overflow-x: hidden;
+ }
+ 
+ .combo-pack__card {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+ }
+ 
+ .combo-pack__image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+ }
+ 
+ .combo-pack__details {
+  padding: 1rem;
+ }
+ 
+ .combo-pack__title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+ }
+ 
+ .combo-pack__description {
+  color: #666;
+  margin-bottom: 1rem;
+ }
+ 
+ .combo-pack__price {
+  font-weight: 500;
+ }
+ 
+ .combo-pack__button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+ }
+ 
+ .combo-pack__button:hover {
+  background-color: #0056b3;
+ }
+ 
+ .combo-pack__nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  padding: 0.75rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+ }
+ 
+ .combo-pack__nav:hover {
+  background-color: #f8f9fa;
+ }
+ 
+ .combo-pack__nav--prev {
+  left: 1rem;
+ }
+ 
+ .combo-pack__nav--next {
+  right: 1rem;
+ }
+ 
+ .combo-pack__nav-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+ }
+ 
+ /* Discounts */
+ .discounts {
+  margin: 2rem 0;
+ }
+ 
+ .discounts__title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+ }
+ 
+ .discounts__wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+ }
+ 
+ .discounts__card {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+ }
+ 
+ .discounts__icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #007bff;
+ }
+ 
+ .discounts__card h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+ }
+ 
+ .discounts__card p {
+  color: #666;
+ }
+ 
+ /* Blogs */
+ .blogs {
+  margin: 2rem 0;
+ }
+ 
+ .blogs__title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+ }
+ 
+ .blogs__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+ }
+ 
+ .blogs__card {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+ }
+ 
+ .blogs__icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #007bff;
+ }
+ 
+ .blogs__title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+ }
+ 
+ .blogs__meta {
+  color: #666;
+ }
+ 
+ /* Seasons */
+ .seasons {
+  margin: 2rem 0;
+ }
+ 
+ .seasons__title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+ }
+ 
+ .seasons__grid {
+  display: grid;
   grid-template-columns: repeat(4, 1fr);
-}
-
-/* Trekking Seasons */
-.card p {
-  color: #6b7280; /* Equivalent to text-gray-600 */
-  margin-top: 0.5rem;
-}
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+ }
+ 
+ .seasons__card {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ .seasons__details {
+  text-align: center;
+ }
+ 
+ .seasons__name {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+ }
+ 
+ .seasons__description {
+  color: #666;
+ }

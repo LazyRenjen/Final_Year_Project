@@ -1,0 +1,286 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+
+  }
+  
+  /* Trip Explorer Container */
+  .trip-explorer-container {
+    max-width: 1200px;
+    height: 100%;
+    max-height: 80rem;
+    margin: 0 auto;
+  }
+  
+  /* Introduction Section */
+  .intro-section {
+    background: linear-gradient(135deg, #db2d0a, #071aef);
+    color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  
+  .intro-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .intro-description {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #f1f1f1;
+  }
+  
+  .intro-features {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .feature-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .feature-icon {
+    color: #ffd700;
+    font-size: 1.5rem;
+  }
+  
+  /* Category Navigation */
+  .category-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .category-nav-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+  }
+  
+  .category-nav-btn:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .category-nav-btn:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  
+  .category-nav-icon {
+    font-size: 1.5rem;
+    color: #666;
+  }
+  
+  .category-info {
+    text-align: center;
+  }
+  
+  .category-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .category-description {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  /* Trip Grid */
+  .trip-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .trip-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .trip-image-element {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .trip-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .trip-card:hover {
+    transform: translateY(-5px);
+  }
+  
+
+  .trip-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .trip-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .trip-image-placeholder {
+    height: 200px;
+    background: #ddd;
+  }
+  
+  .trip-info {
+    padding: 15px;
+  }
+  
+  .trip-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .trip-details {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .trip-detail {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.9rem;
+  }
+  
+  .trip-detail-icon {
+    color: #666;
+  }
+  
+  /* Buttons */
+  .btn {
+    display: inline-block;
+    background: #0066cc;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background: #004d99;
+  }
+  
+  .btn-details {
+    margin-right: 10px;
+  }
+  
+  /* Modal Overlay */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    width: 90%;
+    max-width: 600px;
+    position: relative;
+  }
+  
+  .modal-close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 2rem;
+  }
+  
+  .modal-title {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .modal-description {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  .modal-info {
+    margin-bottom: 20px;
+  }
+  
+  .modal-info-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .modal-info-icon {
+    color: #0066cc;
+  }
+  
+  /* Booking Form */
+  .booking-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .btn-submit {
+    width: 100%;
+  }
+
+ 

@@ -1,13 +1,7 @@
-.card-item {
-  height: 45vh;
-  list-style: none;
-}
-
 .card-link {
   height: 42.5vh;
   user-select: none;
   display: block;
-  background-color: rgb(212, 212, 223);
   padding: 10px;
   border-radius: 12px;
   text-decoration: none;
@@ -17,7 +11,7 @@
 }
 
 .card-link:hover {
-  border-color: blue;
+  border-color: rgb(0, 0, 0);
 }
 
 .place-img {
@@ -32,7 +26,7 @@
   padding: 5px 5px;
   font-size: 0.95rem;
   font-weight: 500;
-  margin: 16px 0 18px;
+  margin: 8px 0 8px;
   background-color: rgb(100, 100, 189);
   width: fit-content;
   border-radius: 50px;
@@ -42,18 +36,4 @@
   font-size: 0.9rem;
   color: black;
   font-weight: 100;
-}
-
-.info {
-  height: 30px;
-  width: 50px;
-  border-radius: 10px;
-  margin: 5px 0 5px;
-  cursor: pointer;
-  padding: 5px 0px 10px;
-}
-
-.info:hover {
-  color: aliceblue;
-  background-color: rgb(112, 112, 183);
 }

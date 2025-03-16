@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
+import { useNavigate } from 'react-router-dom';
 import Card from '../Card/Card';
 import './Slider.css';
 import 'swiper/css';
@@ -7,6 +8,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 const Slider = ({ category }) => {
+  const navigate = useNavigate();
+
   const places = [
     {
       name: 'Pokhara',
@@ -137,25 +140,35 @@ const Slider = ({ category }) => {
   const data = getCategoryData();
 
   return (
-    <Swiper
-      modules={[Navigation, Pagination]}
-      spaceBetween={30}
-      navigation
-      pagination={{ clickable: true, dynamicBullets: true }}
-      breakpoints={{
-        0: { slidesPerView: 1 },
-        768: { slidesPerView: 2 },
-        1024: { slidesPerView: 3 }
-      }}
-      loop={true}
-      className="card-wrapper"
-    >
-      {data.map((item) => (
-        <SwiperSlide key={item.name}>
-          <Card {...item} />
-        </SwiperSlide>
-      ))}
-    </Swiper>
+    <div className="slider-wrapper">
+      <Swiper
+        modules={[Navigation, Pagination]}
+        spaceBetween={30}
+        navigation
+        pagination={{ clickable: true, dynamicBullets: true }}
+        breakpoints={{
+          0: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
+          1024: { slidesPerView: 3 },
+        }}
+        loop={true}
+        className="card-wrapper"
+      >
+        {data.map((item) => (
+          <SwiperSlide key={item.name}>
+            <div className="card-container">
+              <Card {...item} />
+              <button 
+                className="more-btn" 
+                onClick={() => navigate(`/destination/${encodeURIComponent(item.name)}`)}
+              >
+                More
+              </button>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </div>
   );
 };
 

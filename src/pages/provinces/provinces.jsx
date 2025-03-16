@@ -2,7 +2,13 @@ import React, { useState } from 'react';
 import './Provinces.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Province1places from './Province1/Province1places';
-
+import Province2Places from './Province2/Province2Places';
+import Province3Place from './Province3/Province3Place';
+import Province4Place from './Province4/Province4Place';
+import Province5Place from './Province5/Province5Place';
+import Province6Place from './Province6/Province6place';
+import Province7Place from './Province7/Province7place';
+import Footer from '../../components/Footer/footer';
 const Provinces = () => {
   const [activeProvince, setActiveProvince] = useState(0);
 
@@ -79,16 +85,10 @@ const Provinces = () => {
     }
   ];
 
-  const handlePrevProvince = () => {
-    setActiveProvince((prev) => (prev === 0 ? provinces.length - 1 : prev - 1));
-  };
-
-  const handleNextProvince = () => {
-    setActiveProvince((prev) => (prev === provinces.length - 1 ? 0 : prev + 1));
-  };
-
   return (
+  <div>
     <div className="provinces-container">
+      <div className='banner'>
       <h1 className="provinces-title">Provinces of Nepal</h1>
       <div className="provinces-nav">
         {provinces.map((province, index) => (
@@ -102,15 +102,7 @@ const Provinces = () => {
         ))}
       </div>
 
-      <div className="province-navigation">
-        <button onClick={handlePrevProvince} className="nav-btn">
-          Previous
-        </button>
-        <button onClick={handleNextProvince} className="nav-btn">
-          Next
-        </button>
       </div>
-
       <div className="province-content">
         <div className="province-info">
           <h2>{provinces[activeProvince].name}</h2>
@@ -148,7 +140,16 @@ const Provinces = () => {
         </div>
       </div>
       {activeProvince === 0 && <Province1places />}
+      {activeProvince === 1 && <Province2Places />}
+      {activeProvince === 2 && <Province3Place />}
+      {activeProvince === 3 && <Province4Place />}
+      {activeProvince === 4 && <Province5Place />}
+      {activeProvince === 6 && <Province6Place />}
+      {activeProvince === 7 && <Province7Place />}
+
     </div>
+    <Footer />
+    </div> 
   );
 };
 

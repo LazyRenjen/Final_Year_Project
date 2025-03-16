@@ -1,0 +1,109 @@
+.sustainability {
+  padding: 20px;
+  background-color: #f9f9f9;
+  height: 100%;
+}
+
+.sustainability__title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.sustainability__create-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.sustainability__create-btn:hover {
+  background-color: #45a049;
+}
+
+.sustainability__form-overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sustainability__form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sustainability__form input,
+.sustainability__form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.sustainability__submit-btn {
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.sustainability__submit-btn:hover {
+  background-color: #1976D2;
+}
+
+.sustainability__cancel-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.sustainability__cancel-btn:hover {
+  background-color: #c62828;
+}
+
+.sustainability__plans {
+  margin-top: 20px;
+}
+
+.sustainability__plan {
+  background-color: white;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.sustainability__edit-btn, .sustainability__delete-btn {
+  background: none;
+  border: none;
+  color: #2196F3;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.sustainability__delete-btn {
+  color: #f44336;
+}
+
+.sustainability__edit-btn:hover, .sustainability__delete-btn:hover {
+  text-decoration: underline;
+}

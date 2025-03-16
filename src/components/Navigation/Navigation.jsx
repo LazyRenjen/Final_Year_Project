@@ -1,30 +1,60 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
+import React ,{ useEffect, useState } from 'react';
 import './Navigation.css';
 
 const Navigation = () => {
+  const [user, setUser] = useState(null);
+
+  useEffect(() => {
+    const storedUser = localStorage.getItem('user');
+    if (storedUser) {
+      setUser(JSON.parse(storedUser));
+    }
+  }, []);
+
   const navItems = [
     { label: 'Home', path: '/' },
     { label: 'Provinces', path: '/provinces' },
     { label: 'Mountain Trails', path: '/mountain-trails' },
     { label: 'Trekking Gears', path: '/trekking-gears' },
     { label: 'Trip by Days', path: '/trip-by-days' },
-    { label: 'Community Hub', path: '/community' },
-    { label: 'Travel Notices', path: '/notices' },
-    { label: 'Sustainability', path: '/sustainability' }
-  ];
+    { label: 'Travel-Notices', path: '/Travel' },
+    { label: 'carousel', path: '/carousel', requiresAuth: true },
 
+    { 
+      label: 'Community Hub', 
+      path: '/community',
+      requiresAuth: true
+    },
+
+    { 
+      label: 'Sustainability', 
+      path: '/Sustainability',
+      requiresAuth: true
+    },
+
+    {
+      label: 'Admin Dashboard',
+      path: '/admin',
+      requiresAdmin: true
+    }
+  ];
+  
   return (
     <nav className="navigation">
-      {navItems.map((item) => (
-        <Link 
-          key={item.label} 
-          to={item.path}
-          className="nav-link"
-        >
-          {item.label}
-        </Link>
-      ))}
+      {navItems.map((item) => {
+        if (item.requiresAdmin && (!user || !user.isAdmin)) return null;
+        if (item.requiresAuth && !user) return null;
+        
+        return (
+          <Link 
+            key={item.label} 
+            to={item.path}
+            className="nav-link">
+            {item.label}
+          </Link>
+        );
+      })}
     </nav>
   );
 };

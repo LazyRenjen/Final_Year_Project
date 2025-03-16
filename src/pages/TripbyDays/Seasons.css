@@ -1,0 +1,106 @@
+/* Seasons Container */
+.seasons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 48vh;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Seasons Banner */
+  .seasons-banner {
+    max-width: 800px;
+    color: black;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+  }
+  
+  .seasons-content {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  .seasons-image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 40px;
+  }
+  
+  .seasons-info {
+    flex: 1;
+  }
+  
+  .seasons-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .seasons-description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .seasons-details {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .seasons-detail {
+    margin-bottom: 8px;
+  }
+  
+  /* Seasons Dots */
+  .seasons-dots {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .seasons-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .seasons-dot.active {
+    background-color: #007bff;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 767px) {
+    .seasons-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .seasons-image {
+      width: 100%;
+      height: auto;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .seasons-title {
+      font-size: 20px;
+    }
+  
+    .seasons-description {
+      font-size: 14px;
+    }
+  
+    .seasons-details {
+      font-size: 12px;
+    }
+  }

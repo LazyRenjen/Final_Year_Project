@@ -1,0 +1,1006 @@
+{
+    "trips": [
+      {
+        "id": 1,
+        "category": "Trekking Adventures, Mountaineering & Climbing",
+        "title": "Everest Base Camp Trek",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM6a-B4R957mpfp2bUDH11QlRDhPiu92Nusg&s",
+        "duration": "14 days",
+        "difficulty": "Moderate",
+        "price": 1999,
+        "participants": 14,
+        "description": "Experience the stunning Himalayas and reach the base camp of the world's tallest mountain, Mount Everest.",
+        "blogLink": "/blogs/everest-base-camp-experience",
+        "details": {
+          "overview": "The Everest Base Camp Trek is one of the most famous treks in the world, taking you through the heart of the Khumbu region with spectacular views of Everest and other Himalayan giants.",
+          "highlights": [
+            "Spectacular views of Mount Everest, Lhotse, Nuptse, and Ama Dablam",
+            "Visit Tengboche Monastery, the spiritual center of Khumbu",
+            "Explore Namche Bazaar, the gateway to Everest",
+            "Experience Sherpa culture and hospitality",
+            "Stand at the base of the world's highest mountain"
+          ],
+          "itinerary": [
+            "Day 1: Arrival in Kathmandu (1,300m)",
+            "Day 2: Fly to Lukla (2,800m) & trek to Phakding (2,652m)",
+            "Day 3: Trek to Namche Bazaar (3,440m)",
+            "Day 4: Acclimatization day in Namche",
+            "Day 5: Trek to Tengboche (3,860m)",
+            "Day 6: Trek to Dingboche (4,410m)",
+            "Day 7: Acclimatization day in Dingboche",
+            "Day 8: Trek to Lobuche (4,940m)",
+            "Day 9: Trek to Gorak Shep (5,170m), visit Everest Base Camp (5,364m)",
+            "Day 10: Hike to Kala Patthar (5,545m) & trek to Pheriche (4,240m)",
+            "Day 11: Trek to Namche Bazaar",
+            "Day 12: Trek to Lukla",
+            "Day 13: Fly back to Kathmandu",
+            "Day 14: Departure from Kathmandu"
+          ],
+          "costIncludes": [
+            "All airport/hotel transfers",
+            "Domestic flights (Kathmandu-Lukla-Kathmandu)",
+            "Teahouse accommodation during trek",
+            "All meals (breakfast, lunch, dinner) during trek",
+            "Experienced English-speaking trekking guide",
+            "Porters (1 porter for 2 trekkers)",
+            "All necessary permits and TIMS card",
+            "Medical kit",
+            "All government and local taxes"
+          ],
+          "costExcludes": [
+            "Nepal visa fee",
+            "International airfare",
+            "Travel and rescue insurance",
+            "Personal expenses (phone calls, laundry, bar bills, battery recharge)",
+            "Extra night accommodation in Kathmandu",
+            "Tips for guides and porters",
+            "Services not mentioned in 'Cost Includes'"
+          ],
+          "bestTime": "March to May & September to November",
+          "difficultyLevel": "Moderate to challenging, requires good physical fitness",
+          "altitude": "Max elevation: 5,545m at Kala Patthar",
+          "groupSize": "2-14 people",
+          "faqs": [
+            {
+              "question": "Do I need prior trekking experience?",
+              "answer": "No prior trekking experience is required, but you should be in good physical condition."
+            },
+            {
+              "question": "What's the accommodation like?",
+              "answer": "You'll stay in teahouses - simple mountain lodges with basic facilities."
+            },
+            {
+              "question": "How cold does it get?",
+              "answer": "Nights can be cold (below freezing at higher elevations), but days are generally pleasant."
+            }
+          ],
+          "gallery": [
+            "https://example.com/everest1.jpg",
+            "https://example.com/everest2.jpg",
+            "https://example.com/everest3.jpg"
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "category": "Trekking Adventures, Mountaineering & Climbing",
+        "title": "Annapurna Circuit Trek",
+        "duration": "21 days",
+        "difficulty": "Challenging",
+        "price": 2499,
+        "participants": 14,
+        "image": "https://www.intrepidtravel.com/adventures/wp-content/uploads/2018/05/Hiker-800.jpg",
+        "description": "Embark on a journey through diverse landscapes, from lush valleys to high-altitude passes, in the Annapurna region.",
+        "blogLink": "/blogs/annapurna-circuit-adventure",
+        "details": {
+          "overview": "The Annapurna Circuit Trek is a classic Himalayan journey that circles the Annapurna massif, offering diverse landscapes from subtropical valleys to high mountain passes.",
+          "highlights": [
+            "Cross the famous Thorong La Pass (5,416m)",
+            "Experience diverse landscapes and cultures",
+            "Visit sacred Muktinath Temple",
+            "Relax in natural hot springs at Tatopani",
+            "Spectacular views of Annapurna, Dhaulagiri, and Manaslu ranges"
+          ],
+          "itinerary": [
+            "Day 1: Arrival in Kathmandu",
+            "Day 2: Drive to Besisahar (760m)",
+            "Day 3: Trek to Bahundanda (1,310m)",
+            "Day 4: Trek to Chamje (1,410m)",
+            "Day 5: Trek to Dharapani (1,960m)",
+            "Day 6: Trek to Chame (2,710m)",
+            "Day 7: Trek to Pisang (3,300m)",
+            "Day 8: Trek to Manang (3,540m)",
+            "Day 9: Acclimatization day in Manang",
+            "Day 10: Trek to Yak Kharka (4,110m)",
+            "Day 11: Trek to Thorong Phedi (4,450m)",
+            "Day 12: Cross Thorong La Pass (5,416m) to Muktinath (3,800m)",
+            "Day 13: Trek to Marpha (2,670m)",
+            "Day 14: Trek to Ghasa (2,010m)",
+            "Day 15: Trek to Tatopani (1,190m)",
+            "Day 16: Trek to Ghorepani (2,860m)",
+            "Day 17: Hike to Poon Hill (3,210m) & trek to Tadapani (2,630m)",
+            "Day 18: Trek to Ghandruk (1,940m)",
+            "Day 19: Trek to Nayapul & drive to Pokhara",
+            "Day 20: Fly/drive back to Kathmandu",
+            "Day 21: Departure from Kathmandu"
+          ],
+          "costIncludes": [
+            "All airport/hotel transfers",
+            "Domestic flight/transport as per itinerary",
+            "Teahouse accommodation during trek",
+            "All meals during trek",
+            "Experienced English-speaking guide",
+            "Porters (1 porter for 2 trekkers)",
+            "All necessary permits",
+            "Medical kit",
+            "All government taxes"
+          ],
+          "costExcludes": [
+            "Nepal visa fee",
+            "International airfare",
+            "Travel insurance",
+            "Personal expenses",
+            "Tips for guides/porters",
+            "Services not mentioned"
+          ],
+          "bestTime": "March-May & September-November",
+          "difficultyLevel": "Challenging, requires excellent physical condition",
+          "altitude": "Max elevation: 5,416m at Thorong La Pass",
+          "groupSize": "2-14 people",
+          "faqs": [
+            {
+              "question": "How difficult is Thorong La Pass?",
+              "answer": "It's challenging due to altitude and length, but achievable with proper acclimatization."
+            },
+            {
+              "question": "Are there ATMs along the route?",
+              "answer": "Limited ATMs available up to Manang, so carry enough cash."
+            }
+          ],
+          "gallery": [
+            "https://example.com/annapurna1.jpg",
+            "https://example.com/annapurna2.jpg"
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "category": "Trekking Adventures, Mountaineering & Climbing",
+        "title": "Langtang Valley Trek",
+        "duration": "10 days",
+        "difficulty": "Moderate",
+        "price": 1450,
+        "participants": 12,
+        "image": "https://www.magicalsummits.com/wp-content/uploads/2023/02/Langtang-Valley-Trek-1.jpg",
+        "description": "A short yet rewarding trek close to Kathmandu, featuring glaciers, forests, and immersion in authentic Tamang culture.",
+        "blogLink": "/blogs/langtang-valley-journey",
+        "details": {
+          "overview": "The Langtang Valley Trek offers a shorter but equally rewarding Himalayan experience, with stunning glaciers, lush forests, and rich Tamang culture.",
+          "highlights": [
+            "Explore Langtang National Park",
+            "Visit Kyanjin Gompa monastery",
+            "See the Langtang Glacier",
+            "Experience authentic Tamang culture",
+            "Panoramic views of Langtang Lirung (7,227m)"
+          ],
+          "itinerary": [
+            "Day 1: Arrival in Kathmandu",
+            "Day 2: Drive to Syabrubesi (1,550m)",
+            "Day 3: Trek to Lama Hotel (2,380m)",
+            "Day 4: Trek to Langtang village (3,430m)",
+            "Day 5: Trek to Kyanjin Gompa (3,870m)",
+            "Day 6: Explore Kyanjin Ri (4,773m)",
+            "Day 7: Trek back to Lama Hotel",
+            "Day 8: Trek to Thulo Syabru (2,260m)",
+            "Day 9: Trek to Dhunche (1,960m)",
+            "Day 10: Drive back to Kathmandu"
+          ],
+          "costIncludes": [
+            "All transfers",
+            "Teahouse accommodation",
+            "All meals during trek",
+            "Experienced guide",
+            "Porter service",
+            "National park fees",
+            "Medical kit"
+          ],
+          "costExcludes": [
+            "International flights",
+            "Nepal visa",
+            "Personal expenses",
+            "Travel insurance",
+            "Tips"
+          ],
+          "bestTime": "March-May & September-November",
+          "difficultyLevel": "Moderate",
+          "altitude": "Max elevation: 4,773m at Kyanjin Ri",
+          "groupSize": "2-12 people",
+          "faqs": [
+            {
+              "question": "Is this trek suitable for beginners?",
+              "answer": "Yes, it's one of the easier treks with moderate altitude gain."
+            }
+          ],
+          "gallery": [
+            "https://example.com/langtang1.jpg"
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "category": "Trekking Adventures, Mountaineering & Climbing",
+        "title": "Manaslu Circuit Trek",
+        "duration": "16 days",
+        "difficulty": "Challenging",
+        "price": 2200,
+        "participants": 10,
+        "image": "https://media.nepaltrekadventures.com/uploads/img/manaslu-circuit-trek.webp",
+        "description": "A remote and less crowded alternative to the Annapurna Circuit, offering pristine landscapes and cultural diversity.",
+        "blogLink": "/blogs/manaslu-circuit-adventure",
+        "details": {
+          "overview": "The Manaslu Circuit Trek is a remote and less crowded alternative to the Annapurna Circuit, offering pristine landscapes and cultural diversity.",
+          "highlights": [
+            "Cross Larkya La Pass (5,106m)",
+            "Experience Tibetan-influenced culture",
+            "Less crowded trails",
+            "Diverse flora and fauna",
+            "Views of Manaslu (8,163m), the 8th highest peak"
+          ],
+          "itinerary": [
+            "Day 1: Arrival in Kathmandu",
+            "Day 2: Drive to Soti Khola (700m)",
+            "Day 3: Trek to Machha Khola (930m)",
+            "Day 4: Trek to Jagat (1,410m)",
+            "Day 5: Trek to Deng (1,860m)",
+            "Day 6: Trek to Namrung (2,630m)",
+            "Day 7: Trek to Samagaon (3,530m)",
+            "Day 8: Acclimatization day",
+            "Day 9: Trek to Samdo (3,860m)",
+            "Day 10: Trek to Dharmasala (4,460m)",
+            "Day 11: Cross Larkya La Pass (5,106m) to Bimthang (3,720m)",
+            "Day 12: Trek to Tilije (2,300m)",
+            "Day 13: Trek to Tal (1,700m)",
+            "Day 14: Trek to Syange (1,080m)",
+            "Day 15: Drive to Kathmandu",
+            "Day 16: Departure"
+          ],
+          "costIncludes": [
+            "Special restricted area permit",
+            "All meals and accommodation",
+            "Experienced guide",
+            "Porter service",
+            "All transportation",
+            "Medical kit"
+          ],
+          "costExcludes": [
+            "International flights",
+            "Nepal visa",
+            "Personal expenses",
+            "Travel insurance",
+            "Tips"
+          ],
+          "bestTime": "March-May & September-November",
+          "difficultyLevel": "Challenging",
+          "altitude": "Max elevation: 5,106m at Larkya La Pass",
+          "groupSize": "2-10 people",
+          "faqs": [
+            {
+              "question": "Why is a special permit required?",
+              "answer": "Manaslu is a restricted area to preserve local culture and environment."
+            }
+          ],
+          "gallery": [
+            "https://example.com/manaslu1.jpg"
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "category": "Trekking Adventures, Mountaineering & Climbing",
+        "title": "Summiting Mount Everest",
+        "duration": "60 days",
+        "difficulty": "Extreme",
+        "price": 45000,
+        "participants": 8,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiiirq0y-INlHZtrks0Fb48Qa4NhNkyVxgDg&s",
+        "description": "The ultimate adventure for professional climbers, reaching the summit of the world's highest peak at 8,848m.",
+        "blogLink": "/blogs/everest-summit-expedition",
+        "details": {
+          "overview": "Summiting Mount Everest is the ultimate mountaineering challenge, requiring extensive preparation and experience to reach the top of the world at 8,848m.",
+          "highlights": [
+            "Stand atop the world's highest peak",
+            "Professional climbing experience",
+            "Full expedition support",
+            "Icefall doctors and Sherpa support",
+            "Lifetime achievement"
+          ],
+          "itinerary": [
+            "Days 1-10: Arrival, preparations in Kathmandu",
+            "Days 11-20: Trek to Base Camp with acclimatization",
+            "Days 21-40: Rotation climbs for acclimatization",
+            "Days 41-50: Summit push preparation",
+            "Days 51-60: Summit window and descent"
+          ],
+          "costIncludes": [
+            "Expedition royalty and permits",
+            "Liaison officer and staff",
+            "High altitude Sherpa support",
+            "All meals and accommodation",
+            "Expedition equipment",
+            "Medical support",
+            "Weather forecasts"
+          ],
+          "costExcludes": [
+            "Personal climbing gear",
+            "International flights",
+            "Travel insurance",
+            "Summit bonus for Sherpas",
+            "Personal expenses"
+          ],
+          "bestTime": "April-May",
+          "difficultyLevel": "Extreme - for experienced climbers only",
+          "altitude": "8,848m at summit",
+          "groupSize": "4-8 climbers",
+          "faqs": [
+            {
+              "question": "What experience is required?",
+              "answer": "Prior 8,000m peak experience and excellent physical condition required."
+            }
+          ],
+          "gallery": [
+            "https://example.com/everest-summit1.jpg"
+          ]
+        }
+      },
+      {
+        "id": 6,
+        "category": "Trekking Adventures, Mountaineering & Climbing",
+        "title": "Island Peak Climbing",
+        "duration": "16 days",
+        "difficulty": "Challenging",
+        "price": 3200,
+        "participants": 10,
+        "image": "https://www.himalayanabode.com/wp-content/uploads/2024/05/Island-Peak.jpg",
+        "description": "A popular 6,189m trekking peak for beginners wanting their first mountaineering experience in the Everest region.",
+        "blogLink": "/blogs/island-peak-climbing",
+        "details": {
+          "overview": "Island Peak (6,189m) is a popular trekking peak for beginners wanting their first mountaineering experience in the Everest region.",
+          "highlights": [
+            "First mountaineering experience",
+            "Basic ice and snow climbing",
+            "Spectacular views of Lhotse and Makalu",
+            "Combine with Everest Base Camp trek",
+            "Climbing training included"
+          ],
+          "itinerary": [
+            "Day 1-9: Same as Everest Base Camp trek",
+            "Day 10: Trek to Island Peak Base Camp",
+            "Day 11: Training day",
+            "Day 12: Summit attempt and return to Chhukung",
+            "Day 13-16: Return trek to Lukla"
+          ],
+          "costIncludes": [
+            "Climbing permit",
+            "Climbing guide and equipment",
+            "All meals and accommodation",
+            "Trekking permits",
+            "Medical kit"
+          ],
+          "costExcludes": [
+            "Personal climbing gear",
+            "Travel insurance",
+            "Personal expenses",
+            "Tips"
+          ],
+          "bestTime": "March-May & September-November",
+          "difficultyLevel": "Challenging - basic mountaineering skills required",
+          "altitude": "6,189m at summit",
+          "groupSize": "2-10 people",
+          "faqs": [
+            {
+              "question": "What training is provided?",
+              "answer": "Basic ice climbing, rope work, and glacier travel techniques."
+            }
+          ],
+          "gallery": [
+            "https://example.com/island-peak1.jpg"
+          ]
+        }
+      },
+      {
+        "id": 7,
+        "category": "Trekking Adventures, Mountaineering & Climbing",
+        "title": "Mera Peak Climbing",
+        "duration": "18 days",
+        "difficulty": "Challenging",
+        "price": 3500,
+        "participants": 10,
+        "image": "https://www.furtenbachadventures.com/wp-content/uploads/Mera-peak--960x675.jpg",
+        "description": "One of Nepal's highest trekking peaks at 6,476m, offering stunning Himalayan panoramas and technical climbing.",
+        "blogLink": "/blogs/mera-peak-expedition",
+        "details": {
+          "overview": "Mera Peak (6,476m) is one of Nepal's highest trekking peaks, offering stunning Himalayan panoramas and technical climbing.",
+          "highlights": [
+            "Highest trekking peak in Nepal",
+            "360° Himalayan views",
+            "Glacier crossing experience",
+            "Less technical than other peaks",
+            "Remote and pristine environment"
+          ],
+          "itinerary": [
+            "Day 1-5: Fly to Lukla and trek to Tashing Ongma",
+            "Day 6-10: Trek to Khare with acclimatization",
+            "Day 11: Training day",
+            "Day 12: Trek to Mera High Camp",
+            "Day 13: Summit day and return to Khare",
+            "Day 14-18: Return trek to Lukla"
+          ],
+          "costIncludes": [
+            "Climbing permit and guide",
+            "All meals and accommodation",
+            "Trekking permits",
+            "Group climbing equipment",
+            "Medical support"
+          ],
+          "costExcludes": [
+            "Personal climbing gear",
+            "Travel insurance",
+            "Personal expenses",
+            "Tips"
+          ],
+          "bestTime": "March-May & September-November",
+          "difficultyLevel": "Challenging - requires good fitness",
+          "altitude": "6,476m at summit",
+          "groupSize": "2-10 people",
+          "faqs": [
+            {
+              "question": "How technical is the climb?",
+              "answer": "Basic glacier travel skills required but less technical than other peaks."
+            }
+          ],
+          "gallery": [
+            "https://example.com/mera-peak1.jpg"
+          ]
+        }
+      },
+      {
+        "id": 8,
+        "category": "White Water Rafting & Kayaking",
+        "title": "Trishuli River Rafting",
+        "duration": "1-2 days",
+        "difficulty": "Easy",
+        "price": 90,
+        "participants": 8,
+        "image": "https://ucarecdn.com/791e9aa2-94c6-49c2-8375-67d4a6c940f6/-/crop/4256x2235/0,299/-/resize/1200x630/-/resize/x300/",
+        "description": "Perfect for beginners, offering a mix of calm waters and rapids with beautiful scenery along the way.",
+        "blogLink": "/blogs/trishuli-rafting-adventure",
+        "details": {
+          "overview": "Trishuli River rafting is perfect for beginners, offering a mix of calm waters and rapids with beautiful scenery along the way.",
+          "highlights": [
+            "Class II-III rapids",
+            "Beautiful river canyon",
+            "Great for first-time rafters",
+            "Close to Kathmandu",
+            "Option for overnight camping"
+          ],
+          "itinerary": [
+            "Day 1: Drive from Kathmandu (3 hrs), rafting (3-4 hrs), return"
+          ],
+          "costIncludes": [
+            "All rafting equipment",
+            "Professional guide",
+            "Lunch",
+            "Transportation",
+            "Safety kayaker"
+          ],
+          "costExcludes": [
+            "Personal expenses",
+            "Tips",
+            "Accommodation if staying overnight"
+          ],
+          "bestTime": "September-November & March-May",
+          "difficultyLevel": "Easy - suitable for beginners",
+          "groupSize": "4-8 per raft",
+          "faqs": [
+            {
+              "question": "Do I need to know how to swim?",
+              "answer": "Not required but recommended. Life jackets are provided."
+            }
+          ],
+          "gallery": [
+            "https://example.com/trishuli1.jpg"
+          ]
+        }
+      },
+      {
+        "id": 9,
+        "category": "White Water Rafting & Kayaking",
+        "title": "Bhote Koshi River Rafting",
+        "duration": "2 days",
+        "difficulty": "Challenging",
+        "price": 150,
+        "participants": 6,
+        "image": "https://www.mountainmarttreks.com/public/uploads/Bhotekoshi.jpg",
+        "description": "A thrilling, high-adrenaline rafting experience with intense rapids for experienced rafters.",
+        "blogLink": "/blogs/bhote-koshi-rafting",
+        "details": {
+          "overview": "Bhote Koshi River rafting offers a thrilling, high-adrenaline experience with intense rapids for experienced rafters.",
+          "highlights": [
+            "Class IV-V rapids",
+            "Steep and technical",
+            "One of the most exciting rivers",
+            "Spectacular gorge scenery",
+            "Close to Tibet border"
+          ],
+          "itinerary": [
+            "Day 1: Drive from Kathmandu (4 hrs), rafting (3 hrs), overnight camping",
+            "Day 2: More rafting, return to Kathmandu"
+          ],
+          "costIncludes": [
+            "All rafting equipment",
+            "Professional guide",
+            "Meals",
+            "Camping equipment",
+            "Transportation"
+          ],
+          "costExcludes": [
+            "Personal expenses",
+            "Tips"
+          ],
+          "bestTime": "September-November & March-May",
+          "difficultyLevel": "Challenging - for experienced rafters only",
+          "groupSize": "4-6 per raft",
+          "faqs": [
+            {
+              "question": "How dangerous is it?",
+              "answer": "Considered extreme with high risk - only for those comfortable with big rapids."
+            }
+          ],
+          "gallery": [
+            "https://example.com/bhote-koshi1.jpg"
+          ]
+        }
+      },
+      {
+        "id": 10,
+        "category": "White Water Rafting & Kayaking",
+        "title": "Kali Gandaki River Rafting",
+        "duration": "3 days",
+        "difficulty": "Moderate",
+        "price": 250,
+        "participants": 8,
+        "image": "https://www.goodvibeadventure.com/_next/image?url=https%3A%2F%2Ffis-api.goodvibeadventure.com%2Fmedia%2Fpackage%2Fbanner%2Fkali-gandaki-river-rafting.jpg&w=3840&q=75",
+        "description": "A scenic rafting journey with waterfalls and deep gorges through the world's deepest canyon.",
+        "blogLink": "/blogs/kali-gandaki-rafting",
+        "details": {
+          "overview": "Kali Gandaki River rafting takes you through the world's deepest canyon with waterfalls and dramatic gorges.",
+          "highlights": [
+            "Class III-IV rapids",
+            "World's deepest canyon",
+            "Remote and pristine",
+            "Hot springs along route",
+            "Combine with trekking"
+          ],
+          "itinerary": [
+            "Day 1: Drive to put-in point, rafting, camp",
+            "Day 2: Full day rafting, camp",
+            "Day 3: Final rafting, drive back"
+          ],
+          "costIncludes": [
+            "All rafting equipment",
+            "Professional guides",
+            "All meals",
+            "Camping equipment",
+            "Transportation"
+          ],
+          "costExcludes": [
+            "Personal expenses",
+            "Tips"
+          ],
+          "bestTime": "September-November & March-May",
+          "difficultyLevel": "Moderate - some experience recommended",
+          "groupSize": "4-8 per raft",
+          "faqs": [
+            {
+              "question": "Are there hot springs?",
+              "answer": "Yes, you can stop at natural hot springs along the river."
+            }
+          ],
+          "gallery": [
+            "https://example.com/kali-gandaki1.jpg"
+          ]
+        }
+      },
+      {
+        "id": 11,
+        "category": "Paragliding & Aerial Adventures",
+        "title": "Paragliding in Pokhara",
+        "duration": "1 day",
+        "difficulty": "Easy",
+        "price": 120,
+        "participants": 1,
+        "image": "https://cdn.projectexpedition.com/photos/279668touractivityd09db5c9236a451fa0242d4dab5bf432_sized.jpg",
+        "description": "Fly over Phewa Lake with stunning views of the Annapurna range in one of the world's best paragliding spots.",
+        "blogLink": "/blogs/pokhara-paragliding",
+        "details": {
+          "overview": "Paragliding in Pokhara offers breathtaking flights over Phewa Lake with stunning views of the Annapurna range.",
+          "highlights": [
+            "World-class flying site",
+            "Views of Annapurna range",
+            "Tandem flights with experts",
+            "Thermal flying experience",
+            "Option for acrobatic flights"
+          ],
+          "itinerary": [
+            "Morning/afternoon flight (30-60 minutes)"
+          ],
+          "costIncludes": [
+            "Tandem flight with instructor",
+            "Safety equipment",
+            "Transport to launch site",
+            "Certificate"
+          ],
+          "costExcludes": [
+            "Video/photos (optional extra)",
+            "Transport to Pokhara"
+          ],
+          "bestTime": "October-May",
+          "difficultyLevel": "Easy - no experience needed",
+          "groupSize": "Individual flights",
+          "faqs": [
+            {
+              "question": "What if there's no wind?",
+              "answer": "Flights may be postponed to better conditions - common in monsoon season."
+            }
+          ],
+          "gallery": [
+            "https://example.com/paragliding1.jpg"
+          ]
+        }
+      },
+      {
+        "id": 12,
+        "category": "Paragliding & Aerial Adventures",
+        "title": "Ultralight Flight in Pokhara",
+        "duration": "1 day",
+        "difficulty": "Easy",
+        "price": 250,
+        "participants": 2,
+        "image": "https://cdn.getyourguide.com/img/tour/0f28cac1820275ac85e9d69169be895ca3d15d00bae0929cd4ef9398fc5405d4.jpg/146.jpg",
+        "description": "A scenic flight in an ultralight aircraft for an aerial view of the Himalayas and Pokhara Valley.",
+        "blogLink": "/blogs/ultralight-pokhara",
+        "details": {
+          "overview": "Ultralight flights in Pokhara provide a unique aerial perspective of the Himalayas and Pokhara Valley.",
+          "highlights": [
+            "Scenic mountain views",
+            "No experience needed",
+            "Small aircraft (1 passenger + pilot)",
+            "Flexible flight paths",
+            "Great photo opportunities"
+          ],
+          "itinerary": [
+            "Morning/afternoon flight (15-30 minutes)"
+          ],
+          "costIncludes": [
+            "Flight with pilot",
+            "Safety briefing",
+            "Headset communication"
+          ],
+          "costExcludes": [
+            "Transport to airport",
+            "Video/photos"
+          ],
+          "bestTime": "October-May",
+          "difficultyLevel": "Easy",
+          "groupSize": "1 passenger per flight",
+          "faqs": [
+            {
+              "question": "How safe is it?",
+              "answer": "Very safe with experienced pilots and well-maintained aircraft."
+            }
+          ],
+          "gallery": [
+            "https://example.com/ultralight1.jpg"
+          ]
+        }
+      },
+      {
+        "id": 13,
+        "category": "Paragliding & Aerial Adventures",
+        "title": "Everest Skydive",
+        "duration": "5 days",
+        "difficulty": "Extreme",
+        "price": 22000,
+        "participants": 1,
+        "image": "https://www.everestskydive.com/images/2020/08/14/banner3.jpg",
+        "description": "One of the most extreme skydiving experiences in the world, with a breathtaking freefall near Mount Everest.",
+        "blogLink": "/blogs/everest-skydive-adventure",
+        "details": {
+          "overview": "Everest Skydive is one of the most extreme skydiving experiences in the world, with a breathtaking freefall near Mount Everest.",
+          "highlights": [
+            "World's highest skydive",
+            "Views of Everest",
+            "Professional tandem dive",
+            "Full safety briefing",
+            "Certificate of achievement"
+          ],
+          "itinerary": [
+            "Day 1-2: Arrival and briefing in Kathmandu",
+            "Day 3: Fly to Syangboche (3,800m)",
+            "Day 4: Acclimatization",
+            "Day 5: Skydive from 23,000ft",
+            "Day 6: Weather contingency day",
+            "Day 7: Return to Kathmandu"
+          ],
+          "costIncludes": [
+            "Tandem skydive",
+            "All equipment",
+            "Experienced instructors",
+            "Domestic flights",
+            "Accommodation in Syangboche"
+          ],
+          "costExcludes": [
+            "International flights",
+            "Kathmandu accommodation",
+            "Travel insurance",
+            "Video package"
+          ],
+          "bestTime": "October-November",
+          "difficultyLevel": "Extreme - requires good health",
+          "groupSize": "Small groups",
+          "faqs": [
+            {
+              "question": "What's the freefall time?",
+              "answer": "Approximately 60 seconds from 23,000ft."
+            }
+          ],
+          "gallery": [
+            "https://example.com/skydive1.jpg"
+          ]
+        }
+      },
+      {
+        "id": 14,
+        "category": "Jungle Safari & Wildlife Adventures",
+        "title": "Chitwan National Park Safari",
+        "duration": "3 days",
+        "difficulty": "Easy",
+        "price": 599,
+        "participants": 15,
+        "image": "https://www.adventuregreathimalaya.com/wp-content/uploads/Chitwan-1.jpg",
+        "description": "Explore one of Nepal's premier wildlife sanctuaries and spot exotic animals like the one-horned rhinoceros, Bengal tigers, and wild elephants.",
+        "blogLink": "/blogs/chitwan-wildlife-safari",
+        "details": {
+          "overview": "Chitwan National Park safari offers the chance to see exotic wildlife including one-horned rhinoceros, Bengal tigers, and wild elephants.",
+          "highlights": [
+            "Jungle safari activities",
+            "Elephant breeding center",
+            "Tharu cultural show",
+            "Canoe ride on Rapti River",
+            "Bird watching"
+          ],
+          "itinerary": [
+            "Day 1: Arrival, jungle walk",
+            "Day 2: Full day safari activities",
+            "Day 3: Morning activity, departure"
+          ],
+          "costIncludes": [
+            "All safari activities",
+            "Experienced guides",
+            "All meals",
+            "Lodging",
+            "Park fees"
+          ],
+          "costExcludes": [
+            "Personal expenses",
+            "Tips",
+            "Transport to Chitwan"
+          ],
+          "bestTime": "October-March",
+          "difficultyLevel": "Easy",
+          "groupSize": "Small groups",
+          "faqs": [
+            {
+              "question": "How likely are tiger sightings?",
+              "answer": "Possible but not guaranteed - about 30% chance."
+            }
+          ],
+          "gallery": [
+            "https://example.com/chitwan1.jpg"
+          ]
+        }
+      },
+      {
+        "id": 15,
+        "category": "Jungle Safari & Wildlife Adventures",
+        "title": "Bardia National Park Safari",
+        "duration": "4 days",
+        "difficulty": "Easy",
+        "price": 699,
+        "participants": 12,
+        "image": "https://media.nepaltrekadventures.com/uploads/img/bardia-np-banner.webp",
+        "description": "A less crowded alternative to Chitwan, offering a better chance to see Bengal tigers in their natural habitat.",
+        "blogLink": "/blogs/bardia-tiger-safari",
+        "details": {
+          "overview": "Bardia National Park safari offers a less crowded alternative to Chitwan with better chances to see Bengal tigers.",
+          "highlights": [
+            "Higher tiger density",
+            "Remote wilderness",
+            "Elephant safari",
+            "Tharu culture",
+            "Less touristy"
+          ],
+          "itinerary": [
+            "Day 1: Arrival, afternoon activity",
+            "Day 2-3: Full day safari activities",
+            "Day 4: Morning activity, departure"
+          ],
+          "costIncludes": [
+            "All safari activities",
+            "Experienced guides",
+            "All meals",
+            "Lodging",
+            "Park fees"
+          ],
+          "costExcludes": [
+            "Personal expenses",
+            "Tips",
+            "Transport to Bardia"
+          ],
+          "bestTime": "October-March",
+          "difficultyLevel": "Easy",
+          "groupSize": "Small groups",
+          "faqs": [
+            {
+              "question": "Why better for tigers?",
+              "answer": "Less human disturbance and larger wilderness area."
+            }
+          ],
+          "gallery": [
+            "https://example.com/bardia1.jpg"
+          ]
+        }
+      },
+      {
+        "id": 16,
+        "category": "Bungee Jumping & Other Extreme Sports",
+        "title": "Bungee Jumping at The Last Resort",
+        "duration": "1 day",
+        "difficulty": "Extreme",
+        "price": 160,
+        "participants": 1,
+        "image": "https://nepal8thwonder.com/wp-content/uploads/2022/06/DJI_0634-1-1024x536.jpg",
+        "description": "One of the world's highest bungee jumps (160m) over the Bhote Koshi River with spectacular canyon views.",
+        "blogLink": "/blogs/nepal-bungee-experience",
+        "details": {
+          "overview": "The Last Resort offers one of the world's highest bungee jumps (160m) over the Bhote Koshi River with spectacular canyon views.",
+          "highlights": [
+            "160m freefall",
+            "Professional operators",
+            "Spectacular canyon",
+            "Safety certified",
+            "Option for swing"
+          ],
+          "itinerary": [
+            "Day trip from Kathmandu (full day)"
+          ],
+          "costIncludes": [
+            "Bungee jump",
+            "Safety equipment",
+            "Lunch",
+            "Transportation"
+          ],
+          "costExcludes": [
+            "Personal expenses",
+            "Video/photos"
+          ],
+          "bestTime": "October-May",
+          "difficultyLevel": "Extreme",
+          "groupSize": "Individual jumps",
+          "faqs": [
+            {
+              "question": "How safe is it?",
+              "answer": "Very safe - operated by professionals with perfect safety record."
+            }
+          ],
+          "gallery": [
+            "https://example.com/bungee1.jpg"
+          ]
+        }
+      },
+      {
+        "id": 17,
+        "category": "Bungee Jumping & Other Extreme Sports",
+        "title": "Canyoning in Jalbire",
+        "duration": "1 day",
+        "difficulty": "Challenging",
+        "price": 130,
+        "participants": 8,
+        "image": "https://img.redbull.com/images/c_crop,w_2119,h_1060,x_0,y_0/c_auto,w_1200,h_600/f_auto,q_auto/redbullcom/2018/11/05/376a0320-a405-4c44-8534-cec6c7c8e02d/canyoning-spain",
+        "description": "A thrilling mix of waterfall rappelling, cliff jumping, and sliding through the pristine canyons of Nepal.",
+        "blogLink": "/blogs/jalbire-canyoning",
+        "details": {
+          "overview": "Canyoning in Jalbire combines waterfall rappelling, cliff jumping, and sliding through pristine canyons.",
+          "highlights": [
+            "Waterfall rappelling",
+            "Natural water slides",
+            "Cliff jumping",
+            "Beautiful canyon",
+            "Professional guides"
+          ],
+          "itinerary": [
+            "Day trip from Kathmandu (full day)"
+          ],
+          "costIncludes": [
+            "All equipment",
+            "Professional guides",
+            "Lunch",
+            "Transportation"
+          ],
+          "costExcludes": [
+            "Personal expenses",
+            "Tips"
+          ],
+          "bestTime": "March-May & September-November",
+          "difficultyLevel": "Challenging",
+          "groupSize": "Small groups",
+          "faqs": [
+            {
+              "question": "Do I need experience?",
+              "answer": "No, but you should be comfortable in water and with heights."
+            }
+          ],
+          "gallery": [
+            "https://example.com/canyoning1.jpg"
+          ]
+        }
+      },
+      {
+        "id": 18,
+        "category": "Bungee Jumping & Other Extreme Sports",
+        "title": "Zip Flying in Pokhara",
+        "duration": "1 day",
+        "difficulty": "Moderate",
+        "price": 85,
+        "participants": 1,
+        "image": "https://www.deutschmingmar.com/wp-content/uploads/2023/10/Zip-Flying.jpg",
+        "description": "Experience one of the world's longest, steepest, and fastest zip lines with breathtaking views of the Annapurna range.",
+        "blogLink": "/blogs/pokhara-zipline",
+        "details": {
+          "overview": "Pokhara's zip line is one of the world's longest, steepest, and fastest with breathtaking views of the Annapurna range.",
+          "highlights": [
+            "1.8km long",
+            "600m vertical drop",
+            "Speeds up to 120km/h",
+            "Mountain views",
+            "Safe and thrilling"
+          ],
+          "itinerary": [
+            "Morning/afternoon session (2-3 hours total)"
+          ],
+          "costIncludes": [
+            "Zip line ride",
+            "Safety equipment",
+            "Transport to start point",
+            "Briefing"
+          ],
+          "costExcludes": [
+            "Transport to Pokhara",
+            "Video/photos"
+          ],
+          "bestTime": "October-May",
+          "difficultyLevel": "Moderate",
+          "groupSize": "Individual rides",
+          "faqs": [
+            {
+              "question": "How scary is it?",
+              "answer": "Thrilling but very safe - suitable for most people."
+            }
+          ],
+          "gallery": [
+            "https://example.com/zipline1.jpg"
+          ]
+        }
+      }
+    ]
+  }

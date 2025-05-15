@@ -1,7 +1,7 @@
 .search-bar {
   width: 100%;
   max-width: 600px;
-  margin: 0 auto;
+  margin-left: 20rem;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 }
 
@@ -12,7 +12,7 @@
   border-radius: 50px;
   font-size: 16px;
   color: #050505;
-  background-color: #574f4f;
+  background-color: #f1eeee;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
   transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
@@ -25,25 +25,13 @@
 }
 
 .search-bar input::placeholder {
-  color: #aaa;
+  color: #000000;
   opacity: 0.7;
   transition: opacity 0.2s;
 }
 
 .search-bar input:focus::placeholder {
   opacity: 0.4;
-}
-
-.search-icon {
-  position: absolute;
-  left: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #888;
-  font-size: 18px;
-  z-index: 1;
-  pointer-events: none;
-  transition: color 0.3s;
 }
 
 .search-bar:focus-within .search-icon {
@@ -62,7 +50,7 @@
   overflow-y: auto;
   z-index: 10;
   animation: dropdownFadeIn 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 6px 0;
+  padding: 5px 0;
   border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
@@ -92,12 +80,13 @@
   top: 0;
   bottom: 0;
   width: 0;
-  background-color: #3498db;
   transition: width 0.2s;
 }
 
 .dropdown-item:hover::before {
-  width: 4px;
+  background-color: #3498db;
+  width: 100%;
+  opacity: 0.3;
 }
 
 .dropdown-item:active {
@@ -246,12 +235,12 @@
   }
   
   .search-dropdown::-webkit-scrollbar-thumb {
-    background: #4b5563;
-    border: 2px solid #2d3748;
+    background: #e9eaec;
+    border: 1px solid #2d3748;
   }
   
   .search-dropdown::-webkit-scrollbar-thumb:hover {
-    background: #6b7280;
+    background: #ced1d7;
   }
   
   .search-bar.has-selection input {

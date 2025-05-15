@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Slider from "../components/Sliders/Slider";
-import Footer from "../components/Footer/Footer";
+import Footer from "../components/Footer/footer";
 
 const Home = () => {
   return (

@@ -1,0 +1,454 @@
+{
+    "places": [
+      {
+        "name": "Lumbini (Birthplace of Buddha)",
+        "description": "UNESCO World Heritage Site marking the birthplace of Siddhartha Gautama (Buddha) in 623 BCE.",
+        "detail": "The sacred garden complex contains the Mayadevi Temple marking the exact birth spot, ancient monasteries from Buddhist nations, and the peaceful Lumbini Crane Sanctuary. The site attracts pilgrims and scholars worldwide.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Discovery",
+                "text": "Identified by Indian archaeologist General Khadga Samsher Rana in 1896 using Ashoka's pillar"
+              },
+              {
+                "subtitle": "UNESCO Listing",
+                "text": "Designated in 1997 for its universal spiritual significance"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Pilgrimage Tourism",
+                "text": "Receives over 1 million visitors annually from Buddhist countries"
+              },
+              {
+                "subtitle": "Interfaith Symbol",
+                "text": "Master Plan developed by Kenzo Tange promotes peace through architecture"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Mayadevi Temple (exact birthplace)",
+          "Ashoka's Pillar (249 BCE)",
+          "International Monastery Zone"
+        ],
+        "image": "https://whc.unesco.org/uploads/thumbs/site_0666_0008-1200-630-20151104113424.jpg",
+        "bestTimeToVisit": "October-March",
+        "travelTips": [
+          "Visit at dawn for serene atmosphere",
+          "Remove shoes in temple areas",
+          "Explore by bicycle rickshaw"
+        ]
+      },
+      {
+        "name": "Bardia National Park",
+        "description": "Largest undisturbed wilderness in Nepal's Terai with thriving Bengal tiger population.",
+        "detail": "Covering 968 sq km, Bardia offers pristine sal forests, grasslands, and the Karnali River ecosystem. The park has over 250 bird species and is known for elephant-back safaris to spot rhinos and tigers.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Establishment",
+                "text": "Created as Royal Hunting Reserve in 1969, upgraded to national park in 1988"
+              },
+              {
+                "subtitle": "Conservation Success",
+                "text": "Rhino population grew from 67 (1994) to over 250 today"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Wildlife Research",
+                "text": "Important site for tiger conservation studies"
+              },
+              {
+                "subtitle": "Community Involvement",
+                "text": "Tharu homestays provide sustainable tourism model"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Bengal tiger sightings",
+          "Tharu cultural performances",
+          "Karnali River dolphin spotting"
+        ],
+        "image": "https://www.visitnepal.com/images/tourism/places-to-visit/bardia-national-park.jpg",
+        "bestTimeToVisit": "October-April",
+        "travelTips": [
+          "Stay at least 3 nights for best wildlife viewing",
+          "Book expert naturalist guides",
+          "Wear neutral-colored clothing"
+        ]
+      },
+      {
+        "name": "Kapilvastu (Ancient Shakya Kingdom)",
+        "description": "Archaeological site of Buddha's childhood palace and capital of Shakya kingdom.",
+        "detail": "The ruins spread across Nepal-India border include palace foundations, stupas, and monasteries dating to 6th century BCE. Tilaurakot in Nepal and Piprahwa in India both claim to be the historic Kapilvastu.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Buddha's Connection",
+                "text": "Prince Siddhartha lived here until age 29 before renouncing royalty"
+              },
+              {
+                "subtitle": "Archaeological Finds",
+                "text": "Excavations revealed ancient city planning and artifacts"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Pilgrimage Route",
+                "text": "Part of Buddhist circuit connecting Lumbini and Kushinagar"
+              },
+              {
+                "subtitle": "Research Site",
+                "text": "Ongoing excavations by international teams"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Tilaurakot Palace Ruins",
+          "Kapilvastu Museum",
+          "Niglihawa Ashoka Pillar"
+        ],
+        "image": "https://www.lumbinidevtrust.gov.np/storage/gallery/1675917142.jpg",
+        "bestTimeToVisit": "November-February",
+        "travelTips": [
+          "Combine with Lumbini visit",
+          "Hire local guide for historical context",
+          "Visit early morning to avoid heat"
+        ]
+      },
+      {
+        "name": "Devdaha (Maternal Home of Mayadevi)",
+        "description": "Ancient town associated with Buddha's maternal family, the Koliya clan.",
+        "detail": "This archaeological site features ruins dating to Buddha's time, including potential remains of Queen Mayadevi's palace. The area holds importance as Buddha visited here after enlightenment.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Royal Connection",
+                "text": "Was capital of Koliya kingdom, Buddha's maternal homeland"
+              },
+              {
+                "subtitle": "Buddhist Texts",
+                "text": "Mentioned in Pali scriptures as place Buddha delivered teachings"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Pilgrimage Site",
+                "text": "Growing interest among Buddhist pilgrims"
+              },
+              {
+                "subtitle": "Archaeological Potential",
+                "text": "Only partially excavated with many undiscovered ruins"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Ancient Stupa Ruins",
+          "Sacred Garden Area",
+          "Nearby Ramagrama Stupa"
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Deodaha_in_Nepal.jpg/1200px-Deodaha_in_Nepal.jpg",
+        "bestTimeToVisit": "October-March",
+        "travelTips": [
+          "Combine with Lumbini/Kapilvastu tour",
+          "Wear comfortable walking shoes",
+          "Respect ongoing archaeological work"
+        ]
+      },
+      {
+        "name": "Banke National Park",
+        "description": "Biodiversity hotspot connecting Bardia and Katarniaghat wildlife sanctuaries.",
+        "detail": "Established in 2010, this 550 sq km park protects critical tiger habitat along the Nepal-India border. The park features mixed hardwood forests and is part of the Terai Arc Landscape.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Ecological Corridor",
+                "text": "Historically part of wildlife migration route between Nepal and India"
+              },
+              {
+                "subtitle": "Recent Protection",
+                "text": "Gazetted as national park after community forests demonstrated conservation success"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Tiger Conservation",
+                "text": "Part of global TX2 initiative to double wild tiger numbers"
+              },
+              {
+                "subtitle": "Climate Resilience",
+                "text": "Protects critical watersheds for local communities"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Jungle safaris",
+          "Rapti River birdwatching",
+          "Tharu cultural experiences"
+        ],
+        "image": "https://ntb.gov.np/wp-content/uploads/2020/07/Banke-National-Park.jpg",
+        "bestTimeToVisit": "November-April",
+        "travelTips": [
+          "Visit Khata corridor for wildlife crossings",
+          "Stay at community-run lodges",
+          "Morning drives best for animal sightings"
+        ]
+      },
+      {
+        "name": "Taulihawa (Ancient Tilaurakot)",
+        "description": "Gateway to Kapilvastu archaeological zone with important Buddhist monuments.",
+        "detail": "This market town serves as base for exploring Tilaurakot ruins. Nearby sites include Kudan stupa (where Buddha met his family after enlightenment) and seasonal Gotihawa pilgrimage site.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Ancient Capital",
+                "text": "Identified by some scholars as site of historic Kapilvastu"
+              },
+              {
+                "subtitle": "Ashokan Legacy",
+                "text": "Area contains several pillars and stupas from 3rd century BCE"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Archaeological Hub",
+                "text": "Center for Kapilvastu region excavations"
+              },
+              {
+                "subtitle": "Pilgrimage Stop",
+                "text": "Growing infrastructure for Buddhist tourists"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Tilaurakot Excavation Site",
+          "Kapilvastu Museum",
+          "Seasonal Gotihawa Stupa"
+        ],
+        "image": "https://www.holidify.com/images/cmsuploads/compressed/Tilaurakot_20170822183908.jpg",
+        "bestTimeToVisit": "November-February",
+        "travelTips": [
+          "Hire guides from Lumbini",
+          "Visit museum before ruins for context",
+          "Try local Newari cuisine in town"
+        ]
+      },
+      {
+        "name": "Dang Valley",
+        "description": "Expansive valley with Tharu culture and important Hindu pilgrimage sites.",
+        "detail": "Nepal's largest valley in the Inner Terai region combines cultural heritage with natural beauty. The area is known for Shiva temples, Rapti River, and annual festivals drawing thousands.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Ancient Trade Route",
+                "text": "Connected Himalayan kingdoms with Indian plains"
+              },
+              {
+                "subtitle": "Shiva Worship",
+                "text": "Temples date back to medieval Khasa kingdom period"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Agricultural Heartland",
+                "text": "Major rice and maize producer for Nepal"
+              },
+              {
+                "subtitle": "Cultural Tourism",
+                "text": "Tharu homestays and festival experiences"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Rani Ghat (sacred bathing site)",
+          "Tharu Cultural Museum",
+          "Shiva Temple at Ghorahi"
+        ],
+        "image": "https://www.welcomenepal.com/uploads/destination/dang-valley-1.jpg",
+        "bestTimeToVisit": "October-March",
+        "travelTips": [
+          "Attend Maghe Sankranti festival (January)",
+          "Try local fish curry dishes",
+          "Combine with Bardia National Park visit"
+        ]
+      },
+      {
+        "name": "Ramgram Stupa",
+        "description": "Only surviving original stupa containing relics of Buddha.",
+        "detail": "This 6m-high stupa near Parasi contains ashes from Buddha's funeral pyre that avoided redistribution by Emperor Ashoka. The site remains spiritually powerful yet undeveloped for tourism.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Funeral Relics",
+                "text": "Contains portion of original relics from Buddha's cremation"
+              },
+              {
+                "subtitle": "Ashokan Legend",
+                "text": "Local naga spirits reportedly prevented Ashoka from taking relics"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Archaeological Treasure",
+                "text": "UNESCO tentative list site since 1996"
+              },
+              {
+                "subtitle": "Pilgrimage Potential",
+                "text": "Developing as important Buddhist circuit stop"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Original Brick Stupa",
+          "Sacred Nag Pokhari (snake pond)",
+          "Peaceful rural setting"
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Ramgram_stupa.jpg/1200px-Ramgram_stupa.jpg",
+        "bestTimeToVisit": "November-February",
+        "travelTips": [
+          "Respect local customs (no climbing on stupa)",
+          "Combine with Lumbini/Devdaha visit",
+          "Guides available in nearby towns"
+        ]
+      },
+      {
+        "name": "Sainamaina",
+        "description": "Historic town with British-era architecture and religious sites.",
+        "detail": "Founded as retirement colony for British Gurkha soldiers, Sainamaina features colonial bungalows alongside Hindu and Buddhist temples. The area offers insights into Nepal's military history.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "British Connection",
+                "text": "Established in 1857 for retired Gurkha soldiers"
+              },
+              {
+                "subtitle": "Military Heritage",
+                "text": "Home to families with generations of Gurkha service"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Cultural Fusion",
+                "text": "Blend of Nepali and British architectural influences"
+              },
+              {
+                "subtitle": "Pilgrimage Site",
+                "text": "Important Ram temple attracts devotees"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "British-era Cantonment Area",
+          "Sainamaina Temple",
+          "Gurkha Memorial Park"
+        ],
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/4b/32/56/sainamaina-temple.jpg",
+        "bestTimeToVisit": "October-March",
+        "travelTips": [
+          "Learn Gurkha history at local museum",
+          "Respect military areas",
+          "Try unique Anglo-Nepali cuisine"
+        ]
+      },
+      {
+        "name": "Chitwan National Park",
+        "description": "Nepal's first national park and UNESCO site renowned for wildlife safaris.",
+        "detail": "Though primarily in Province 3, the park extends into Province 5 with excellent access from Sauraha. The 952 sq km park protects Bengal tigers, one-horned rhinos, and over 500 bird species.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Establishment",
+                "text": "Created in 1973, became UNESCO site in 1984"
+              },
+              {
+                "subtitle": "Conservation Success",
+                "text": "Rhino population grew from 100 (1960s) to over 600 today"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Eco-Tourism Model",
+                "text": "Pioneered community-based anti-poaching programs"
+              },
+              {
+                "subtitle": "Research Hub",
+                "text": "Important site for tiger and rhino conservation studies"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Jeep safaris in Kasara sector",
+          "Tharu cultural dance performances",
+          "Elephant breeding center"
+        ],
+        "image": "https://www.chitwannationalpark.gov.np/uploads/gallery/1595833021.jpg",
+        "bestTimeToVisit": "October-March",
+        "travelTips": [
+          "Stay minimum 2 nights for full experience",
+          "Book certified naturalist guides",
+          "Morning canoe rides best for birdwatching"
+        ]
+      }
+    ]
+  }

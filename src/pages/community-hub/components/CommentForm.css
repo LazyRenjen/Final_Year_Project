@@ -1,0 +1,143 @@
+/* CommentForm.css */
+.comment-form {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 24px;
+  transition: box-shadow 0.2s ease;
+  border: 1px solid #eaeaea;
+}
+
+.comment-form:focus-within {
+  box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+  border-color: #0066cc;
+}
+
+.comment-textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  resize: vertical;
+  min-height: 80px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #333;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+  background-color: #fff;
+}
+
+.comment-textarea:focus {
+  outline: none;
+  border-color: #0066cc;
+  background-color: #fff;
+}
+
+.comment-textarea::placeholder {
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.comment-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 12px;
+}
+
+.submit-button {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 120px;
+}
+
+.submit-button:hover:not(:disabled) {
+  background-color: #0055aa;
+}
+
+.submit-button:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+.submit-button:disabled {
+  background-color: #a6c8e7;
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+
+/* Character counter (optional feature) */
+.character-counter {
+  font-size: 0.75rem;
+  color: #777;
+  text-align: right;
+  margin-top: 6px;
+  margin-right: 4px;
+}
+
+.character-counter.limit-near {
+  color: #e67700;
+}
+
+.character-counter.limit-reached {
+  color: #dc3545;
+}
+
+/* Focus styling for accessibility */
+.submit-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.3);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 576px) {
+  .comment-form {
+    padding: 12px;
+  }
+  
+  .comment-textarea {
+    padding: 10px;
+  }
+  
+  .submit-button {
+    padding: 8px 14px;
+    font-size: 0.85rem;
+    min-width: 100px;
+  }
+}
+
+/* Animation for form appearance */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.comment-form {
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* Loading indicator for the button */
+.submit-button:disabled::after {
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-left: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: #fff;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

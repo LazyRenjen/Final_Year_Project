@@ -1,0 +1,109 @@
+.post-list-feed {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.post-wrapper {
+  width: 100%;
+  transition: opacity 0.3s ease;
+}
+
+/* Animation for new posts being added */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.post-wrapper:nth-child(1) {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+/* Empty state styling */
+.no-posts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 12px;
+  padding: 40px 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin: 24px auto;
+  max-width: 600px;
+  text-align: center;
+  min-height: 200px;
+}
+
+.no-posts-text {
+  font-size: 18px;
+  color: #757575;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.no-posts-container::before {
+  content: "📝";
+  font-size: 40px;
+  margin-bottom: 16px;
+  display: block;
+}
+
+/* Responsive adjustments */
+@media (min-width: 992px) {
+  .post-list-feed {
+    padding: 24px;
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 576px) {
+  .post-list-feed {
+    gap: 16px;
+    padding: 12px;
+  }
+  
+  .no-posts-container {
+    padding: 32px 16px;
+  }
+  
+  .no-posts-text {
+    font-size: 16px;
+  }
+}
+
+/* Optional: Loading state for when posts are being fetched */
+.posts-loading {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.posts-loading::after {
+  content: "";
+  width: 40px;
+  height: 40px;
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Optional: Transition for post removal */
+.post-wrapper.removing {
+  animation: fadeOut 0.3s ease forwards;
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; transform: translateY(0); }
+  to { opacity: 0; transform: translateY(-10px); }
+}

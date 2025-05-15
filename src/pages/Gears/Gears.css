@@ -1,0 +1,462 @@
+/* Trekking Gears - Main Styles */
+.trekking-gears-container {
+    padding: 2rem 0;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header Styling */
+  .HeaderOfTrekkinggears {
+    margin-bottom: 2rem;
+    background: linear-gradient(135deg, #2c3e50 0%, #1e5799 100%);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .HeaderOfTrekkinggears-Title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .page-title {
+    color: #fff;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    flex-grow: 1;
+  }
+  
+  .gears-icon {
+    height: 48px;
+    width: auto;
+    margin-right: 1rem;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+  }
+  
+  /* Add product button */
+  .add-product-btn {
+    background-color: #28a745;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: all 0.2s ease;
+  }
+  
+  .add-product-btn:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon-anp::before {
+    content: "+";
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  /* Search and filter section */
+  .search-filter-container {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+  }
+  
+  .search-input {
+    flex-grow: 1;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .search-input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .search-input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+  
+  .product-count {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+    border-radius: 20px;
+    font-weight: 500;
+    margin: 18rem 76rem;
+  }
+  
+  /* Tabs styling */
+  .product-tabs {
+    margin-bottom: 2rem;
+    gap: 15px;
+  }
+  
+  .product-tabs .nav-link {
+    color: #8498ac;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-bottom: 3px solid transparent;
+    background-color: white;
+    transition: all 0.2s ease;
+  }
+  
+  .product-tabs .nav-link:hover {
+    color: #2c3e50;
+    border-bottom-color: #ccc;
+  }
+  
+  .product-tabs .nav-link.active {
+    color: #1e5799;
+    border-bottom-color: #1e5799;
+    background-color: #f0f7ff;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  /* Product Cards */
+  .g-4 {
+    --bs-gutter-y: 1.5rem;
+  }
+  
+  /* ProductCard component styles would be defined separately but here's container styling */
+  .card {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.12);
+  }
+  
+  /* Empty state styling */
+  .empty-state {
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    margin: 1rem 0;
+  }
+  
+  .empty-state-icon {
+    font-size: 3rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
+    display: block;
+  }
+  
+  .empty-state h5 {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #343a40;
+  }
+  
+  .empty-state p {
+    color: #6c757d;
+  }
+  
+  /* Dropdown styling */
+  .Drop-Down {
+    margin-bottom: 1.5rem;
+  }
+  
+  #category-filter {
+    background-color: #fff;
+    color: #343a40;
+    border: 1px solid #ced4da;
+    padding: 0.65rem 1.5rem;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  #category-filter:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .dropdown-menu {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem;
+  }
+  
+  .dropdown-item {
+    padding: 0.75rem 1.25rem;
+    border-radius: 4px;
+    font-weight: 500;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f0f7ff;
+    color: #1e5799;
+  }
+  
+  /* Loading spinner */
+  .spinner-border {
+    color: #1e5799;
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  /* Alerts styling */
+  .alert-danger {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .HeaderOfTrekkinggears-Title {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .page-title {
+      margin-bottom: 1rem;
+    }
+    
+    .add-product-btn {
+      align-self: flex-start;
+    }
+    
+    .product-tabs .nav-link {
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* Animation for card transitions */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .filtered-products .col {
+    animation: fadeIn 0.4s ease forwards;
+  }
+  
+  /* ProductCard specific styles */
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  
+  .card-title {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+    font-size: 1.25rem;
+  }
+  
+  .card-text {
+    color: #6c757d;
+    margin-bottom: 1rem;
+  }
+  
+  .card-price {
+    font-weight: 700;
+    color: #1e5799;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-stock {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
+  }
+  
+  .card-actions {
+    margin-top: auto;
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  /* Button styles */
+  .btn-outline-primary {
+    color: #1e5799;
+    border-color: #1e5799;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #1e5799;
+    color: #fff;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border: none;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border: none;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+  
+  /* Modal styles */
+  .modal-content {
+    border-radius: 12px;
+    overflow: hidden;
+    border: none;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  .modal-header {
+    background-color: #1e5799;
+    color: #fff;
+    padding: 1.25rem 1.5rem;
+    border-bottom: none;
+  }
+  
+  .modal-title {
+    font-weight: 700;
+  }
+  
+  .modal-body {
+    padding: 1.5rem;
+  }
+  
+  .modal-footer {
+    padding: 1rem 1.5rem;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  /* Form control styles */
+  .form-control, .form-select {
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    font-size: 1rem;
+  }
+  
+  .form-control:focus, .form-select:focus {
+    box-shadow: 0 0 0 3px rgba(30, 87, 153, 0.25);
+    border-color: #1e5799;
+  }
+  
+  .form-label {
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 0.5rem;
+  }
+
+/* Dropdown Container */
+.category-dropdown {
+  font-family: 'Segoe UI', sans-serif;
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+/* Toggle Button */
+.category-dropdown .dropdown-toggle {
+  background-color: #f1f1f1;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.category-dropdown .dropdown-toggle:hover,
+.category-dropdown .dropdown-toggle:focus {
+  background-color: #e2e6ea;
+  color: #000;
+  border-color: #aaa;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+/* Dropdown Menu */
+.category-dropdown .dropdown-menu {
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 0.5rem;
+  padding: 0.5rem 0;
+  animation: fadeInDropdown 0.2s ease-in-out;
+  min-width: 100%;
+}
+
+/* Dropdown Items */
+.category-dropdown .dropdown-item {
+  padding: 0.6rem 1.2rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #333;
+  transition: background 0.2s ease;
+}
+
+.category-dropdown .dropdown-item:hover,
+.category-dropdown .dropdown-item:focus {
+  background-color: #e9ecef;
+  color: #000;
+}
+
+.category-dropdown .dropdown-item.active,
+.category-dropdown .dropdown-item:active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Fade-in Animation */
+@keyframes fadeInDropdown {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+  .category-dropdown {
+    width: 100%;
+  }
+  .category-dropdown .dropdown-toggle {
+    width: 100%;
+  }
+}

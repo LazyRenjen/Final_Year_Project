@@ -5,28 +5,10 @@ import SearchBar from '../SearchBar/SearchBar';
 import Navigation from '../Navigation/Navigation';
 import logo from '../../assets/images/logo.png';
 import defaultProfilePic from '../../assets/images/defaultProfilePic.png';
+import { useAuth } from '../../contexts/AuthContext';
 
 const Header = ({ onSearch, destinations }) => {
-  const [user, setUser] = useState(null);
-
-  useEffect(() => {
-    const checkAuth = () => {
-      const storedUser = localStorage.getItem('user');
-      if (storedUser) {
-        setUser(JSON.parse(storedUser));
-      }
-    };
-    
-    checkAuth();
-    window.addEventListener('storage', checkAuth);
-    return () => window.removeEventListener('storage', checkAuth);
-  }, []);
-
-  const handleLogout = () => {
-    localStorage.removeItem('user');
-    setUser(null);
-    window.dispatchEvent(new Event('storage'));
-  };
+  const { user, logout } = useAuth();
 
   return (
     <div className="header">
@@ -45,7 +27,7 @@ const Header = ({ onSearch, destinations }) => {
                 className="header-profile-image"
               />
               <span>Welcome, {user.username}</span>
-              <button onClick={handleLogout}>Logout</button>
+              <button onClick={logout}>Logout</button>
             </div>
           ) : (
             <>

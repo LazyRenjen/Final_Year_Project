@@ -32,7 +32,9 @@ export const update = async (id, title, description, pdfBuffer, contentType) => 
 
 // ✅ Delete a notice
 export const deleteNotice = async (id) => {
-  return await Notice.findByIdAndDelete(id);
+  const deletedNotice = await Notice.findByIdAndDelete(id);
+  if (!deletedNotice) throw new Error('Notice not found');
+  return deletedNotice;
 };
 
 // ✅ Download notice PDF

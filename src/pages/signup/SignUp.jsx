@@ -8,7 +8,7 @@ const SignUpForm = () => {
     email: "",
     phone: "",
     password: "",
-    confirmPassword: "",
+    confirmPassword: "", 
   });
 
   const [errorMessage, setErrorMessage] = useState("");

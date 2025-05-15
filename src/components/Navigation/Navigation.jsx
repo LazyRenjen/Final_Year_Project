@@ -4,7 +4,7 @@ import './Navigation.css';
 
 const Navigation = () => {
   const [user, setUser] = useState(null);
-
+  
   useEffect(() => {
     const storedUser = localStorage.getItem('user');
     if (storedUser) {
@@ -15,11 +15,10 @@ const Navigation = () => {
   const navItems = [
     { label: 'Home', path: '/' },
     { label: 'Provinces', path: '/provinces' },
-    { label: 'Mountain Trails', path: '/mountain-trails' },
-    { label: 'Trekking Gears', path: '/trekking-gears' },
+    // { label: 'Mountain Trails', path: '/mountain-trails' },
     { label: 'Trip by Days', path: '/trip-by-days' },
     { label: 'Travel-Notices', path: '/Travel' },
-    { label: 'carousel', path: '/carousel', requiresAuth: true },
+    { label: 'Gears', path: '/gears' },
 
     { 
       label: 'Community Hub', 
@@ -29,7 +28,7 @@ const Navigation = () => {
 
     { 
       label: 'Sustainability', 
-      path: '/Sustainability',
+      path: '/SustainabilityPlan',
       requiresAuth: true
     },
 

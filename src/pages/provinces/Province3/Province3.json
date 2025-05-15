@@ -1,0 +1,454 @@
+{
+    "places": [
+      {
+        "name": "Kathmandu Durbar Square",
+        "description": "Historic royal palace complex and UNESCO World Heritage Site in the heart of Kathmandu.",
+        "detail": "Kathmandu Durbar Square showcases exquisite Newari architecture dating back to the 12th-18th centuries. The complex includes ancient temples, courtyards, and the former royal palace. The site remains an active religious and cultural center.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Construction Period",
+                "text": "Developed between 12th-18th centuries by Malla and Shah kings"
+              },
+              {
+                "subtitle": "2015 Earthquake",
+                "text": "Several monuments were damaged but reconstruction is ongoing"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Cultural Hub",
+                "text": "Hosts major festivals like Indra Jatra and Dashain celebrations"
+              },
+              {
+                "subtitle": "Tourism Center",
+                "text": "One of Nepal's most visited heritage sites"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Kumari Ghar (Living Goddess Temple)",
+          "Kal Bhairav Statue",
+          "Hanuman Dhoka Palace"
+        ],
+        "image": "https://www.welcomenepal.com/uploads/destination/kathmandu-durbar-square-2.jpg",
+        "bestTimeToVisit": "September-November & March-May",
+        "travelTips": [
+          "Hire a licensed guide for historical insights",
+          "Respect religious customs",
+          "Visit early morning to avoid crowds"
+        ]
+      },
+      {
+        "name": "Pashupatinath Temple",
+        "description": "Sacred Hindu temple complex dedicated to Lord Shiva on the banks of Bagmati River.",
+        "detail": "Pashupatinath is one of the most important Shiva temples in the world, dating back to 400 AD. The sprawling complex includes numerous shrines, ashrams, and cremation ghats. It's particularly significant during Maha Shivaratri festival.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Ancient Origins",
+                "text": "Mentioned in ancient Hindu scriptures dating to 400 AD"
+              },
+              {
+                "subtitle": "Architectural Style",
+                "text": "Classic pagoda style with gold-plated roof and silver doors"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Pilgrimage Site",
+                "text": "Attracts hundreds of thousands of Hindu pilgrims annually"
+              },
+              {
+                "subtitle": "Cultural Heritage",
+                "text": "UNESCO World Heritage Site since 1979"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Main Pashupatinath Shrine",
+          "Arya Ghat Cremation Site",
+          "Deupatan Village"
+        ],
+        "image": "https://www.holidify.com/images/cmsuploads/compressed/Pashupatinath-Temple_20180119203042.jpg",
+        "bestTimeToVisit": "February-March (Maha Shivaratri)",
+        "travelTips": [
+          "Non-Hindus cannot enter main temple",
+          "Dress modestly",
+          "Be respectful during cremation ceremonies"
+        ]
+      },
+      {
+        "name": "Boudhanath Stupa",
+        "description": "One of the largest spherical stupas in the world and center of Tibetan Buddhism.",
+        "detail": "Built in the 5th century, Boudhanath is a massive mandala-style stupa surrounded by monasteries and shops selling Tibetan artifacts. The site is particularly atmospheric during prayer times when monks circle the stupa chanting mantras.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Construction",
+                "text": "Built by Licchavi king Manadeva in 5th century"
+              },
+              {
+                "subtitle": "Refugee Influence",
+                "text": "Tibetan refugees expanded the area after 1959"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Religious Center",
+                "text": "Heart of Tibetan Buddhism outside Tibet"
+              },
+              {
+                "subtitle": "UNESCO Site",
+                "text": "Designated in 1979 along with other Kathmandu Valley sites"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Circumambulation Path",
+          "Monasteries Around Stupa",
+          "Butter Lamp Offerings"
+        ],
+        "image": "https://www.tibettravel.org/wp-content/uploads/2015/03/Boudhanath-Stupa.jpg",
+        "bestTimeToVisit": "Year-round (best at dawn/dusk)",
+        "travelTips": [
+          "Walk clockwise around stupa",
+          "Try Tibetan butter tea nearby",
+          "Visit during Losar (Tibetan New Year)"
+        ]
+      },
+      {
+        "name": "Swayambhunath Stupa",
+        "description": "Ancient hilltop stupa known as the 'Monkey Temple' with panoramic Kathmandu views.",
+        "detail": "Dating back 2,000 years, Swayambhunath is among Nepal's oldest religious sites, combining Buddhist and Hindu elements. The complex includes shrines, temples, and a large Buddha statue amidst hundreds of resident monkeys.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Origins",
+                "text": "Believed to be self-created 2,000 years ago"
+              },
+              {
+                "subtitle": "Name Meaning",
+                "text": "Swayambhu means 'self-created' in Sanskrit"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Pilgrimage Site",
+                "text": "Important for both Buddhists and Hindus"
+              },
+              {
+                "subtitle": "Tourist Attraction",
+                "text": "Offers best panoramic views of Kathmandu"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "365 Steps to Summit",
+          "All-Seeing Buddha Eyes",
+          "Vajra (Thunderbolt Symbol)"
+        ],
+        "image": "https://www.touristsecrets.com/wp-content/uploads/2019/09/swayambhunath-temple.jpg",
+        "bestTimeToVisit": "Early morning or sunset",
+        "travelTips": [
+          "Watch out for monkeys",
+          "Combine visit with nearby National Museum",
+          "Photography best in morning light"
+        ]
+      },
+      {
+        "name": "Chandragiri Hills",
+        "description": "Scenic hill station with cable car access and Himalayan views near Kathmandu.",
+        "detail": "Chandragiri offers breathtaking views from Manakamana to Everest. The hilltop features Bhaleshwar Mahadev Temple, adventure activities, and the country's first international-standard cable car system.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Ancient Route",
+                "text": "Was part of historic trade route to India"
+              },
+              {
+                "subtitle": "Temple Legend",
+                "text": "Bhaleshwar Temple dates back to 17th century"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Tourism Development",
+                "text": "Major recreational destination since cable car opened in 2016"
+              },
+              {
+                "subtitle": "Viewpoint",
+                "text": "One of best Himalayan viewpoints accessible from Kathmandu"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Cable Car Ride",
+          "Himalayan Panorama",
+          "Bhaleshwar Temple"
+        ],
+        "image": "https://www.welcomenepal.com/uploads/destination/chandragiri-hills-1.jpg",
+        "bestTimeToVisit": "October-April (clear skies)",
+        "travelTips": [
+          "Bring warm clothes (chilly at top)",
+          "Combine with nearby Thankot visits",
+          "Try local snacks at hilltop"
+        ]
+      },
+      {
+        "name": "Nagarkot",
+        "description": "Popular hill station renowned for sunrise views over the Himalayas.",
+        "detail": "Located 32km east of Kathmandu at 2,195m altitude, Nagarkot offers one of the widest Himalayan panoramas from Dhaulagiri to Everest. The area features resorts, hiking trails, and traditional villages.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Royal History",
+                "text": "Served as summer retreat for Malla and Shah kings"
+              },
+              {
+                "subtitle": "Strategic Location",
+                "text": "Used as military outpost in medieval times"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Tourism Hub",
+                "text": "Most accessible Himalayan viewpoint from Kathmandu"
+              },
+              {
+                "subtitle": "Eco-Tourism",
+                "text": "Base for hiking and mountain biking"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Sunrise Views",
+          "Nagarkot Tower",
+          "Hiking Trails"
+        ],
+        "image": "https://www.touropia.com/gfx/d/hill-stations-in-nepal/nagarkot.jpg",
+        "bestTimeToVisit": "October-December",
+        "travelTips": [
+          "Stay overnight for best sunrise experience",
+          "Combine with Changunarayan Temple visit",
+          "Bring binoculars for mountain viewing"
+        ]
+      },
+      {
+        "name": "Bhaktapur Durbar Square",
+        "description": "Well-preserved medieval city with exquisite Newari architecture.",
+        "detail": "Bhaktapur, the 'City of Devotees', retains its ancient character with brick-paved streets and traditional pottery squares. The durbar square complex includes the 55-Window Palace, Nyatapola Temple, and numerous artisan workshops.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Golden Age",
+                "text": "Flourished as capital of Greater Malla Kingdom 12th-15th century"
+              },
+              {
+                "subtitle": "Earthquake Resilience",
+                "text": "Suffered less damage in 2015 than Kathmandu's squares"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Living Museum",
+                "text": "UNESCO site maintaining traditional Newari lifestyle"
+              },
+              {
+                "subtitle": "Craft Preservation",
+                "text": "Center for woodcarving, pottery and thangka painting"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Nyatapola Temple",
+          "Pottery Square",
+          "Local Juju Dhau (King Curd)"
+        ],
+        "image": "https://www.holidify.com/images/cmsuploads/compressed/Bhaktapur-Durbar-Square_20170817170413.jpg",
+        "bestTimeToVisit": "September-November",
+        "travelTips": [
+          "Try local Newari cuisine",
+          "Purchase entry ticket at main gate",
+          "Visit early to see potters at work"
+        ]
+      },
+      {
+        "name": "Phulchoki Hill",
+        "description": "Highest hill surrounding Kathmandu valley with rich biodiversity.",
+        "detail": "Rising to 2,782m, Phulchoki is covered in rhododendron forests and offers excellent birdwatching. The hill is sacred to both Hindus and Buddhists, with several small shrines along the forested trails.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Sacred Site",
+                "text": "Named after the flower (phul) goddess (choki)"
+              },
+              {
+                "subtitle": "Scientific Study",
+                "text": "Botanical surveys conducted since 19th century"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Birdwatching",
+                "text": "Home to over 265 bird species including endangered spiny babbler"
+              },
+              {
+                "subtitle": "Nature Retreat",
+                "text": "Popular hiking destination from Kathmandu"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Rhododendron Blooms (March-April)",
+          "Birdwatching",
+          "Mountain Views"
+        ],
+        "image": "https://www.himalayanwonders.com/blog/wp-content/uploads/2019/03/Phulchowki-Hill.jpg",
+        "bestTimeToVisit": "March-May",
+        "travelTips": [
+          "Hire local guide for bird spotting",
+          "Wear good hiking shoes",
+          "Carry water and snacks"
+        ]
+      },
+      {
+        "name": "Godavari Botanical Garden",
+        "description": "Royal botanical garden at the foothills of Phulchoki with diverse plant collections.",
+        "detail": "Established in 1962, the 82-hectare garden features over 500 species of plants, including rare orchids, ferns, and medicinal herbs. The garden serves as both recreation space and research center.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Royal Origins",
+                "text": "Developed as King Mahendra's conservation project"
+              },
+              {
+                "subtitle": "International Collaboration",
+                "text": "Originally established with German assistance"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Education Center",
+                "text": "Important site for botanical research"
+              },
+              {
+                "subtitle": "Recreation",
+                "text": "Popular picnic spot with well-maintained paths"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Orchid House",
+          "Japanese Garden",
+          "Rose Garden"
+        ],
+        "image": "https://www.welcomenepal.com/uploads/destination/godavari-1.jpg",
+        "bestTimeToVisit": "February-April",
+        "travelTips": [
+          "Visit on weekdays to avoid crowds",
+          "Combine with Phulchoki hike",
+          "Photography permit required for professional equipment"
+        ]
+      },
+      {
+        "name": "Panauti",
+        "description": "Charming medieval Newari town with well-preserved temples and traditional architecture.",
+        "detail": "Located at the confluence of two sacred rivers, Panauti is considered one of Nepal's most important historical towns. The settlement retains its medieval street pattern and boasts exquisite woodcarvings in its temples and homes.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Ancient Settlement",
+                "text": "Dates back to at least 13th century Malla period"
+              },
+              {
+                "subtitle": "Sacred Geography",
+                "text": "Built at confluence of Roshi and Punyamati rivers"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Cultural Preservation",
+                "text": "UNESCO tentative list site for its intact heritage"
+              },
+              {
+                "subtitle": "Sustainable Tourism",
+                "text": "Model for community-based heritage tourism"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Indreshwar Mahadev Temple",
+          "Traditional Newari Houses",
+          "Pottery Workshops"
+        ],
+        "image": "https://www.ecs.com.np/uploads/panauti-1.jpg",
+        "bestTimeToVisit": "October-March",
+        "travelTips": [
+          "Attend local festivals if possible",
+          "Try Newari bhoj (feast)",
+          "Resident artisans often welcome visitors"
+        ]
+      }
+    ]
+  }

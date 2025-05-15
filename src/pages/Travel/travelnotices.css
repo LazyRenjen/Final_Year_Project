@@ -1,92 +1,71 @@
-/* Modern CSS Reset and Variables */
+/* Notices.css */
+/* 1. First imports */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* 2. CSS Variables */
 :root {
-  /* Color Palette - Using HSL for better color manipulation */
-  --primary-hsl: 204, 70%, 53%;
-  --primary-color: hsl(var(--primary-hsl));
-  --primary-dark: hsl(204, 64%, 44%);
-  --secondary-color: hsl(145, 63%, 49%);
-  --accent-color: hsl(6, 78%, 57%);
-  
-  /* Neutral Colors */
-  --background-color: hsl(0, 0%, 98%);
-  --card-background: hsl(0, 0%, 100%);
-  --text-primary: hsl(0, 0%, 20%);
-  --text-secondary: hsl(0, 0%, 40%);
-  --border-color: hsl(0, 0%, 88%);
-  
-  /* Elevation Shadows */
-  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.07);
+  --primary: #3182ce;
+  --primary-light: #63b3ed;
+  --primary-dark: #2c5282;
+  --danger: #e53e3e;
+  --danger-light: #fc8181;
+  --success: #38a169;
+  --success-light: #68d391;
+  --text: #2d3748;
+  --text-light: #4a5568;
+  --light-bg: #f7fafc;
+  --border: #e2e8f0;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
   --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
-  
-  /* Spacing System */
-  --space-xs: 0.25rem;
-  --space-sm: 0.5rem;
-  --space-md: 1rem;
-  --space-lg: 1.5rem;
-  --space-xl: 2rem;
-  
-  /* Border Radius */
-  --radius-sm: 4px;
-  --radius-md: 8px;
-  --radius-lg: 12px;
-  
-  /* Transitions */
-  --transition-fast: 150ms ease;
-  --transition-normal: 250ms ease;
-  --transition-slow: 350ms ease;
+  --transition: all 0.3s ease;
+  --border-radius: 8px;
 }
 
-/* Base Container Styles */
+/* 3. Base Container */
 .notices-container {
+  font-family: 'Poppins', sans-serif;
   max-width: 1200px;
   margin: 0 auto;
-  padding: var(--space-xl);
-  background-color: var(--background-color);
-  min-height: 100vh;
+  padding: 2rem 1rem;
+  color: var(--text);
 }
 
 .notices-title {
-  font-size: 2rem;
-  color: var(--text-primary);
-  margin-bottom: var(--space-xl);
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--primary-dark);
   position: relative;
-}
-
-.notice-form-header{
-  display: flex;
-  justify-content: space-between;
+  padding-bottom: 1rem;
 }
 
 .notices-title::after {
   content: '';
   position: absolute;
-  bottom: -8px;
-  left: 0;
-  width: 25rem;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
   height: 4px;
-  background-color: var(--primary-color);
-  border-radius: var(--radius-sm);
+  background: linear-gradient(90deg, var(--primary), var(--primary-light));
+  border-radius: 2px;
 }
 
-.no-notices{
-  display: flex;
-  justify-content: center;
-}
-
-/* Enhanced Button Styles */
+/* 4. Admin Controls */
 .add-notice-btn {
-  background-color: var(--primary-color);
+  background-color: var(--primary);
   color: white;
   border: none;
-  padding: var(--space-md) var(--space-xl);
-  border-radius: var(--radius-md);
+  padding: 0.8rem 1.5rem;
+  border-radius: var(--border-radius);
   font-weight: 600;
   cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  gap: var(--space-sm);
-  transition: all var(--transition-normal);
+  transition: var(--transition);
+  margin-bottom: 2rem;
+  display: block;
+  margin-left: auto;
   box-shadow: var(--shadow-sm);
 }
 
@@ -96,223 +75,368 @@
   box-shadow: var(--shadow-md);
 }
 
-.add-notice-btn:active {
-  transform: translateY(0);
-}
-
-/* Improved Notice Card Styles */
-.notice-card {
-  background-color: var(--card-background);
-  border-radius: var(--radius-lg);
-  overflow: hidden;
-  box-shadow: var(--shadow-sm);
-  transition: all var(--transition-normal);
-  border: 1px solid var(--border-color);
-}
-
-.notice-card:hover {
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-lg);
-}
-
-.notice-content {
-  padding: var(--space-lg);
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  gap: var(--space-lg);
-  align-items: start;
-}
-
-.notice-icon svg {
-  color: var(--primary-color);
-  stroke-width: 2;
-}
-
-.notice-details {
-  flex: 1;
-}
-
-.notice-title {
-  font-size: 1.25rem;
-  color: var(--text-primary);
-  margin: 0 0 var(--space-sm);
-  line-height: 1.4;
-}
-
-.notice-description {
-  color: var(--text-secondary);
-  line-height: 1.6;
-  margin: 0 0 var(--space-md);
-}
-
-.notice-meta {
-  font-size: 0.875rem;
-  color: var(--text-secondary);
-}
-
-/* Enhanced Modal Styles */
+/* 5. Modal Overlay */
 .notice-form-overlay {
   position: fixed;
-  inset: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: grid;
-  place-items: center;
-  padding: var(--space-md);
-  backdrop-filter: blur(4px);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   z-index: 1000;
+  backdrop-filter: blur(5px);
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 .notice-form-modal {
-  background-color: var(--card-background);
-  border-radius: var(--radius-lg);
-  padding: var(--space-xl);
-  width: 100%;
+  background-color: white;
+  border-radius: var(--border-radius);
+  width: 90%;
   max-width: 600px;
   max-height: 90vh;
   overflow-y: auto;
   box-shadow: var(--shadow-lg);
-  animation: modalSlideIn 300ms var(--transition-normal);
+  animation: slideUp 0.4s ease;
 }
 
-/* Improved Form Styles */
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.notice-form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.notice-form-header h2 {
+  font-size: 1.5rem;
+  color: var(--text);
+  margin: 0;
+}
+
+.close-modal-btn {
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: var(--text-light);
+  transition: var(--transition);
+  padding: 0.5rem;
+  line-height: 1;
+}
+
+.close-modal-btn:hover {
+  color: var(--danger);
+  transform: rotate(90deg);
+}
+
+/* 6. Form Styles */
+.notice-form {
+  padding: 1.5rem;
+}
+
 .form-group {
-  margin-bottom: var(--space-lg);
+  margin-bottom: 1.5rem;
 }
 
 .form-group label {
   display: block;
-  margin-bottom: var(--space-sm);
-  font-weight: 600;
-  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: var(--text);
 }
 
 .form-group input[type="text"],
-.form-group textarea {
+.form-group textarea,
+.form-group input[type="file"] {
   width: 100%;
-  padding: var(--space-md);
-  border: 2px solid var(--border-color);
-  border-radius: var(--radius-md);
-  font-family: inherit;
-  transition: border-color var(--transition-fast);
-  background-color: black;
+  padding: 0.8rem;
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  font-family: 'Poppins', sans-serif;
+  transition: var(--transition);
 }
 
 .form-group input[type="text"]:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: var(--primary-color);
-  box-shadow: 0 0 0 4px hsla(var(--primary-hsl), 0.1);
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.2);
 }
 
-.form-actions{
+.form-group textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.file-input-error {
+  border-color: var(--danger) !important;
+}
+
+.field-error {
+  color: var(--danger);
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+}
+
+.file-note {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+.error-message {
+  background-color: var(--danger-light);
+  color: white;
+  padding: 1rem;
+  margin: 0 1.5rem;
+  border-radius: var(--border-radius);
+  text-align: center;
+}
+
+/* 7. Form Actions */
+.form-actions {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 2rem;
 }
 
-/* Enhanced Action Buttons */
+.submit-btn {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.submit-btn:hover {
+  background-color: var(--primary-dark);
+  transform: translateY(-2px);
+}
+
+.cancel-btn {
+  background-color: white;
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 0.8rem 1.5rem;
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.cancel-btn:hover {
+  background-color: var(--light-bg);
+  transform: translateY(-2px);
+}
+
+/* 8. Notices List */
+.no-notices {
+  text-align: center;
+  padding: 3rem;
+  color: var(--text-light);
+  font-size: 1.2rem;
+  border: 2px dashed var(--border);
+  border-radius: var(--border-radius);
+}
+
+.notices-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* 9. Notice Card */
+.notice-card {
+  background-color: white;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+  overflow: hidden;
+}
+
+.notice-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.notice-content {
+  display: flex;
+  padding: 1.5rem;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.notice-icon {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(49, 130, 206, 0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
+}
+
+.notice-details {
+  flex-grow: 1;
+}
+
+.notice-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  color: var(--text);
+}
+
+.notice-description {
+  color: var(--text-light);
+  margin: 0 0 1rem 0;
+  line-height: 1.5;
+}
+
+.notice-meta {
+  font-size: 0.85rem;
+  color: var(--text-light);
+}
+
+.notice-date {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
 .notice-actions {
   display: flex;
-  gap: var(--space-sm);
-  align-items: center;
-}
-
-.download-btn,
-.edit-btn,
-.delete-btn {
-  padding: var(--space-sm) var(--space-lg);
-  border-radius: var(--radius-md);
-  font-weight: 500;
-  transition: all var(--transition-normal);
-  text-decoration: none;
+  flex-direction: column;
+  gap: 0.8rem;
+  min-width: 120px;
 }
 
 .download-btn {
-  background-color: var(--secondary-color);
+  background-color: var(--success);
   color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: var(--border-radius);
+  font-weight: 500;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.download-btn:hover {
+  background-color: var(--success-light);
+  transform: translateY(-2px);
+}
+
+.admin-actions {
+  display: flex;
+  gap: 0.5rem;
 }
 
 .edit-btn {
-  background-color: var(--primary-color);
+  background-color: var(--primary);
   color: white;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: var(--border-radius);
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition);
+  flex-grow: 1;
+}
+
+.edit-btn:hover {
+  background-color: var(--primary-light);
+  transform: translateY(-2px);
 }
 
 .delete-btn {
-  background-color: var(--accent-color);
+  background-color: var(--danger);
   color: white;
-}
-
-/* Error States */
-.error-message {
-  background-color: hsl(348, 100%, 96%);
-  color: hsl(348, 100%, 35%);
-  padding: var(--space-md);
-  margin-bottom: var(--space-lg);
-  border-radius: var(--radius-md);
-  border-left: 4px solid hsl(348, 100%, 35%);
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: var(--border-radius);
   font-weight: 500;
-  animation: fadeIn 300ms var(--transition-normal);
+  cursor: pointer;
+  transition: var(--transition);
+  flex-grow: 1;
 }
 
-/* Animations */
-@keyframes modalSlideIn {
-  from {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.delete-btn:hover {
+  background-color: var(--danger-light);
+  transform: translateY(-2px);
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* Responsive Design */
+/* 10. Responsive Design */
 @media (max-width: 768px) {
+  .notices-title {
+    font-size: 2rem;
+  }
+  
   .notice-content {
-    grid-template-columns: auto 1fr;
+    flex-direction: column;
+    padding: 1rem;
   }
   
   .notice-actions {
-    grid-column: 1 / -1;
-    justify-content: flex-end;
-    margin-top: var(--space-md);
+    width: 100%;
+    flex-direction: row;
   }
   
-  .notice-form-modal {
-    padding: var(--space-lg);
-    margin: var(--space-sm);
+  .download-btn,
+  .edit-btn,
+  .delete-btn {
+    flex-grow: 1;
+    text-align: center;
   }
 }
 
-/* Accessibility Improvements */
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
+@media (max-width: 480px) {
+  .notices-title {
+    font-size: 1.8rem;
+  }
+  
+  .form-actions {
+    flex-direction: column;
+  }
+  
+  .submit-btn,
+  .cancel-btn {
+    width: 100%;
+  }
+  
+  .admin-actions {
+    flex-direction: column;
   }
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
+/* 11. Accessibility */
+button:focus,
+a:focus,
+input:focus,
+textarea:focus {
+  outline: 3px solid rgba(49, 130, 206, 0.5);
+  outline-offset: 2px;
 }

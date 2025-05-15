@@ -1,237 +1,83 @@
-/* General Container Styling */
-.mountain-trails-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  font-family: 'Arial', sans-serif;
-  background: linear-gradient(to bottom, #e9ecef, #f8f9fa);
-  color: #333;
+/* MountainTrails.css */
+
+/* 1) Shared design tokens */
+:root {
+  --primary-color: #1e88e5;
+  --primary-hover: #1565c0;
+  --text-color: #333;
+  --bg-light: #f9f9f9;
+  --border-radius: 0.5rem;
+  --font-family: "Inter", sans-serif;
+  --transition-speed: 0.2s;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+}
+
+/* 2) Page wrapper */
+.mountain-trails {
+  background-color: var(--bg-light);
   min-height: 100vh;
+  padding: var(--spacing-lg) var(--spacing-md);
 }
 
-/* Header Styling */
-.mountain-trails-title {
-  font-size: 1.8rem;
-  color: #007bff;
-  font-weight: bold;
+/* 3) Header area */
+.mountain-trails .page-header {
   display: flex;
   align-items: center;
-  padding-top: 10px;
-}
-
-.mountain-trails-title .title-icon {
-  margin-right: 10px;
-}
-
-/* Carousel Styling */
-.firsttime-carousel-title{
-  font-size: 2rem;
-  color: #007bff;
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
-.mountain-trails-carousel img {
-  height: 600px;
-  object-fit: cover;
-  border-radius: 15px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.mountain-trails-caption {
-  background: rgba(0, 0, 0, 0.8);
-  border-radius: 15px;
-  padding: 20px;
-}
-
-.mountain-trails-caption h3 {
-  font-size: 2rem;
-  color: #fff;
-  font-weight: bold;
-}
-
-.mountain-trails-caption p {
-  color: #ddd;
-  font-size: 1.2rem;
-}
-
-.carousel-trail-info {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  margin: 10px 0;
-  color: #ddd;
-}
-
-.carousel-actions {
-  display: flex;
-  gap: 15px;
-  justify-content: center;
-  margin-top: 10px;
-}
-
-/* Buttons */
-.mountain-trails-details-btn,
-.mountain-trails-book-btn,
-.trail-details-close-btn,
-.booking-submit-btn {
-  background: #007bff;
-  color: #fff;
-  border: none;
-  padding: 10px 25px;
-  font-size: 1rem;
-  border-radius: 5px;
-  cursor: pointer;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-.mountain-trails-details-btn:hover,
-.trail-details-close-btn:hover,
-.mountain-trails-book-btn:hover,
-.booking-submit-btn:hover {
-  background: #0056b3;
-}
-
-.trail-details-close-btn {
-  background: #dc3545;
-}
-
-.trail-details-close-btn:hover {
-  background: #c82333;
-}
-
-.trail-details-book-btn {
-  background: #28a745;
-}
-
-.trail-details-book-btn:hover {
-  background: #218838;
-}
-
-/* Details Section Styling */
-.mountain-trails-details {
-  margin-top: 30px;
-  padding: 30px;
-  background: #fff;
-  border-radius: 15px;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
-  width: 90%;
-  max-width: 900px;
-  animation: fadeIn 0.5s ease;
-}
-
-.trail-details-title {
-  font-size: 1.5rem;
-  color: #010305;
-  margin-bottom: 20px;
-  text-align: center;
-  font-weight: bold;
-}
-
-.trail-details-content {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
   justify-content: space-between;
+  margin-bottom: var(--spacing-lg);
 }
 
-.trail-details-image-container {
-  flex: 1 1 40%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.mountain-trails .page-header h1 {
+  font-family: var(--font-family);
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin: 0;
 }
 
-.trail-details-image {
-  width: 100%;
-  max-width: 350px;
-  border-radius: 15px;
-  object-fit: cover;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+/* 4) “Add New Trail” button override */
+.mountain-trails .btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  transition: background-color var(--transition-speed);
 }
 
-.trail-details-info {
-  flex: 1 1 55%;
-  font-size: 1.1rem;
-  color: #333;
-  line-height: 1.8;
+.mountain-trails .btn-primary:hover,
+.mountain-trails .btn-primary:focus {
+  background-color: var(--primary-hover);
+  border-color: var(--primary-hover);
 }
 
-.trail-details-info p {
-  margin: 10px 0;
+/* 5) Error alert tweaks */
+.mountain-trails .alert {
+  border-radius: var(--border-radius);
+  font-family: var(--font-family);
+  font-size: 0.95rem;
 }
 
-.trail-details-grid {
-  display: flex;
-  justify-content: space-between;
-  margin: 20px 0;
+/* 6) Spinner container */
+.mountain-trails .spinner-container {
+  padding: var(--spacing-lg) 0;
 }
 
-.trail-details-rating-icon {
-  vertical-align: middle;
-  color: #ffcc00;
-  font-size: 1.5rem;
+/* 7) Trail cards fade‑in */
+.trail-card {
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeInUp 0.5s forwards;
 }
 
-.best-season {
-  margin-left: 10px;
-  color: #6c757d;
-}
-
-/* Booking Modal Styling */
-.form-group {
-  margin-bottom: 15px;
-  display: flex;
-  flex-direction: column;
-}
-
-.form-group label {
-  margin-bottom: 5px;
-  font-weight: bold;
-}
-
-.form-group input {
-  padding: 10px;
-  font-size: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .mountain-trails-carousel img {
-    height: 300px;
-  }
-
-  .trail-details-content {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .trail-details-image-container {
-    flex: 1 1 100%;
-  }
-
-  .trail-details-info {
-    flex: 1 1 100%;
-    text-align: center;
-  }
-
-  .trail-details-info p {
-    margin: 15px 0;
-  }
-}
-
-/* Animations */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
+@keyframes fadeInUp {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* 8) Responsive tweaks (optional) */
+@media (max-width: 576px) {
+  .mountain-trails {
+    padding: var(--spacing-md) var(--spacing-sm);
   }
 }

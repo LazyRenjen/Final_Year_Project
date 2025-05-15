@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from 'react';
+// At the top of TravelNotices.js
 import './travelnotices.css';
+import Footer from '../../components/Footer/footer';
 
-/**
- * TravelNotices component handles displaying and managing travel notices
- * with PDF upload capabilities
- */
 const TravelNotices = () => {
   // State management
   const [notices, setNotices] = useState([]);
@@ -100,14 +98,21 @@ const handleSubmit = async (e) => {
   const handleDelete = async (id) => {
     if (window.confirm('Are you sure you want to delete this notice?')) {
       try {
-        await NoticeService.delete(id);
+        const response = await fetch(`http://localhost:5000/api/notices/${id}`, {
+          method: 'DELETE',
+          credentials: 'include' // Required for cookie authentication
+        });
+        
+        if (!response.ok) throw new Error('Failed to delete notice');
+        
+        // Refresh the notices list
         await fetchNotices();
       } catch (error) {
         setErrorMessage('Failed to delete notice');
       }
     }
   };
-
+  
   // Set up edit mode
   const setupEditMode = (notice) => {
     setEditNotice(notice);
@@ -238,6 +243,7 @@ const handleSubmit = async (e) => {
           ))}
         </div>
       )}
+      <Footer />
     </div>
   );
 };
@@ -301,7 +307,9 @@ const NoticeCard = ({ notice, user, onEdit, onDelete }) => {
           )}
         </div>
       </div>
+
     </div>
+    
   );
 };
 

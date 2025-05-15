@@ -1,0 +1,454 @@
+{
+    "places": [
+      {
+        "name": "Annapurna Base Camp",
+        "description": "Spectacular mountain sanctuary surrounded by the towering peaks of the Annapurna massif.",
+        "detail": "The Annapurna Base Camp (4,130m) sits in a natural amphitheater of snow-capped giants including Annapurna I (8,091m) and Machapuchare (6,993m). The trek passes through diverse landscapes from rice terraces to alpine meadows.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "First Ascent",
+                "text": "Annapurna I was first climbed in 1950 - the first 8,000m peak ever summited"
+              },
+              {
+                "subtitle": "Sacred Mountain",
+                "text": "Machapuchare (Fishtail) remains unclimbed as it's considered sacred to Lord Shiva"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Trekking Hub",
+                "text": "One of Nepal's most popular trekking destinations"
+              },
+              {
+                "subtitle": "Conservation",
+                "text": "Part of Annapurna Conservation Area (largest protected area in Nepal)"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "360° mountain views",
+          "Natural hot springs at Jhinu Danda",
+          "Gurung culture in Ghandruk village"
+        ],
+        "image": "https://www.nepalhikingteam.com/wp-content/uploads/2019/03/Annapurna-Base-Camp-Trek.jpg",
+        "bestTimeToVisit": "March-May & September-November",
+        "travelTips": [
+          "Acclimatize properly to avoid altitude sickness",
+          "Pack for all weather conditions",
+          "Hire local guides from ACMC-registered companies"
+        ]
+      },
+      {
+        "name": "Pokhara (Lakeside)",
+        "description": "Nepal's adventure capital nestled beside Phewa Lake with stunning Himalayan views.",
+        "detail": "Pokhara serves as gateway to the Annapurna region. The lakeside area offers relaxed cafes, adventure sports, and breathtaking views of the Annapurna range reflected in Phewa Lake's waters.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Ancient Trade Route",
+                "text": "Was part of important salt trade route between Tibet and India"
+              },
+              {
+                "subtitle": "Tourism Development",
+                "text": "Became popular with hippies in 1960s-70s before evolving into adventure hub"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Adventure Tourism",
+                "text": "Center for paragliding, zip-lining, and trekking"
+              },
+              {
+                "subtitle": "Cultural Fusion",
+                "text": "Blend of Gurung culture and international influences"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Phewa Lake boating",
+          "World Peace Pagoda",
+          "Paragliding from Sarangkot"
+        ],
+        "image": "https://www.touropia.com/gfx/d/tourist-attractions-in-nepal/pokhara.jpg",
+        "bestTimeToVisit": "October-November (best mountain views)",
+        "travelTips": [
+          "Book paragliding with licensed operators",
+          "Visit Tal Barahi Temple by boat",
+          "Enjoy live music at Lakeside cafes"
+        ]
+      },
+      {
+        "name": "Muktinath Temple",
+        "description": "Sacred pilgrimage site for both Hindus and Buddhists at 3,710m altitude.",
+        "detail": "This ancient temple complex features 108 water spouts and eternal flames fed by natural gas. The site represents the harmony between Hinduism (Vishnu shrine) and Buddhism (Gompa).",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Ancient Origins",
+                "text": "Mentioned in Hindu scriptures as 'Muktikshetra' (place of liberation)"
+              },
+              {
+                "subtitle": "Trade History",
+                "text": "Was important stop on Tibet-Nepal-India salt trade route"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Pilgrimage Tourism",
+                "text": "Receives over 100,000 pilgrims annually"
+              },
+              {
+                "subtitle": "Geological Wonder",
+                "text": "Natural gas flames and water at high altitude intrigue scientists"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "108 Sacred Water Spouts",
+          "Jwala Mai Temple (eternal flame)",
+          "Panoramic views of Dhaulagiri"
+        ],
+        "image": "https://www.holidify.com/images/cmsuploads/compressed/Muktinath_20170822184029.jpg",
+        "bestTimeToVisit": "April-June & September-October",
+        "travelTips": [
+          "Dress modestly as religious site",
+          "Combine with Upper Mustang trek",
+          "Acclimatize properly before visiting"
+        ]
+      },
+      {
+        "name": "Manaslu Circuit",
+        "description": "Challenging trek around the world's eighth highest mountain (8,163m).",
+        "detail": "The 177km circuit offers dramatic Himalayan scenery, Tibetan-influenced culture, and fewer crowds than Annapurna. The route crosses Larkya La pass (5,106m) with views of Manaslu and Himalchuli peaks.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "First Ascent",
+                "text": "Manaslu first climbed in 1956 by Japanese expedition"
+              },
+              {
+                "subtitle": "Restricted Access",
+                "text": "Area opened to trekkers only in 1991"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Sustainable Tourism",
+                "text": "Model for low-impact trekking with limited permits"
+              },
+              {
+                "subtitle": "Cultural Preservation",
+                "text": "Protects traditional Tibetan Buddhist culture"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Larkya La Pass crossing",
+          "Tsum Valley side trip",
+          "Authentic tea house experience"
+        ],
+        "image": "https://www.himalayanglacier.com/wp-content/uploads/2019/01/Manaslu-Circuit-Trek.jpg",
+        "bestTimeToVisit": "March-May & September-November",
+        "travelTips": [
+          "Requires special restricted area permit",
+          "Hire local guide/porter as mandatory",
+          "Pack for extreme altitude changes"
+        ]
+      },
+      {
+        "name": "Begnas Lake",
+        "description": "Serene freshwater lake offering peaceful alternative to Pokhara's Phewa.",
+        "detail": "The second largest lake in Pokhara Valley, Begnas remains less touristy while offering beautiful views of the Annapurna range. The area is known for its fish farms and traditional Nepali village life.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Geological Formation",
+                "text": "Formed by tectonic activity like all Pokhara valley lakes"
+              },
+              {
+                "subtitle": "Agricultural Importance",
+                "text": "Supports rice cultivation and fish farming for centuries"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Eco-Tourism",
+                "text": "Developing as sustainable tourism destination"
+              },
+              {
+                "subtitle": "Scientific Study",
+                "text": "Important site for limnological research"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Boat rides with mountain views",
+          "Local fish cuisine (try 'sidra')",
+          "Nearby Rupa Lake"
+        ],
+        "image": "https://pokharaphoto.com/wp-content/uploads/2020/08/Begnas-Lake-Pokhara.jpg",
+        "bestTimeToVisit": "September-November",
+        "travelTips": [
+          "Stay in homestays for authentic experience",
+          "Visit morning/evening for best light",
+          "Combine with hike to Panchase Hill"
+        ]
+      },
+      {
+        "name": "Ghandruk",
+        "description": "Picture-perfect Gurung village with stunning Annapurna views.",
+        "detail": "This traditional Gurung settlement features stone houses, terraced fields, and rich cultural heritage. Ghandruk serves as popular stop on Annapurna treks and offers homestay experiences.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Gurkha Heritage",
+                "text": "Many local families have Gurkha military tradition"
+              },
+              {
+                "subtitle": "Architecture",
+                "text": "Stone houses designed to withstand earthquakes"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Community Tourism",
+                "text": "Model for village-based sustainable tourism"
+              },
+              {
+                "subtitle": "Cultural Preservation",
+                "text": "Gurung Museum preserves local traditions"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Annapurna South views",
+          "Gurung Cultural Museum",
+          "Traditional dance performances"
+        ],
+        "image": "https://www.trekshimalaya.com/wp-content/uploads/2019/05/Ghandruk-Village.jpg",
+        "bestTimeToVisit": "March-May & October-November",
+        "travelTips": [
+          "Try local millet beer (tongba)",
+          "Respect village customs",
+          "Pack warm clothes - chilly at night"
+        ]
+      },
+      {
+        "name": "Tatopani Hot Springs",
+        "description": "Natural thermal springs along Kali Gandaki River near Annapurna Circuit.",
+        "detail": "The name 'Tatopani' means 'hot water' in Nepali. These sulfur-rich springs (temperature around 40°C) provide perfect relaxation after trekking, with views of steep canyon walls.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Ancient Use",
+                "text": "Used by traders and pilgrims for centuries"
+              },
+              {
+                "subtitle": "Geothermal Activity",
+                "text": "Caused by same tectonic forces that created Himalayas"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Trekker's Oasis",
+                "text": "Popular rest stop on Annapurna Circuit"
+              },
+              {
+                "subtitle": "Therapeutic Value",
+                "text": "Believed to relieve muscle pain and skin conditions"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Natural hot pools",
+          "Nearby Dana suspension bridge",
+          "Local apple orchards"
+        ],
+        "image": "https://himalayantrekkers.com/wp-content/uploads/2020/03/Tatopani-Hot-Spring.jpg",
+        "bestTimeToVisit": "October-April",
+        "travelTips": [
+          "Bring swimwear and towel",
+          "Avoid if you have open wounds",
+          "Combine with visit to nearby Ghasa village"
+        ]
+      },
+      {
+        "name": "Upper Mustang",
+        "description": "Forbidden Kingdom preserving Tibetan culture in arid Himalayan landscape.",
+        "detail": "This restricted area near Tibetan border features dramatic canyons, ancient cave monasteries, and whitewashed houses. The capital Lo Manthang (3,840m) contains medieval palaces and Buddhist art.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Kingdom History",
+                "text": "Was independent Buddhist kingdom until 2008"
+              },
+              {
+                "subtitle": "Restricted Access",
+                "text": "Opened to foreigners only in 1992 with strict limits"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Cultural Preservation",
+                "text": "One of last places preserving traditional Tibetan culture"
+              },
+              {
+                "subtitle": "Geological Interest",
+                "text": "Contains important fossil beds from Tethys Sea era"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Lo Manthang Royal Palace",
+          "Ancient cave monasteries",
+          "Tiji Festival (May)"
+        ],
+        "image": "https://www.adventurealternative.com/wp-content/uploads/2018/04/Upper-Mustang-Nepal.jpg",
+        "bestTimeToVisit": "May-October",
+        "travelTips": [
+          "Requires special permit ($500 for 10 days)",
+          "Hire local guide as mandatory",
+          "Respect photo restrictions in religious sites"
+        ]
+      },
+      {
+        "name": "Davis Falls",
+        "description": "Unique waterfall disappearing underground in Pokhara.",
+        "detail": "Also known as Patale Chhango, this waterfall plunges into an underground tunnel during monsoon. The adjacent Gupteshwor Cave contains a sacred Shiva shrine behind the falling water.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Name Origin",
+                "text": "Named after Swiss tourist Davi who drowned here in 1961"
+              },
+              {
+                "subtitle": "Geological Formation",
+                "text": "Created by seismic activity that shifted river course"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Tourist Attraction",
+                "text": "Most visited site in Pokhara after Phewa Lake"
+              },
+              {
+                "subtitle": "Religious Site",
+                "text": "Cave temple attracts Hindu pilgrims"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Underground waterfall view",
+          "Gupteshwor Mahadev Cave",
+          "Monsoon spectacle (June-September)"
+        ],
+        "image": "https://www.nepalhikingtrek.com/wp-content/uploads/2018/05/Davis-Fall-Pokhara.jpg",
+        "bestTimeToVisit": "July-September (peak flow)",
+        "travelTips": [
+          "Visit early to avoid crowds",
+          "Combine with nearby Tibetan refugee camp visit",
+          "Be cautious near slippery edges"
+        ]
+      },
+      {
+        "name": "Rupa Lake",
+        "description": "Tranquil freshwater lake surrounded by fishing villages and hills.",
+        "detail": "The third largest lake in Pokhara Valley, Rupa offers pristine nature and birdwatching opportunities. The area supports organic farming and community-based tourism initiatives.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Agricultural Importance",
+                "text": "Traditional fish farming dates back centuries"
+              },
+              {
+                "subtitle": "Geological Formation",
+                "text": "Formed by tectonic movement like Phewa and Begnas"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Eco-Tourism",
+                "text": "Model for community-managed sustainable tourism"
+              },
+              {
+                "subtitle": "Biodiversity",
+                "text": "Important habitat for migratory birds"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Organic farming experiences",
+          "Birdwatching (over 100 species)",
+          "Sunrise views over lake"
+        ],
+        "image": "https://pokharaphoto.com/wp-content/uploads/2020/08/Rupa-Lake-Pokhara.jpg",
+        "bestTimeToVisit": "October-November",
+        "travelTips": [
+          "Stay in local homestays",
+          "Try fresh fish from lake",
+          "Combine with Begnas Lake visit"
+        ]
+      }
+    ]
+  }

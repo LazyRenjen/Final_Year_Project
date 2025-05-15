@@ -1,10 +1,12 @@
+//file: login/Login.jsx
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
-import axios from "axios";
 import "./Login.css";
- 
+import { useAuth } from '../../contexts/AuthContext';
+
 const Login = () => {
+  const { login } = useAuth();
   const [formData, setFormData] = useState({
     email: "",
     password: "",
@@ -12,7 +14,6 @@ const Login = () => {
   const [errorMessage, setErrorMessage] = useState("");
   const navigate = useNavigate();
 
-  // ✅ Fix: Added handleChange function
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
@@ -20,30 +21,12 @@ const Login = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setErrorMessage("");
-
-    if (!formData.email || !formData.password) {
-      setErrorMessage("Please fill in all fields");
-      return;
-    }
-
-    try {
-      const response = await axios.post("http://localhost:5000/login", formData);
-      
-      if (response.data.success) {
-  
-        localStorage.setItem("user", JSON.stringify(response.data.user));
-        navigate("/");
-        window.location.reload();
-      } else {
-        console.log(setErrorMessage(response.data.message));
-      }
-    } catch (error) {
-      const message =
-        error.response?.data?.message ||
-        error.message ||
-        "Login failed. Please try again.";
-      setErrorMessage(message);
+    const result = await login(formData.email, formData.password);
+    
+    if (result.success) {
+      navigate('/');
+    } else {
+      setErrorMessage(result.message || 'Login failed');
     }
   };
 
@@ -75,8 +58,10 @@ const Login = () => {
             required
           />
         </div>
-        {/* ✅ Fix: Display error messages */}
         {errorMessage && <p className="error-message">{errorMessage}</p>}
+        <div className="form-links">
+          <Link to="/forgot-password" className="forgot-password-link">Forgot Password?</Link>
+        </div>
         <button type="submit" className="form-submit">Login</button>
       </form>
       <p>

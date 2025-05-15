@@ -1,3 +1,4 @@
+// models/Logindata.js
 import mongoose from 'mongoose';
 
 const loginSchema = new mongoose.Schema({
@@ -7,4 +8,5 @@ const loginSchema = new mongoose.Schema({
   loginTime: { type: Date, default: Date.now }
 }, { collection: 'Logindata' });
 
-export default mongoose.models.LoginData || mongoose.model('LoginData', loginSchema);
+// Ensure the model name matches your collection naming convention
+export default mongoose.models.Logindata || mongoose.model('Logindata', loginSchema);

@@ -9,6 +9,7 @@ import Province5Place from './Province5/Province5Place';
 import Province6Place from './Province6/Province6place';
 import Province7Place from './Province7/Province7place';
 import Footer from '../../components/Footer/footer';
+
 const Provinces = () => {
   const [activeProvince, setActiveProvince] = useState(0);
 

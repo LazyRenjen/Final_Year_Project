@@ -1,0 +1,454 @@
+{
+    "places": [
+      {
+        "name": "Rara Lake",
+        "description": "Nepal's largest freshwater lake nestled in the Himalayas at 2,990m altitude.",
+        "detail": "Located in Rara National Park, this stunning blue lake measures 5.1 sq km with depths reaching 167m. Surrounded by pine forests and snow peaks, it's often called 'Heaven on Earth' for its pristine beauty.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Discovery",
+                "text": "First documented by British surveyor Jimmy Roberts in 1933"
+              },
+              {
+                "subtitle": "Protected Status",
+                "text": "Rara National Park established in 1976 to conserve the ecosystem"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Tourism Potential",
+                "text": "Developing as an eco-tourism destination with strict visitor limits"
+              },
+              {
+                "subtitle": "Scientific Importance",
+                "text": "Critical habitat for endangered species like red panda and musk deer"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Crystal-clear waters reflecting Himalayas",
+          "Rara National Park wildlife",
+          "Traditional villages around lake"
+        ],
+        "image": "https://www.welcomenepal.com/uploads/destination/rara-lake-1.jpg",
+        "bestTimeToVisit": "April-May & September-October",
+        "travelTips": [
+          "Requires 3-4 day trek from Jumla",
+          "Carry all supplies - no shops nearby",
+          "Respect no-fishing rules in lake"
+        ]
+      },
+      {
+        "name": "Shey Phoksundo Lake",
+        "description": "Deep turquoise alpine lake in Dolpo region at 3,611m elevation.",
+        "detail": "This spectacular lake in Shey Phoksundo National Park has no aquatic life due to high mineral content. The surrounding area features ancient Bon monasteries and traditional Tibetan-style villages.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Sacred Site",
+                "text": "Considered holy in pre-Buddhist Bon religion for millennia"
+              },
+              {
+                "subtitle": "First Western Visit",
+                "text": "Documented by British explorer John Hunt in 1953"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Conservation Area",
+                "text": "Core zone of Nepal's largest national park (3,555 sq km)"
+              },
+              {
+                "subtitle": "Cultural Preservation",
+                "text": "Protects unique Bon-Po Buddhist syncretic traditions"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Rainbow Waterfall",
+          "Ancient Ringmo Village",
+          "Bon Monastery at lakeshore"
+        ],
+        "image": "https://www.himalayanwonders.com/wp-content/uploads/2018/04/Phoksundo-Lake-Dolpo.jpg",
+        "bestTimeToVisit": "May-October",
+        "travelTips": [
+          "Requires special restricted area permit",
+          "Altitude sickness risk - acclimatize properly",
+          "Respect local religious customs"
+        ]
+      },
+      {
+        "name": "Sinja Valley",
+        "description": "Ancient capital of the Khas Malla kingdom (12th-14th century).",
+        "detail": "This archaeological treasure in Jumla district was the center where the Nepali language originated. The valley contains ruins of palaces, temples, and the oldest Nepali manuscript (the 'Uttaradhayana Sutra').",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Language Birthplace",
+                "text": "Where proto-Nepali (Khas Kura) evolved into modern Nepali"
+              },
+              {
+                "subtitle": "UNESCO Recognition",
+                "text": "Tentative World Heritage Site since 2008"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Cultural Heritage",
+                "text": "Preserves medieval Nepali architecture and inscriptions"
+              },
+              {
+                "subtitle": "Research Site",
+                "text": "Important for studying Nepali language development"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Ruins of Khas Malla palaces",
+          "Ancient stone inscriptions",
+          "Traditional Jumla farming terraces"
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Sinja_Valley.jpg/1200px-Sinja_Valley.jpg",
+        "bestTimeToVisit": "April-November",
+        "travelTips": [
+          "Hire local guide for historical context",
+          "Visit nearby Kanak Sundari Temple",
+          "Try Jumla's famous red rice"
+        ]
+      },
+      {
+        "name": "Dolpo Region",
+        "description": "Remote Himalayan district preserving Tibetan culture and ancient trade routes.",
+        "detail": "One of Nepal's most isolated areas, Upper Dolpo was closed to foreigners until 1989. The region features medieval villages, salt trade caravans, and stunning landscapes featured in the film 'Himalaya'.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Ancient Trade",
+                "text": "Part of Tibet-Nepal salt and wool exchange for centuries"
+              },
+              {
+                "subtitle": "Cultural Isolation",
+                "text": "Preserved 11th-century Tibetan Buddhist traditions"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Restricted Access",
+                "text": "Requires special permit to protect fragile culture"
+              },
+              {
+                "subtitle": "Adventure Tourism",
+                "text": "Popular for challenging treks like Dolpo to Mustang"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Crystal Mountain (Shey Gompa)",
+          "Yak caravans on ancient trails",
+          "Tarap Valley's cliffside villages"
+        ],
+        "image": "https://www.himalayanglacier.com/wp-content/uploads/2019/01/Upper-Dolpo-Trek.jpg",
+        "bestTimeToVisit": "June-September",
+        "travelTips": [
+          "Requires $500/10-day special permit",
+          "Pack for extreme remoteness",
+          "Respect photo restrictions in villages"
+        ]
+      },
+      {
+        "name": "Khaptad National Park",
+        "description": "Sacred mid-mountain park blending biodiversity and spiritual sites.",
+        "detail": "This 225 sq km park ranges from 1,400m to 3,300m with grasslands, forests, and Himalayan views. The area is associated with Khaptad Baba, a revered Hindu saint who meditated here for 50 years.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Spiritual Heritage",
+                "text": "Khaptad Baba established ashram here in 1940s"
+              },
+              {
+                "subtitle": "Park Establishment",
+                "text": "Created in 1984 to protect unique ecosystem"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Biodiversity",
+                "text": "Home to 266 bird species and 23 mammal species"
+              },
+              {
+                "subtitle": "Pilgrimage Site",
+                "text": "Attracts Hindu devotees to Khaptad Baba's ashram"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Khaptad Daha (holy lake)",
+          "Tribeni confluence pilgrimage site",
+          "Spring wildflower blooms"
+        ],
+        "image": "https://ntb.gov.np/wp-content/uploads/2020/07/Khaptad-National-Park.jpg",
+        "bestTimeToVisit": "March-May & October-November",
+        "travelTips": [
+          "No alcohol/non-veg food in sacred areas",
+          "Prepare for basic accommodation",
+          "Hire local guides for best trails"
+        ]
+      },
+      {
+        "name": "Bardibas-Thori Eco-Trail",
+        "description": "Emerging wildlife corridor connecting Chitwan and Parsa National Parks.",
+        "detail": "This 60km trail through Mahottari district offers jungle walks, Tharu culture, and growing wildlife sightings including tigers and elephants moving between protected areas.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Ancient Route",
+                "text": "Part of historic trade path between hills and Terai"
+              },
+              {
+                "subtitle": "Rewilding Project",
+                "text": "Active corridor restoration since 2010"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Conservation",
+                "text": "Critical for genetic diversity of Terai wildlife"
+              },
+              {
+                "subtitle": "Community Tourism",
+                "text": "Developing homestays and guided walks"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Jungle night stays in machans",
+          "Tharu stick dance performances",
+          "Birdwatching in wetlands"
+        ],
+        "image": "https://www.ecs.com.np/uploads/bardibas-1.jpg",
+        "bestTimeToVisit": "November-February",
+        "travelTips": [
+          "Travel with experienced naturalist",
+          "Wear earth-toned clothing",
+          "Support local conservation initiatives"
+        ]
+      },
+      {
+        "name": "Tilicho Lake",
+        "description": "One of the world's highest lakes at 4,919m in Annapurna Conservation Area.",
+        "detail": "Though primarily in Gandaki Province, this stunning glacial lake is accessible from Manang district in Karnali. The turquoise waters are surrounded by Annapurna massif peaks.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "First Survey",
+                "text": "Mapped by British explorer Tilman in 1950"
+              },
+              {
+                "subtitle": "Sacred Status",
+                "text": "Considered holy by both Hindus and Buddhists"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Trekking Destination",
+                "text": "Popular side trip on Annapurna Circuit"
+              },
+              {
+                "subtitle": "Climate Research",
+                "text": "Monitored for glacial retreat impacts"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Mesokanto La pass views",
+          "Base camp at Tilicho Tal",
+          "High-altitude flora/fauna"
+        ],
+        "image": "https://www.nepalhikingteam.com/wp-content/uploads/2019/03/Tilicho-Lake-Trek.jpg",
+        "bestTimeToVisit": "May-June & September-October",
+        "travelTips": [
+          "Acclimatize properly before ascent",
+          "Pack for extreme cold",
+          "Check route conditions - avalanche risk"
+        ]
+      },
+      {
+        "name": "Surkhet Valley",
+        "description": "Emerging adventure hub in mid-western Nepal's 'Green Valley'.",
+        "detail": "The capital of Karnali Province offers hot springs, caves, and trekking routes to Rara and Dolpo. The valley is known for organic farming and emerging eco-tourism projects.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Ancient Trade Center",
+                "text": "Connected Himalayan and Terai regions for centuries"
+              },
+              {
+                "subtitle": "Development",
+                "text": "Rapid growth since becoming provincial capital"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Transport Hub",
+                "text": "Gateway to remote Karnali destinations"
+              },
+              {
+                "subtitle": "Sustainable Agriculture",
+                "text": "Model for organic farming in Nepal"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Kakrebihar Temple ruins",
+          "Bheri River rafting",
+          "Local organic coffee farms"
+        ],
+        "image": "https://www.welcomenepal.com/uploads/destination/surkhet-valley-1.jpg",
+        "bestTimeToVisit": "October-March",
+        "travelTips": [
+          "Try local honey and coffee",
+          "Visit Deuti Bajai temple",
+          "Use as acclimatization stop for Rara"
+        ]
+      },
+      {
+        "name": "Mugu District",
+        "description": "Remote Himalayan region bordering Tibet with dramatic landscapes.",
+        "detail": "Home to Rara Lake, Mugu features high mountain passes, Tibetan-influenced culture, and Nepal's most isolated villages. The area remains largely undeveloped for tourism.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Ancient Kingdom",
+                "text": "Part of medieval Khasa Malla empire"
+              },
+              {
+                "subtitle": "Trade Isolation",
+                "text": "Historically dependent on salt trade with Tibet"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Border Security",
+                "text": "Strategic location near China border"
+              },
+              {
+                "subtitle": "Development Challenges",
+                "text": "One of Nepal's least developed regions"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Gamgadhi village (district HQ)",
+          "High altitude nomadic herding",
+          "Traditional Tibetan medicine"
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Mugu_district_location_map.png/1200px-Mugu_district_location_map.png",
+        "bestTimeToVisit": "May-October",
+        "travelTips": [
+          "Requires special permits",
+          "Pack all essential supplies",
+          "Respect local customs"
+        ]
+      },
+      {
+        "name": "Jumla District",
+        "description": "Historic highland region known for apple orchards and ancient manuscripts.",
+        "detail": "The 'Apple Capital of Nepal' sits at 2,540m with medieval villages, alpine pastures, and the origin point of the Nepali language. Jumla produces 90% of Nepal's apples.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Language Origin",
+                "text": "Where Nepali language first developed from Khas speech"
+              },
+              {
+                "subtitle": "Agricultural Innovation",
+                "text": "First apple orchards planted in 1960s"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Horticulture",
+                "text": "Center for high-altitude fruit research"
+              },
+              {
+                "subtitle": "Cultural Tourism",
+                "text": "Base for Rara Lake and Sinja Valley treks"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Chandannath Temple",
+          "Apple blossom season (April)",
+          "Ancient manuscript collections"
+        ],
+        "image": "https://www.welcomenepal.com/uploads/destination/jumla-1.jpg",
+        "bestTimeToVisit": "April-June & September-November",
+        "travelTips": [
+          "Try local apple brandy",
+          "Visit during harvest festivals",
+          "Pack for cool mountain weather"
+        ]
+      }
+    ]
+  }

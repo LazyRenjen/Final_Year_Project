@@ -1,0 +1,779 @@
+{
+
+    "Pokhara":  {
+          "name": "Pokhara",
+          "image": "https://www.india-tours.com/blog/wp-content/uploads/2021/06/temples-to-visit-in-pokhara.jpeg",
+          "elevation": "822m",
+          "bestTime": ["September-November", "March-May"],
+          "activities": ["Boating", "Paragliding", "Trekking", "Cave Exploration"],
+          "description": {
+            "History": {
+              "title": "Ancient and Medieval History",
+              "description": "Pokhara was historically a vital trade route connecting India and Tibet. The region was frequently used by traders and merchants who transported salt, wool, and other goods across the Himalayas. This trade route helped Pokhara grow as a commercial hub in Nepal. The earliest inhabitants were the indigenous Gurung and Magar communities, who played significant roles in Nepalese history as warriors in British Gurkha regiments. During medieval period, Pokhara was under Kaski Kingdom, one of 24 small kingdoms (Baise Rajya) of western Nepal.",
+              "image": "https://assets-cdn.kathmandupost.com/uploads/source/news/2019/miscellaneous/RC_CS0091.jpg"
+            },
+            "Present": {
+              "title": "Present-Day Pokhara: Adventure Capital",
+              "description": "Pokhara, known as Nepal's 'Tourism Capital' and 'City of Lakes', attracts travelers with breathtaking landscapes and adventure opportunities while preserving cultural heritage.",
+              "end": "Nestled in Himalayan foothills, Pokhara offers views of Machhapuchhre, Annapurna Range, and serene lakes. Phewa Lake's Tal Barahi Temple, Begnas Lake's tranquility, and adrenaline activities like paragliding make it a complete destination. Gateway to Annapurna treks with modern infrastructure including luxury resorts like Fish Tail Lodge.",
+              "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/d6/96/36/photo4jpg.jpg?w=1400&h=1400&s=1"
+            }
+          }
+        },
+        
+        "Kathmandu":{
+          "name": "Kathmandu",
+          "image": "https://www.attractivetravelnepal.com/wp-content/uploads/2022/09/kathmandu-tour.jpg",
+          "elevation": "1,400m",
+          "bestTime": ["October-December", "February-April"],
+          "activities": ["Cultural Tours", "Heritage Walks", "Shopping", "Festival Participation"],
+          "description": {
+            "History": {
+              "title": "Medieval Capital",
+              "description": "Founded in 723 AD, Kathmandu served as royal capital of Nepal Valley kingdoms. Durbar Squares showcase Newari craftsmanship from Malla dynasty era. Strategic location on Trans-Himalayan trade routes enriched cultural heritage.",
+              "image": "https://www.digitalarchaeologyfoundation.com/wp-content/uploads/2015/11/One-of-the-oldest-photo-of-Kathmandu-Durbar-Square.jpg"
+            },
+            "Present": {
+              "title": "Living Heritage City",
+              "description": "Blends ancient traditions with urban modernity, preserving UNESCO World Heritage sites while developing as South Asia's business hub.",
+              "end": "The city thrives with vibrant street life in Ason Bazaar, ongoing temple rituals at Pashupatinath, and contemporary art scenes. Traditional metalwork and Thangka painting coexist with modern cafes and infrastructure.",
+              "image": "https://www.muchbetteradventures.com/magazine/content/images/2023/10/bhaktapur--1-.jpg"
+            }
+          }
+        },
+
+        "Lumbini": {
+          "name": "Lumbini",
+          "image": "https://handluggageonly.co.uk/wp-content/uploads/2017/08/IMG_2637.jpg",
+          "elevation": "150m",
+          "bestTime": ["October-March"],
+          "activities": ["Meditation", "Archaeological Tours", "Monastery Visits"],
+          "description": {
+            "History": {
+              "title": "Birthplace of Buddha",
+              "description": "Sacred site dating back to 623 BC when Queen Maya Devi gave birth to Siddhartha Gautama under sal tree. Rediscovered by archaeologists in 1896 with Ashoka's pillar (249 BC) marking imperial visit.",
+              "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Ancient_Mayadevi_Temple_Lumbini_Nepal.jpg/1280px-Ancient_Mayadevi_Temple_Lumbini_Nepal.jpg"
+            },
+            "Present": {
+              "title": "World Peace Destination",
+              "description": "UNESCO World Heritage Site attracting pilgrims and peace seekers from all Buddhist traditions.",
+              "end": "Modern development includes international monastery zone representing various Buddhist nations, meditation centers, and sustainable tourism initiatives. The sacred garden preserves ancient ruins while accommodating thousands of daily visitors.",
+              "image": "https://www.nepalsanctuarytreks.com/wp-content/uploads/2023/05/8F3FC504-8BE1-499F-BF4C-06EC99493224.jpg"
+            }
+          }
+        },
+
+        "Everest Region":{
+          "name": "Everest Region",
+          "image": "https://www.remotelands.com/storage/media/2614/conversions/b160822010-banner-size.jpg",
+          "elevation": "5,364m (Base Camp)",
+          "bestTime": ["March-May", "September-November"],
+          "activities": ["Trekking", "Mountain Climbing", "Helicopter Tours"],
+          "description": {
+            "History": {
+              "title": "Mountaineering Legacy",
+              "description": "The Everest region gained global fame after Sir Edmund Hillary and Tenzing Norgay Sherpa successfully summited Mount Everest in 1953. This achievement put Nepal on the map as a premier mountaineering destination.",
+              "image": "https://www.oneworld365.org/img/000/41/41610.jpg"
+            },
+            "Present": {
+              "title": "Adventure Hub",
+              "description": "The Everest region is a magnet for trekkers and climbers from around the world, offering some of the most challenging and rewarding experiences in the Himalayas.",
+              "end": "Sagarmatha National Park, a UNESCO World Heritage Site, protects the unique ecosystem and Sherpa culture. The region has seen significant development in infrastructure, including lodges and helicopter services, to support tourism.",
+              "image": "https://www.nepalhightrek.com/wp-content/uploads/2023/10/How-to-get-to-Mount-Everest-Base-Camp-1.webp"
+            }
+          }
+        },
+        
+        "Annapurna Sanctuary": {
+          "name": "Annapurna Sanctuary",
+          "image": "https://media.nepaltrekadventures.com/uploads/img/pano-annapurna-base-camp.webp",
+          "elevation": "4,130m",
+          "bestTime": ["March-May", "September-November"],
+          "activities": ["Trekking", "Mountain Climbing", "Photography"],
+          "description": {
+            "History": {
+              "title": "Sacred Landscape",
+              "description": "The Annapurna Sanctuary has been a sacred site for local communities for centuries. The Annapurna massif is named after the Hindu goddess of nourishment, Annapurna.",
+              "image": "https://journeybybackpack.com/wp-content/uploads/2024/05/Nepal-34.jpg"
+            },
+            "Present": {
+              "title": "Trekker's Paradise",
+              "description": "The Annapurna Sanctuary is one of the most popular trekking destinations in the world, offering stunning views of the Annapurna range and a chance to experience local culture.",
+              "end": "The sanctuary is surrounded by towering peaks, including Annapurna I (8,091m) and Machhapuchhre (6,993m). Conservation efforts focus on sustainable tourism and preserving the natural beauty of the region.",
+              "image": "https://miro.medium.com/v2/resize:fit:1024/1*skhNqTTGorFFR5X0k-F5iw.jpeg"
+            }
+          }
+        },
+
+        "Bandipur": {
+          "name": "Bandipur",
+          "image": "https://lp-cms-production.imgix.net/2019-06/GettyImages-521074945_high.jpg?w=1920&h=640&fit=crop&crop=faces%2Cedges&auto=format&q=75",
+          "elevation": "1,030m",
+          "bestTime": ["September-November", "March-May"],
+          "activities": ["Cultural Tours", "Hiking", "Bird Watching"],
+          "description": {
+            "History": {
+              "title": "Newari Heritage",
+              "description": "Bandipur was established as a trading post by Newari merchants in the 18th century. Its strategic location on the India-Tibet trade route made it a prosperous town.",
+              "image": "https://www.footprintadventure.com/uploads/media/Villages/bandipur-bazaar.jpg"
+            },
+            "Present": {
+              "title": "Preserved Hill Town",
+              "description": "Bandipur is a well-preserved hill town that offers a glimpse into Nepal's rich cultural heritage and stunning Himalayan views.",
+              "end": "The town is known for its traditional Newari architecture, cobblestone streets, and panoramic views of the Himalayas. Efforts are being made to promote sustainable tourism while preserving its historical charm.",
+              "image": "https://highlightstourism.com/wp-content/uploads/2019/09/bandipur-by-visit-nepal-2020-1123x698.jpg"
+            }
+          }
+        },
+
+       "Nagarkot": {
+          "name": "Nagarkot",
+          "image": "https://media.sublimetrails.com/uploads/img/untitled-design--40-.webp",
+          "elevation": "2,195m",
+          "bestTime": ["October-December", "March-May"],
+          "activities": ["Sunrise Viewing", "Hiking", "Mountain Biking"],
+          "description": {
+            "History": {
+              "title": "Historical Watchtower",
+              "description": "Nagarkot was originally used as a strategic watchtower by the ancient kings of the Kathmandu Valley to monitor external threats.",
+              "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/00/48/3e/hotel-country-villa.jpg?w=600&h=400&s=1"
+            },
+            "Present": {
+              "title": "Scenic Retreat",
+              "description": "Nagarkot is renowned for its breathtaking sunrise views over the Himalayas, including Mount Everest on clear days.",
+              "end": "The town has developed into a popular tourist destination with resorts and hiking trails. It offers a peaceful retreat from the hustle and bustle of Kathmandu.",
+              "image": "https://d2lwt6tidfiof0.cloudfront.net/images/background/bg-nepal.jpg"
+            }
+          }
+        },
+
+        "Upper Mustang":{
+          "name": "Upper Mustang",
+          "image": "https://www.nepalhightrek.com/wp-content/uploads/2023/10/upper-mustang.jpg",
+          "elevation": "2,500m-4,000m",
+          "bestTime": ["May-October"],
+          "activities": ["Trekking", "Cultural Tours", "Cave Exploration"],
+          "description": {
+            "History": {
+              "title": "Forbidden Kingdom",
+              "description": "Upper Mustang was a restricted kingdom until 1992, preserving its unique Tibetan Buddhist culture and traditions.",
+              "image": "https://fis-api.luxuryholidaynepal.com/media/attachments/Upper%20Mustang%20cave%20edited.jpg"
+            },
+            "Present": {
+              "title": "Cultural Treasure",
+              "description": "Upper Mustang offers a rare glimpse into a preserved Tibetan Buddhist culture, with ancient monasteries and cave dwellings.",
+              "end": "The region is known for its stark landscapes, ancient walled city of Lo Manthang, and vibrant festivals. Tourism is carefully managed to protect its fragile ecosystem and cultural heritage.",
+              "image": "https://www.nepalhimalayastrekking.com/public/uploads/Facts%20about%20the%20Upper%20Mustang%20Trek.jpg"
+            }
+          }
+        },
+
+       "Rara Lake": {
+          "name": "Rara Lake",
+          "image": "https://www.globaladventuretrekking.com/uploads/img/Rara-Lake.jpg",
+          "elevation": "2,990m",
+          "bestTime": ["September-November", "March-May"],
+          "activities": ["Trekking", "Boating", "Bird Watching"],
+          "description": {
+            "History": {
+              "title": "Hidden Gem",
+              "description": "Rara Lake, located in the remote Karnali Province, has been a hidden gem for centuries, known only to local communities.",
+              "image": "https://raraecoresort.com/storage/rara-tour-package-from-kathmandu-by-flight.jpg"
+            },
+            "Present": {
+              "title": "Pristine Wilderness",
+              "description": "Rara Lake is Nepal's largest lake, surrounded by pristine wilderness and offering a tranquil escape from modern life.",
+              "end": "The lake is part of Rara National Park, which protects diverse flora and fauna. Efforts are being made to promote eco-tourism while preserving the area's natural beauty.",
+              "image": "https://visiteverestnepal.com/wp-content/uploads/2022/10/Rara-The-Real-Heaven-in-Nepal--768x405.png"
+            }
+          }
+        },
+
+       "Kathmandu Durbar Square": {
+          "name": "Kathmandu Durbar Square",
+          "image": "https://www.nepaltraveladventure.com/blog/wp-content/uploads/2020/02/ktm.jpg",
+          "elevation": "1,400m",
+          "bestTime": ["October-December", "February-April"],
+          "activities": ["Cultural Tours", "Photography", "Festival Participation"],
+          "description": {
+            "History": {
+              "title": "Royal Legacy",
+              "description": "Kathmandu Durbar Square was the royal palace of the Malla and Shah kings. The square is adorned with temples, courtyards, and palaces that showcase Newari architecture.",
+              "image": "https://www.windhorsetours.com/wa/images/wh_gallery/gallery/nepal/kathmandu_valley/kathmandudurbarsquare/large/img_0794.jpg"
+            },
+            "Present": {
+              "title": "Living Museum",
+              "description": "Kathmandu Durbar Square is a UNESCO World Heritage Site and a vibrant center of cultural and religious activities.",
+              "end": "The square is home to the Kumari Ghar (House of the Living Goddess) and hosts numerous festivals throughout the year. Restoration efforts continue to preserve its historical significance.",
+              "image": "https://www.holidaystonepal.in/media/files/Blogs/MuseumsInKathmandu/hanuman-dhoka-durbar-museum.png"
+            }
+          }
+        },
+
+       "Patan Durbar Square": {
+          "name": "Patan Durbar Square",
+          "image": "https://media.sublimetrails.com/uploads/img/untitled-design--50-.webp",
+          "elevation": "1,300m",
+          "bestTime": ["October-December", "February-April"],
+          "activities": ["Cultural Tours", "Photography", "Art Exploration"],
+          "description": {
+            "History": {
+              "title": "Architectural Marvel",
+              "description": "Patan Durbar Square is renowned for its exquisite Newari architecture, including the Krishna Mandir and the Golden Temple.",
+              "image": "https://www.encountersnepal.com/assets/images/tour-in-nepal/day-tour-in-nepal/patan.jpg"
+            },
+            "Present": {
+              "title": "Cultural Hub",
+              "description": "Patan Durbar Square is a UNESCO World Heritage Site and a center for traditional arts and crafts.",
+              "end": "The square is home to numerous artisans and workshops, preserving ancient techniques in metalwork, woodcarving, and stone sculpture. It remains a vibrant part of Patan's cultural life.",
+              "image": "https://media.nepaltrekkingplanner.com/uploads/img/patan-durbar-square.webp"
+            }
+          }
+        },
+
+       "Bhaktapur Durbar Square":  {
+          "name": "Bhaktapur Durbar Square",
+          "image": "https://boundlessadventure.com/wp-content/uploads/2023/06/Bhaktapur-Durbar-Square-Tour.jpg",
+          "elevation": "1,401m",
+          "bestTime": ["October-December", "February-April"],
+          "activities": ["Cultural Tours", "Photography", "Festival Participation"],
+          "description": {
+            "History": {
+              "title": "Medieval Splendor",
+              "description": "Bhaktapur Durbar Square was the royal palace of the Malla kings of Bhaktapur. The square is famous for its 55-Window Palace and Vatsala Temple.",
+              "image": "https://veronikasadventure.com/wp-content/uploads/2024/01/city-tour-of-bhaktapur-and-patan-durbar-square.jpg"
+            },
+            "Present": {
+              "title": "Preserved Heritage",
+              "description": "Bhaktapur Durbar Square is a UNESCO World Heritage Site and one of the best-preserved medieval cities in Nepal.",
+              "end": "The square is a living museum of Newari culture, with ongoing restoration efforts to maintain its historical buildings and traditions. It is a popular destination for cultural tourism.",
+              "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/ef/5c/54/durbar-square-bhaktapur.jpg?w=900&h=-1&s=1"
+            }
+          }
+        },
+
+      "Swayambhunath Stupa":  {
+          "name": "Swayambhunath Stupa",
+          "image": "https://www.basecamptrekking.com/wp-content/uploads/2012/08/Swayambhunath-travel-guide.jpg",
+          "elevation": "1,400m",
+          "bestTime": ["October-December", "February-April"],
+          "activities": ["Religious Tours", "Meditation", "Photography"],
+          "description": {
+            "History": {
+              "title": "Ancient Stupa",
+              "description": "Swayambhunath Stupa, also known as the Monkey Temple, is one of the oldest religious sites in Nepal, dating back to the 5th century.",
+              "image": "https://sacredsites.com/images/asia/nepal/sacred-hill-600.jpg"
+            },
+            "Present": {
+              "title": "Spiritual Center",
+              "description": "Swayambhunath Stupa is a UNESCO World Heritage Site and a major pilgrimage site for Buddhists and Hindus.",
+              "end": "The stupa is surrounded by smaller temples, monasteries, and a large population of monkeys. It offers panoramic views of Kathmandu Valley and remains a center for spiritual practice.",
+              "image": "https://admin.ntb.gov.np/image-cache/Swayambhu_ss_lt_(7)-1624857899.jpg?p=main&s=1c71946ec5b859f3c9964f83fad254b7"
+            }
+          }
+        },
+        
+      "Boudhanath Stupa":  {
+          "name": "Boudhanath Stupa",
+          "image": "https://images.squarespace-cdn.com/content/v1/5b735348266c075124b0ffb3/1568373828844-AP1ZPOIWBGGFJWMIZ55N/Boudha_Stupa_181030-9.jpg",
+          "elevation": "1,360m",
+          "bestTime": ["October-December", "February-April"],
+          "activities": ["Religious Tours", "Meditation", "Photography"],
+          "description": {
+            "History": {
+              "title": "Ancient Pilgrimage Site",
+              "description": "Boudhanath Stupa is one of the largest stupas in the world and a major pilgrimage site for Tibetan Buddhists. It dates back to the 14th century.",
+              "image": "https://thestupa.com/wp-content/uploads/2020/05/49442966_360094444575570_4299227083218878464_n.jpg"
+            },
+            "Present": {
+              "title": "Tibetan Cultural Hub",
+              "description": "Boudhanath Stupa is a UNESCO World Heritage Site and a center for Tibetan Buddhism in Nepal.",
+              "end": "The stupa is surrounded by monasteries, shops, and restaurants, creating a vibrant community of Tibetan exiles. It remains a place of worship and cultural exchange.",
+              "image": "https://media.istockphoto.com/id/1481290163/photo/boudha-stupa-aka-boudhanath.jpg?s=612x612&w=0&k=20&c=RxKut_KOk8cQe9mvaS0c-TW0wSphwa1DPvrymEHnWUQ="
+            }
+          }
+        },
+
+      "Pashupatinath Temple":  {
+          "name": "Pashupatinath Temple",
+          "image": "https://viacation.com/wp-content/uploads/2024/12/427197-1.jpg",
+          "elevation": "1,400m",
+          "bestTime": ["October-December", "February-April"],
+          "activities": ["Religious Tours", "Photography", "Festival Participation"],
+          "description": {
+            "History": {
+              "title": "Sacred Hindu Temple",
+              "description": "Pashupatinath Temple is one of the most sacred Hindu temples dedicated to Lord Shiva. It dates back to the 5th century.",
+              "image": "https://images.squarespace-cdn.com/content/v1/53ecd1bde4b0a6f9524254f8/1574432075603-AD3TGCUCZMBRTRICUPVV/pashupatinath-unesco-world-heritage.jpg?format=2500w"
+            },
+            "Present": {
+              "title": "Living Temple",
+              "description": "Pashupatinath Temple is a UNESCO World Heritage Site and a major pilgrimage site for Hindus.",
+              "end": "The temple complex includes numerous shrines, ashrams, and cremation ghats along the Bagmati River. It is a center for religious and cultural activities, especially during festivals like Maha Shivaratri.",
+              "image": "https://ucarecdn.com/70bfd7e1-e504-40e0-9484-930ab046cb9c/-/crop/1920x1007/0,72/-/resize/1200x630/-/resize/x300/"
+            }
+          }
+        },
+
+      "Changu Narayan Temple":  {
+          "name": "Changu Narayan Temple",
+          "image": "https://www.bhaktapur.com/wp-content/uploads/2020/03/changu_narayan_temple.jpg",
+          "elevation": "1,541m",
+          "bestTime": ["October-December", "February-April"],
+          "activities": ["Religious Tours", "Photography", "Cultural Exploration"],
+          "description": {
+            "History": {
+              "title": "Oldest Vishnu Temple",
+              "description": "Changu Narayan Temple is the oldest Vishnu temple in Nepal, with inscriptions dating back to the Licchavi period (4th-9th century).",
+              "image": "https://www.bhaktapur.com/wp-content/uploads/2020/03/narshima-changu-1-1.jpg"
+            },
+            "Present": {
+              "title": "Architectural Gem",
+              "description": "Changu Narayan Temple is a UNESCO World Heritage Site and a fine example of Nepalese temple architecture.",
+              "end": "The temple is surrounded by ancient stone sculptures and carvings. It remains an active place of worship and a popular destination for cultural tourism.",
+              "image": "https://live.staticflickr.com/3921/14821168735_efd29100ed_b.jpg"
+            }
+          }
+        },
+       
+       "Chitwan National Park": {
+          "name": "Chitwan National Park",
+          "image": "./src/assets/images/heritage/chitwan.jpg",
+          "elevation": "150m",
+          "bestTime": ["October-March"],
+          "activities": ["Jungle Safari", "Bird Watching", "Elephant Riding", "Canoeing"],
+          "description": {
+            "History": {
+              "title": "First National Park",
+              "description": "Chitwan National Park was established in 1973 as Nepal's first national park. It was declared a UNESCO World Heritage Site in 1984.",
+              "image": "../images/historical_chitwan.jpg"
+            },
+            "Present": {
+              "title": "Wildlife Sanctuary",
+              "description": "Chitwan National Park is renowned for its rich biodiversity, including the one-horned rhinoceros and Bengal tiger.",
+              "end": "The park offers various eco-tourism activities, including jungle safaris and bird watching. Community-based tourism initiatives have helped local communities benefit from conservation efforts.",
+              "image": "../images/chitwan_present.jpg"
+            }
+          }
+        },
+
+       "Sagarmatha National Park": {
+          "name": "Sagarmatha National Park",
+          "image": "./src/assets/images/heritage/sagarmatha.jpg",
+          "elevation": "2,845m-8,848m",
+          "bestTime": ["March-May", "September-November"],
+          "activities": ["Trekking", "Mountain Climbing", "Cultural Tours"],
+          "description": {
+            "History": {
+              "title": "Himalayan Conservation",
+              "description": "Sagarmatha National Park was established in 1976 to protect the unique ecosystem of the Everest region. It was declared a UNESCO World Heritage Site in 1979.",
+              "image": "../images/historical_sagarmatha.jpg"
+            },
+            "Present": {
+              "title": "Everest Ecosystem",
+              "description": "Sagarmatha National Park is home to Mount Everest and the unique Sherpa culture. It is a premier destination for trekkers and mountaineers.",
+              "end": "The park protects diverse flora and fauna, including the snow leopard and red panda. Sustainable tourism initiatives focus on preserving the natural and cultural heritage of the region.",
+              "image": "../images/sagarmatha_present.jpg"
+            }
+          }
+        },
+      
+        "Phewa Lake": {
+          "name": "Phewa Lake",
+          "image": "./src/assets/images/lakes/phewa.jpg",
+          "elevation": "742m",
+          "bestTime": ["September-November", "March-May"],
+          "activities": ["Boating", "Photography", "Temple Visits"],
+          "description": {
+            "History": {
+              "title": "Natural Wonder",
+              "description": "Phewa Lake is the second largest lake in Nepal and a major tourist attraction in Pokhara. It was formed by the damming of the Seti River.",
+              "image": "../images/historical_phewa.jpg"
+            },
+            "Present": {
+              "title": "Tourist Hotspot",
+              "description": "Phewa Lake is known for its serene beauty and the iconic Tal Barahi Temple located on an island in the lake.",
+              "end": "The lake offers boating opportunities and stunning reflections of the Annapurna range. It is a popular destination for both locals and tourists.",
+              "image": "../images/phewa_present.jpg"
+            }
+          }
+        },
+
+        "Begnas Lake":{
+          "name": "Begnas Lake",
+          "image": "./src/assets/images/lakes/begnas.jpg",
+          "elevation": "650m",
+          "bestTime": ["September-November", "March-May"],
+          "activities": ["Boating", "Fishing", "Bird Watching"],
+          "description": {
+            "History": {
+              "title": "Tranquil Waters",
+              "description": "Begnas Lake is a lesser-known but equally beautiful lake in Pokhara, offering a peaceful retreat from the more crowded Phewa Lake.",
+              "image": "../images/historical_begnas.jpg"
+            },
+            "Present": {
+              "title": "Serene Escape",
+              "description": "Begnas Lake is popular for fishing and boating, with stunning views of the surrounding hills and mountains.",
+              "end": "The lake is surrounded by terraced fields and small villages, offering a glimpse into rural life in Nepal. It is a great spot for relaxation and nature walks.",
+              "image": "../images/begnas_present.jpg"
+            }
+          }
+        },
+
+        "Rupa Lake": {
+          "name": "Rupa Lake",
+          "image": "./src/assets/images/lakes/rupa.jpg",
+          "elevation": "600m",
+          "bestTime": ["September-November", "March-May"],
+          "activities": ["Boating", "Bird Watching", "Photography"],
+          "description": {
+            "History": {
+              "title": "Hidden Gem",
+              "description": "Rupa Lake is the third largest lake in Pokhara and is known for its rich biodiversity and tranquil environment.",
+              "image": "../images/historical_rupa.jpg"
+            },
+            "Present": {
+              "title": "Nature's Retreat",
+              "description": "Rupa Lake is a haven for bird watchers and nature lovers, offering a peaceful escape from the hustle and bustle of city life.",
+              "end": "The lake is surrounded by lush forests and small villages, making it an ideal spot for boating and photography. Conservation efforts focus on preserving its natural beauty.",
+              "image": "../images/rupa_present.jpg"
+            }
+          }
+        },
+
+       "Dipang Lake": {
+          "name": "Dipang Lake",
+          "image": "./src/assets/images/lakes/dipang.jpg",
+          "elevation": "600m",
+          "bestTime": ["September-November", "March-May"],
+          "activities": ["Bird Watching", "Photography", "Nature Walks"],
+          "description": {
+            "History": {
+              "title": "Wetland Habitat",
+              "description": "Dipang Lake is an important wetland habitat near Lekhnath, supporting a variety of migratory birds and aquatic life.",
+              "image": "../images/historical_dipang.jpg"
+            },
+            "Present": {
+              "title": "Birdwatcher's Paradise",
+              "description": "Dipang Lake is a popular destination for bird watchers and nature enthusiasts, offering a chance to see rare bird species.",
+              "end": "The lake is surrounded by lush vegetation and offers a peaceful environment for nature walks and photography. Conservation efforts focus on protecting its unique ecosystem.",
+              "image": "../images/dipang_present.jpg"
+            }
+          }
+        },
+
+       "Khaste Lake": {
+          "name": "Khaste Lake",
+          "image": "./src/assets/images/lakes/khaste.jpg",
+          "elevation": "600m",
+          "bestTime": ["September-November", "March-May"],
+          "activities": ["Photography", "Nature Walks", "Bird Watching"],
+          "description": {
+            "History": {
+              "title": "Agricultural Lake",
+              "description": "Khaste Lake is a small lake in Pokhara valley, surrounded by agricultural fields and used for irrigation purposes.",
+              "image": "../images/historical_khaste.jpg"
+            },
+            "Present": {
+              "title": "Rural Charm",
+              "description": "Khaste Lake offers a glimpse into rural life in Nepal, with its serene environment and agricultural activities.",
+              "end": "The lake is a peaceful spot for photography and nature walks, with stunning views of the surrounding hills and fields.",
+              "image": "../images/khaste_present.jpg"
+            }
+          }
+        },
+        
+        "Gokyo Lakes":{
+          "name": "Gokyo Lakes",
+          "image": "./src/assets/images/lakes/gokyo.jpg",
+          "elevation": "4,700m-5,000m",
+          "bestTime": ["March-May", "September-November"],
+          "activities": ["Trekking", "Photography", "Mountain Climbing"],
+          "description": {
+            "History": {
+              "title": "High-Altitude Lakes",
+              "description": "The Gokyo Lakes are a series of high-altitude lakes in the Everest region, formed by glacial activity.",
+              "image": "../images/historical_gokyo.jpg"
+            },
+            "Present": {
+              "title": "Trekker's Delight",
+              "description": "The Gokyo Lakes are a popular destination for trekkers, offering stunning views of the Himalayas and a chance to experience high-altitude ecosystems.",
+              "end": "The lakes are surrounded by snow-capped peaks and offer a unique trekking experience. Conservation efforts focus on preserving the fragile alpine environment.",
+              "image": "../images/gokyo_present.jpg"
+            }
+          }
+        },
+
+        "Mai Pokhari Lake": {
+          "name": "Mai Pokhari Lake",
+          "image": "./src/assets/images/lakes/mai-pokhari.jpg",
+          "elevation": "2,100m",
+          "bestTime": ["September-November", "March-May"],
+          "activities": ["Religious Tours", "Photography", "Nature Walks"],
+          "description": {
+            "History": {
+              "title": "Sacred Lake",
+              "description": "Mai Pokhari Lake is a Ramsar wetland site and a sacred lake for both Hindus and Buddhists, known for its nine corners.",
+              "image": "../images/historical_mai_pokhari.jpg"
+            },
+            "Present": {
+              "title": "Spiritual Retreat",
+              "description": "Mai Pokhari Lake is a popular destination for religious pilgrims and nature lovers, offering a peaceful environment for meditation and reflection.",
+              "end": "The lake is surrounded by lush forests and offers stunning views of the surrounding hills. Conservation efforts focus on preserving its unique ecosystem.",
+              "image": "../images/mai_pokhari_present.jpg"
+            }
+          }
+        },
+
+       "Gosaikunda Lake": {
+          "name": "Gosaikunda Lake",
+          "image": "./src/assets/images/lakes/gosaikunda.jpg",
+          "elevation": "4,380m",
+          "bestTime": ["March-May", "September-November"],
+          "activities": ["Trekking", "Pilgrimage", "Photography"],
+          "description": {
+            "History": {
+              "title": "Sacred Alpine Lake",
+              "description": "Gosaikunda Lake is a sacred alpine lake for Hindus, believed to have been created by Lord Shiva. It is a major pilgrimage site during the Janai Purnima festival.",
+              "image": "../images/historical_gosaikunda.jpg"
+            },
+            "Present": {
+              "title": "Pilgrimage Destination",
+              "description": "Gosaikunda Lake is a popular destination for trekkers and pilgrims, offering stunning views of the Himalayas and a chance to experience high-altitude ecosystems.",
+              "end": "The lake is surrounded by snow-capped peaks and offers a unique trekking experience. Conservation efforts focus on preserving the fragile alpine environment.",
+              "image": "../images/gosaikunda_present.jpg"
+            }
+          }
+        },
+
+      "Khaptad Daha":  {
+          "name": "Khaptad Daha",
+          "image": "./src/assets/images/lakes/khaptad.jpg",
+          "elevation": "3,000m",
+          "bestTime": ["March-May", "September-November"],
+          "activities": ["Trekking", "Photography", "Nature Walks"],
+          "description": {
+            "History": {
+              "title": "Group of Lakes",
+              "description": "Khaptad Daha is a group of shallow lakes located in Khaptad National Park, known for their serene beauty and rich biodiversity.",
+              "image": "../images/historical_khaptad.jpg"
+            },
+            "Present": {
+              "title": "Nature's Haven",
+              "description": "Khaptad Daha is a popular destination for trekkers and nature lovers, offering a peaceful escape from modern life.",
+              "end": "The lakes are surrounded by lush forests and offer stunning views of the surrounding hills. Conservation efforts focus on preserving the unique ecosystem of Khaptad National Park.",
+              "image": "../images/khaptad_present.jpg"
+            }
+          }
+        },
+
+      "Mount Everest":  {
+          "name": "Mount Everest",
+          "image": "./src/assets/images/mountains/everest.jpg",
+          "elevation": "8,848.86m",
+          "bestTime": ["March-May", "September-November"],
+          "activities": ["Mountain Climbing", "Trekking", "Helicopter Tours"],
+          "description": {
+            "History": {
+              "title": "World's Highest Peak",
+              "description": "Mount Everest, known as Sagarmatha in Nepali, is the highest peak in the world. It was first summited by Sir Edmund Hillary and Tenzing Norgay Sherpa in 1953.",
+              "image": "../images/historical_everest.jpg"
+            },
+            "Present": {
+              "title": "Mountaineering Icon",
+              "description": "Mount Everest is a symbol of human achievement and a major destination for climbers and trekkers from around the world.",
+              "end": "The Everest region is protected by Sagarmatha National Park, a UNESCO World Heritage Site. Conservation efforts focus on preserving the unique ecosystem and Sherpa culture.",
+              "image": "../images/everest_present.jpg"
+            }
+          }
+        },
+
+      "Annapurna Range":  {
+          "name": "Annapurna Range",
+          "image": "./src/assets/images/mountains/annapurna.jpg",
+          "elevation": "8,091m (Annapurna I)",
+          "bestTime": ["March-May", "September-November"],
+          "activities": ["Trekking", "Mountain Climbing", "Photography"],
+          "description": {
+            "History": {
+              "title": "Sacred Peaks",
+              "description": "The Annapurna Range is named after the Hindu goddess of nourishment, Annapurna. It is one of the most popular trekking destinations in the world.",
+              "image": "../images/historical_annapurna.jpg"
+            },
+            "Present": {
+              "title": "Trekker's Paradise",
+              "description": "The Annapurna Range offers some of the most stunning trekking routes in the Himalayas, with views of towering peaks and diverse landscapes.",
+              "end": "The region is home to diverse flora and fauna, including the snow leopard and red panda. Conservation efforts focus on sustainable tourism and preserving the natural beauty of the region.",
+              "image": "../images/annapurna_present.jpg"
+            }
+          }
+        },
+
+        "Dhaulagiri":{
+          "name": "Dhaulagiri",
+          "image": "./src/assets/images/mountains/dhaulagiri.jpg",
+          "elevation": "8,167m",
+          "bestTime": ["March-May", "September-November"],
+          "activities": ["Mountain Climbing", "Trekking", "Photography"],
+          "description": {
+            "History": {
+              "title": "White Mountain",
+              "description": "Dhaulagiri, meaning 'White Mountain' in Sanskrit, is the seventh highest peak in the world. It was first summited in 1960 by a Swiss-Austrian expedition.",
+              "image": "../images/historical_dhaulagiri.jpg"
+            },
+            "Present": {
+              "title": "Challenging Climb",
+              "description": "Dhaulagiri is known for its challenging climbs and stunning views of the surrounding Himalayas.",
+              "end": "The mountain is part of the Dhaulagiri Himal range and offers a unique trekking experience. Conservation efforts focus on preserving the fragile alpine environment.",
+              "image": "../images/dhaulagiri_present.jpg"
+            }
+          }
+        },
+
+       "Manaslu": {
+          "name": "Manaslu",
+          "image": "./src/assets/images/mountains/manaslu.jpg",
+          "elevation": "8,163m",
+          "bestTime": ["March-May", "September-November"],
+          "activities": ["Mountain Climbing", "Trekking", "Photography"],
+          "description": {
+            "History": {
+              "title": "Mountain of the Spirit",
+              "description": "Manaslu, meaning 'Mountain of the Spirit' in Sanskrit, is the eighth highest peak in the world. It was first summited in 1956 by a Japanese expedition.",
+              "image": "../images/historical_manaslu.jpg"
+            },
+            "Present": {
+              "title": "Trekking Gem",
+              "description": "Manaslu is a popular destination for trekkers, offering a less crowded alternative to the Annapurna and Everest regions.",
+              "end": "The Manaslu Circuit Trek is known for its stunning views and cultural experiences. Conservation efforts focus on sustainable tourism and preserving the unique ecosystem.",
+              "image": "../images/manaslu_present.jpg"
+            }
+          }
+        },
+
+      "Machhapuchhre":  {
+          "name": "Machhapuchhre",
+          "image": "./src/assets/images/mountains/machhapuchhre.jpg",
+          "elevation": "6,993m",
+          "bestTime": ["March-May", "September-November"],
+          "activities": ["Photography", "Trekking", "Cultural Tours"],
+          "description": {
+            "History": {
+              "title": "Sacred Fishtail",
+              "description": "Machhapuchhre, meaning 'Fishtail' in Nepali, is a sacred peak that has never been summited due to its religious significance.",
+              "image": "../images/historical_machhapuchhre.jpg"
+            },
+            "Present": {
+              "title": "Iconic Peak",
+              "description": "Machhapuchhre is one of the most iconic peaks in Nepal, known for its distinctive fishtail shape and stunning views.",
+              "end": "The peak is a popular destination for trekkers and photographers, offering breathtaking views of the Annapurna Range. Conservation efforts focus on preserving its sacred status.",
+              "image": "../images/machhapuchhre_present.jpg"
+            }
+          }
+        },
+        
+      "Langtang Lirung":  {
+          "name": "Langtang Lirung",
+          "image": "./src/assets/images/mountains/langtang.jpg",
+          "elevation": "7,227m",
+          "bestTime": ["March-May", "September-November"],
+          "activities": ["Trekking", "Mountain Climbing", "Photography"],
+          "description": {
+            "History": {
+              "title": "Dominant Peak",
+              "description": "Langtang Lirung is the dominant peak in the Langtang region, near the Tibetan border. It was first summited in 1978 by a Japanese expedition.",
+              "image": "../images/historical_langtang.jpg"
+            },
+            "Present": {
+              "title": "Trekking Destination",
+              "description": "Langtang Lirung is a popular destination for trekkers, offering stunning views of the Himalayas and a chance to experience Tibetan culture.",
+              "end": "The Langtang region is known for its diverse flora and fauna, including the red panda. Conservation efforts focus on sustainable tourism and preserving the unique ecosystem.",
+              "image": "../images/langtang_present.jpg"
+            }
+          }
+        },
+
+        "Kanchenjunga": {
+          "name": "Kanchenjunga",
+          "image": "./src/assets/images/mountains/kanchenjunga.jpg",
+          "elevation": "8,586m",
+          "bestTime": ["March-May", "September-November"],
+          "activities": ["Mountain Climbing", "Trekking", "Photography"],
+          "description": {
+            "History": {
+              "title": "Third Highest Peak",
+              "description": "Kanchenjunga is the third highest peak in the world and the second highest in Nepal. It was first summited in 1955 by a British expedition.",
+              "image": "../images/historical_kanchenjunga.jpg"
+            },
+            "Present": {
+              "title": "Remote Beauty",
+              "description": "Kanchenjunga is known for its remote location and stunning beauty, offering a challenging climb for experienced mountaineers.",
+              "end": "The Kanchenjunga region is protected by Kanchenjunga Conservation Area, which focuses on preserving the unique ecosystem and local culture.",
+              "image": "../images/kanchenjunga_present.jpg"
+            }
+          }
+        },
+
+      "Lhotse":  {
+          "name": "Lhotse",
+          "image": "./src/assets/images/mountains/lhotse.jpg",
+          "elevation": "8,516m",
+          "bestTime": ["March-May", "September-November"],
+          "activities": ["Mountain Climbing", "Trekking", "Photography"],
+          "description": {
+            "History": {
+              "title": "Fourth Highest Peak",
+              "description": "Lhotse is the fourth highest peak in the world and is connected to Everest via the South Col. It was first summited in 1956 by a Swiss expedition.",
+              "image": "../images/historical_lhotse.jpg"
+            },
+            "Present": {
+              "title": "Everest's Neighbor",
+              "description": "Lhotse is often climbed as part of an Everest expedition, offering stunning views of the surrounding Himalayas.",
+              "end": "The mountain is part of the Everest massif and is protected by Sagarmatha National Park. Conservation efforts focus on preserving the unique ecosystem and Sherpa culture.",
+              "image": "../images/lhotse_present.jpg"
+            }
+          }
+        },
+
+      "Makalu":  {
+          "name": "Makalu",
+          "image": "./src/assets/images/mountains/makalu.jpg",
+          "elevation": "8,485m",
+          "bestTime": ["March-May", "September-November"],
+          "activities": ["Mountain Climbing", "Trekking", "Photography"],
+          "description": {
+            "History": {
+              "title": "Pyramid Peak",
+              "description": "Makalu is the fifth highest peak in the world and is known for its distinctive pyramid shape. It was first summited in 1955 by a French expedition.",
+              "image": "../images/historical_makalu.jpg"
+            },
+            "Present": {
+              "title": "Challenging Climb",
+              "description": "Makalu is known for its challenging climbs and stunning views of the surrounding Himalayas.",
+              "end": "The mountain is part of the Mahalangur Himal range and offers a unique trekking experience. Conservation efforts focus on preserving the fragile alpine environment.",
+              "image": "../images/makalu_present.jpg"
+            }
+          }
+        },
+
+      "Cho Oyu":  {
+          "name": "Cho Oyu",
+          "image": "./src/assets/images/mountains/cho-oyu.jpg",
+          "elevation": "8,188m",
+          "bestTime": ["March-May", "September-November"],
+          "activities": ["Mountain Climbing", "Trekking", "Photography"],
+          "description": {
+            "History": {
+              "title": "Turquoise Goddess",
+              "description": "Cho Oyu, meaning 'Turquoise Goddess' in Tibetan, is the sixth highest peak in the world. It was first summited in 1954 by an Austrian expedition.",
+              "image": "../images/historical_cho_oyu.jpg"
+            },
+            "Present": {
+              "title": "Easiest 8,000er",
+              "description": "Cho Oyu is considered the easiest of the 8,000-meter peaks to climb, making it a popular destination for mountaineers.",
+              "end": "The mountain is part of the Mahalangur Himal range and offers stunning views of the surrounding Himalayas. Conservation efforts focus on preserving the fragile alpine environment.",
+              "image": "../images/cho_oyu_present.jpg"
+            }
+          }
+        }
+    }

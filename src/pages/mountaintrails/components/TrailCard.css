@@ -1,0 +1,140 @@
+/* TrailCard.css */
+
+/* 1) Theme variables (if not already in a global CSS) */
+:root {
+    --primary-color: #1e88e5;
+    --primary-hover: #1565c0;
+    --success-color: #43a047;
+    --success-hover: #2e7d32;
+    --danger-color: #e53935;
+    --danger-hover: #c62828;
+    --info-color: #29b6f6;
+    --text-color: #333;
+    --bg-color: #fff;
+    --border-radius: 0.5rem;
+    --font-family: "Inter", sans-serif;
+    --transition-speed: 0.2s;
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --card-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 2) Card container */
+  .trail-card {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    background: var(--bg-color);
+    box-shadow: var(--card-shadow);
+    transition: transform var(--transition-speed) ease, box-shadow var(--transition-speed) ease;
+  }
+  
+  .trail-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+  
+  /* 3) Image */
+  .trail-card .card-img-top {
+    object-fit: cover;
+    height: 180px;
+    transition: transform var(--transition-speed) ease;
+  }
+  
+  .trail-card:hover .card-img-top {
+    transform: scale(1.05);
+  }
+  
+  /* 4) Body & typography */
+  .trail-card .card-body {
+    display: flex;
+    flex-direction: column;
+    padding: var(--spacing-md);
+    font-family: var(--font-family);
+    color: var(--text-color);
+  }
+  
+  .trail-card .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: var(--spacing-xs);
+  }
+  
+  .trail-card .card-text {
+    flex-grow: 1;
+    margin-bottom: var(--spacing-md);
+    line-height: 1.4;
+  }
+  
+  /* 5) Badge */
+  .trail-card .badge {
+    font-size: 0.75rem;
+    text-transform: capitalize;
+    background-color: var(--info-color) !important;
+    color: #fff !important;
+    border-radius: var(--border-radius);
+    padding: var(--spacing-xs) var(--spacing-sm);
+    transition: background-color var(--transition-speed);
+  }
+  
+  .trail-card .badge:hover {
+    background-color: var(--primary-hover) !important;
+  }
+  
+  /* 6) Price & duration row */
+  .trail-card .d-flex.justify-content-between {
+    margin-bottom: var(--spacing-sm);
+    font-weight: 500;
+  }
+  
+  .trail-card .h5 {
+    margin: 0;
+    color: var(--primary-color);
+  }
+  
+  /* 7) Buttons */
+  .trail-card .btn {
+    font-size: 0.9rem;
+    border-radius: var(--border-radius);
+    padding: var(--spacing-sm) var(--spacing-md);
+    transition: background-color var(--transition-speed), transform var(--transition-speed);
+  }
+  
+  .trail-card .btn-success {
+    background-color: var(--success-color);
+    border-color: var(--success-color);
+  }
+  
+  .trail-card .btn-success:hover,
+  .trail-card .btn-success:focus {
+    background-color: var(--success-hover);
+    border-color: var(--success-hover);
+    transform: translateY(-1px);
+  }
+  
+  .trail-card .btn-danger {
+    background-color: var(--danger-color);
+    border-color: var(--danger-color);
+  }
+  
+  .trail-card .btn-danger:hover,
+  .trail-card .btn-danger:focus {
+    background-color: var(--danger-hover);
+    border-color: var(--danger-hover);
+    transform: translateY(-1px);
+  }
+  
+  /* 8) Responsive adjustments */
+  @media (max-width: 576px) {
+    .trail-card .card-img-top {
+      height: 140px;
+    }
+    .trail-card .card-title {
+      font-size: 1.1rem;
+    }
+  }
+  

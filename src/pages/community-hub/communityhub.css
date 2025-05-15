@@ -1,0 +1,301 @@
+/* CommunityHub.css */
+/* 1. First imports */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap');
+
+/* 2. CSS Variables */
+:root {
+  --primary: #3182ce;
+  --primary-light: #63b3ed;
+  --primary-dark: #2c5282;
+  --success: #38a169;
+  --success-light: #68d391;
+  --danger: #e53e3e;
+  --danger-light: #fc8181;
+  --warning: #dd6b20;
+  --warning-light: #f6ad55;
+  --text: #2d3748;
+  --text-light: #4a5568;
+  --light-bg: #f7fafc;
+  --border: #e2e8f0;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  --transition: all 0.3s ease;
+  --border-radius: 8px;
+  --card-radius: 12px;
+}
+
+/* 3. Main Container */
+.community-hub-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  color: var(--text);
+}
+
+/* 4. Community Header */
+.community-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+              url('https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 2rem;
+  margin-bottom: 2rem;
+  border-radius: 0 0 var(--card-radius) var(--card-radius);
+  color: white;
+  text-align: center;
+}
+
+.community-header-content {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.community-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.community-subtitle {
+  font-size: 1.1rem;
+  opacity: 0.9;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* 5. Buttons */
+.create-post-button,
+.login-button,
+.create-first-post-button,
+.login-prompt-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  border: none;
+}
+
+.create-post-button {
+  background-color: var(--success);
+  color: white;
+}
+
+.create-post-button:hover {
+  background-color: var(--success-light);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.login-button {
+  background-color: var(--primary);
+  color: white;
+}
+
+.login-button:hover {
+  background-color: var(--primary-light);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.create-first-post-button,
+.login-prompt-button {
+  margin-top: 1rem;
+}
+
+.create-first-post-button {
+  background-color: var(--success);
+  color: white;
+}
+
+.create-first-post-button:hover {
+  background-color: var(--success-light);
+}
+
+.login-prompt-button {
+  background-color: var(--primary);
+  color: white;
+}
+
+.login-prompt-button:hover {
+  background-color: var(--primary-light);
+}
+
+/* 6. Create Post Container */
+.create-post-container {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  padding: 0 1rem;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* 7. Community Content */
+.community-content {
+  padding: 0 1rem;
+}
+
+/* 8. Loading State */
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  color: var(--text-light);
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(49, 130, 206, 0.2);
+  border-top-color: var(--primary);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* 9. Error State */
+.error-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  text-align: center;
+  color: var(--danger);
+}
+
+.error-message svg {
+  margin-bottom: 1rem;
+}
+
+.retry-button {
+  background-color: var(--danger);
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: var(--border-radius);
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition);
+  margin-top: 1rem;
+}
+
+.retry-button:hover {
+  background-color: var(--danger-light);
+}
+
+/* 10. No Posts State */
+.no-posts-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  text-align: center;
+  color: var(--text-light);
+}
+
+.no-posts-message svg {
+  margin-bottom: 1rem;
+  color: var(--border);
+}
+
+.no-posts-message h3 {
+  color: var(--text);
+  margin-bottom: 0.5rem;
+}
+
+/* 11. Posts Container */
+.posts-container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1.5rem;
+}
+
+/* 12. Pagination */
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0;
+}
+
+.pagination-button {
+  padding: 0.5rem 1rem;
+  margin: 0 0.25rem;
+  border: 1px solid var(--border);
+  background-color: white;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.pagination-button:hover {
+  background-color: var(--light-bg);
+}
+
+.pagination-button.active {
+  background-color: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+.pagination-button.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* 13. Responsive Design */
+@media (max-width: 768px) {
+  .community-header {
+    padding: 3rem 1rem;
+  }
+  
+  .community-title {
+    font-size: 2rem;
+  }
+  
+  .community-subtitle {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .community-header {
+    padding: 2rem 1rem;
+  }
+  
+  .community-title {
+    font-size: 1.8rem;
+  }
+  
+  .create-post-button,
+  .login-button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* 14. Accessibility */
+button:focus-visible {
+  outline: 3px solid rgba(49, 130, 206, 0.5);
+  outline-offset: 2px;
+}

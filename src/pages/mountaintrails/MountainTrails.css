@@ -1,0 +1,83 @@
+/* MountainTrails.css */
+
+/* 1) Shared design tokens */
+:root {
+  --primary-color: #1e88e5;
+  --primary-hover: #1565c0;
+  --text-color: #333;
+  --bg-light: #f9f9f9;
+  --border-radius: 0.5rem;
+  --font-family: "Inter", sans-serif;
+  --transition-speed: 0.2s;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+}
+
+/* 2) Page wrapper */
+.mountain-trails {
+  background-color: var(--bg-light);
+  min-height: 100vh;
+  padding: var(--spacing-lg) var(--spacing-md);
+}
+
+/* 3) Header area */
+.mountain-trails .page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-lg);
+}
+
+.mountain-trails .page-header h1 {
+  font-family: var(--font-family);
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin: 0;
+}
+
+/* 4) “Add New Trail” button override */
+.mountain-trails .btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  transition: background-color var(--transition-speed);
+}
+
+.mountain-trails .btn-primary:hover,
+.mountain-trails .btn-primary:focus {
+  background-color: var(--primary-hover);
+  border-color: var(--primary-hover);
+}
+
+/* 5) Error alert tweaks */
+.mountain-trails .alert {
+  border-radius: var(--border-radius);
+  font-family: var(--font-family);
+  font-size: 0.95rem;
+}
+
+/* 6) Spinner container */
+.mountain-trails .spinner-container {
+  padding: var(--spacing-lg) 0;
+}
+
+/* 7) Trail cards fade‑in */
+.trail-card {
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeInUp 0.5s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 8) Responsive tweaks (optional) */
+@media (max-width: 576px) {
+  .mountain-trails {
+    padding: var(--spacing-md) var(--spacing-sm);
+  }
+}

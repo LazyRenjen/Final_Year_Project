@@ -1,0 +1,73 @@
+/* src/App.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+.app {
+  background-color: #e7e3e3;
+  justify-content: center;
+  align-content: center;
+  padding:5px 5px;
+  width: 209.3vh;
+}
+
+h3 {
+  color: black;
+  margin-left: 10rem;
+  padding-top: 10px;
+}
+
+.auth-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.swiper {
+  padding: 0.5rem;
+}
+
+.swiper-slide {
+  height: auto !important;
+  transition: transform 0.3s ease;
+}
+
+.swiper-slide:hover {
+  transform: translateY(-5px);
+}
+
+/* Add these styles */
+.header-profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-info button {
+  padding: 5px 10px;
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.admin-badge {
+  background: #dc3545;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  margin-right: 5px;
+}
+

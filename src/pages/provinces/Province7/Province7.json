@@ -1,0 +1,454 @@
+{
+    "places": [
+      {
+        "name": "Khaptad National Park",
+        "description": "Sacred mid-mountain park blending biodiversity and spiritual sites at 1,400m-3,300m altitude.",
+        "detail": "This 225 sq km protected area features grasslands, forests, and Himalayan views. Revered Hindu sage Khaptad Baba meditated here for 50 years, making it an important pilgrimage site with strict conservation rules.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Spiritual Legacy",
+                "text": "Khaptad Baba established his ashram here in the 1940s"
+              },
+              {
+                "subtitle": "Protected Status",
+                "text": "Declared national park in 1984 to preserve unique ecosystem"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Biodiversity",
+                "text": "Home to 266 bird species including impeyan pheasant (Danphe)"
+              },
+              {
+                "subtitle": "Religious Tourism",
+                "text": "Attracts pilgrims to Tribeni confluence and Khaptad Daha lake"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Khaptad Baba's Ashram",
+          "Spring wildflower meadows",
+          "Shiva Temple at Tribeni"
+        ],
+        "image": "https://ntb.gov.np/wp-content/uploads/2020/07/Khaptad-National-Park.jpg",
+        "bestTimeToVisit": "March-May & October-November",
+        "travelTips": [
+          "No alcohol/non-veg food allowed in sacred areas",
+          "Basic guesthouse accommodation available",
+          "Hire local guides for best hiking routes"
+        ]
+      },
+      {
+        "name": "Shuklaphanta National Park",
+        "description": "Important wildlife reserve in Nepal's far-west Terai bordering India.",
+        "detail": "Famous for its swamp deer (barasingha) population and grasslands, this 305 sq km park offers excellent wildlife viewing including tigers, rhinos, and over 350 bird species. The park features Asia's largest continuous grassland habitat.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Hunting Reserve",
+                "text": "Originally established as royal hunting ground in 1969"
+              },
+              {
+                "subtitle": "Conservation Upgrade",
+                "text": "Declared national park in 2016 after successful anti-poaching efforts"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Wildlife Recovery",
+                "text": "Swamp deer population grew from 63 (1970) to over 2,000 today"
+              },
+              {
+                "subtitle": "Transboundary Conservation",
+                "text": "Part of Terai Arc Landscape connecting to Indian reserves"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Swamp deer herds at Phanta grasslands",
+          "Rani Tal (Queen's Lake) birdwatching",
+          "Tharu cultural experiences"
+        ],
+        "image": "https://www.welcomenepal.com/uploads/destination/shuklaphanta-national-park-1.jpg",
+        "bestTimeToVisit": "November-March",
+        "travelTips": [
+          "Stay at least 2 nights for proper wildlife viewing",
+          "Morning elephant safaris best for rhino spotting",
+          "Visit nearby Dodhara Chandani bridge - Nepal's longest"
+        ]
+      },
+      {
+        "name": "Badimalika Temple",
+        "description": "Sacred Himalayan temple at 4,200m dedicated to goddess Bhagwati.",
+        "detail": "This remote pilgrimage site in Bajura district requires a 3-day trek to reach. The temple complex includes natural rock formations worshipped as manifestations of the goddess, with panoramic views of Api and Saipal Himalayas.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Ancient Origins",
+                "text": "Mentioned in Skanda Purana as one of 108 Shakti Peethas"
+              },
+              {
+                "subtitle": "Discovery",
+                "text": "Modern rediscovery by local shepherds in early 20th century"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Pilgrimage Site",
+                "text": "Attracts thousands during Janai Purnima festival (August)"
+              },
+              {
+                "subtitle": "Cultural Identity",
+                "text": "Important symbol for far-western communities"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Natural Shiva Lingam formation",
+          "Api Himal views",
+          "Alpine meadows with medicinal herbs"
+        ],
+        "image": "https://www.himalayanwonders.com/wp-content/uploads/2019/03/Badimalika-Temple.jpg",
+        "bestTimeToVisit": "May-October",
+        "travelTips": [
+          "Requires good physical fitness for trek",
+          "Hire local porters/guides in Martadi",
+          "Respect religious customs at temple"
+        ]
+      },
+      {
+        "name": "Api Nampa Conservation Area",
+        "description": "Remote protected area bordering Tibet with Nepal's westernmost 7,000m peak.",
+        "detail": "This 1,903 sq km conservation area contains Api Himal (7,132m) and Nampa peak (6,757m). The region preserves trans-Himalayan ecosystems and traditional Limba and Byansi cultures with restricted tourist access.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Mountaineering History",
+                "text": "Api Himal first climbed in 1960 by Japanese expedition"
+              },
+              {
+                "subtitle": "Protected Status",
+                "text": "Established as conservation area in 2010"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Biodiversity",
+                "text": "Protects endangered species like snow leopard and red panda"
+              },
+              {
+                "subtitle": "Cultural Preservation",
+                "text": "Safeguards traditional transhumance grazing systems"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Api Himal base camp trek",
+          "Traditional Limba villages",
+          "Sacred lakes at Singla Pass"
+        ],
+        "image": "https://www.nepalhikingteam.com/wp-content/uploads/2019/03/Api-Nampa-Conservation-Area.jpg",
+        "bestTimeToVisit": "May-June & September-October",
+        "travelTips": [
+          "Special permit required for restricted areas",
+          "Pack for extreme weather changes",
+          "Respect local grazing customs"
+        ]
+      },
+      {
+        "name": "Dhangadhi",
+        "description": "Gateway city to far-western Nepal with emerging eco-tourism initiatives.",
+        "detail": "The largest city in Province 7 serves as hub for visiting Shuklaphanta and Bardia parks. The area features Tharu cultural experiences, community forests, and the Kailali River corridor for birdwatching.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Development",
+                "text": "Grew as administrative center during Rana regime"
+              },
+              {
+                "subtitle": "Cultural Mix",
+                "text": "Blend of Tharu, hill migrant, and Indian border influences"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Transport Hub",
+                "text": "Main access point for far-western Nepal"
+              },
+              {
+                "subtitle": "Eco-Tourism",
+                "text": "Base for community-managed jungle safaris"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Tharu Cultural Museum",
+          "Tikapur Park nearby",
+          "Local fish markets on Karnali River"
+        ],
+        "image": "https://www.welcomenepal.com/uploads/destination/dhangadhi-1.jpg",
+        "bestTimeToVisit": "October-March",
+        "travelTips": [
+          "Try local specialty - goat curry",
+          "Visit nearby Ghodaghodi Lake wetlands",
+          "Use as acclimatization stop before jungle tours"
+        ]
+      },
+      {
+        "name": "Bhimdatta (Mahendranagar)",
+        "description": "Border city with access to Shuklaphanta and Indian wildlife sanctuaries.",
+        "detail": "Named after King Mahendra, this bustling town near the Mahakali River offers cross-border tourism opportunities. The area serves as gateway to both Shuklaphanta National Park and India's Dudhwa Tiger Reserve.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Strategic Location",
+                "text": "Developed as trade nexus between Nepal and Uttar Pradesh"
+              },
+              {
+                "subtitle": "Name Change",
+                "text": "Renamed Bhimdatta in 2008 after Nepali revolutionary"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Cross-Border Tourism",
+                "text": "Permits same-day visits to Indian tiger reserves"
+              },
+              {
+                "subtitle": "Economic Center",
+                "text": "Major market for far-western Nepal"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Shuklaphanta Visitor Center",
+          "Mahakali River bridge views",
+          "Border market at Gaddachauki"
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Mahendranagar_central.jpg/1200px-Mahendranagar_central.jpg",
+        "bestTimeToVisit": "November-February",
+        "travelTips": [
+          "Carry passport for border crossing",
+          "Try local street food like chatpate",
+          "Hire naturalists from park headquarters"
+        ]
+      },
+      {
+        "name": "Ghoda Ghodi Lake",
+        "description": "Ramsar wetland site with rich biodiversity near Tikapur.",
+        "detail": "This 2,563 hectare lake system supports endangered species like swamp deer and Bengal florican. The area features Tharu villages, birdwatching towers, and community-based conservation programs.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Cultural Legend",
+                "text": "Named after a horse (ghoda) sacrifice legend"
+              },
+              {
+                "subtitle": "Conservation Status",
+                "text": "Declared Ramsar site in 2003"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Ecotourism",
+                "text": "Model for community-managed wetland tourism"
+              },
+              {
+                "subtitle": "Research",
+                "text": "Important site for migratory bird studies"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Birdwatching (over 140 species)",
+          "Tharu homestay experiences",
+          "Sunset boat rides"
+        ],
+        "image": "https://www.ecs.com.np/uploads/ghodaghodi-1.jpg",
+        "bestTimeToVisit": "November-March",
+        "travelTips": [
+          "Bring binoculars for birding",
+          "Support local handicraft cooperatives",
+          "Avoid plastic to protect wetland"
+        ]
+      },
+      {
+        "name": "Saipal Base Camp",
+        "description": "Challenging trek to Nepal's westernmost 7,000m peak in Bajhang district.",
+        "detail": "The remote Saipal Himal (7,031m) offers pristine trekking through traditional villages and alpine landscapes. The area remains culturally Tibetan Buddhist with ancient monasteries and nomadic herding traditions.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Mountaineering",
+                "text": "Saipal first climbed in 1963 by Japanese team"
+              },
+              {
+                "subtitle": "Cultural Isolation",
+                "text": "Preserved medieval Tibetan traditions due to remoteness"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Adventure Tourism",
+                "text": "Emerging destination for experienced trekkers"
+              },
+              {
+                "subtitle": "Glacier Research",
+                "text": "Important for studying western Himalayan ice fields"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Traditional Byansi culture",
+          "Kanda Lake pilgrimage site",
+          "Panoramic Api-Saipal views"
+        ],
+        "image": "https://www.himalayanwonders.com/wp-content/uploads/2019/03/Saipal-Base-Camp-Trek.jpg",
+        "bestTimeToVisit": "May-June & September-October",
+        "travelTips": [
+          "Requires camping equipment and guides",
+          "Obtain permits in Chainpur",
+          "Respect local religious sites"
+        ]
+      },
+      {
+        "name": "Chure Hills",
+        "description": "Biodiverse foothills spanning Nepal's southern border with unique ecology.",
+        "detail": "These fragile sedimentary hills form a vital wildlife corridor between Terai parks. The area features community forests, sandstone formations, and emerging eco-tourism projects in Doti and Dadeldhura districts.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Geological Formation",
+                "text": "Youngest mountain range in Nepal (1-10 million years)"
+              },
+              {
+                "subtitle": "Cultural Importance",
+                "text": "Source of medicinal plants and sacred sites"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Conservation",
+                "text": "Protected as Chure Conservation Area since 2014"
+              },
+              {
+                "subtitle": "Water Security",
+                "text": "Critical recharge zone for Terai groundwater"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Doti's sandstone caves",
+          "Medicinal plant trails",
+          "Community forest homestays"
+        ],
+        "image": "https://www.welcomenepal.com/uploads/destination/chure-hills-1.jpg",
+        "bestTimeToVisit": "October-March",
+        "travelTips": [
+          "Support anti-erosion initiatives",
+          "Hire local forest guides",
+          "Respect water source protections"
+        ]
+      },
+      {
+        "name": "Baitadi Fort",
+        "description": "Historic hilltop fortress with panoramic Mahakali River valley views.",
+        "detail": "This 17th-century fort in Baitadi district showcases western Nepal's architectural heritage. The stone complex includes temples, water tanks, and strategic viewpoints over the Nepal-India border region.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Strategic Importance",
+                "text": "Built by Doti kings to control trade routes"
+              },
+              {
+                "subtitle": "Architecture",
+                "text": "Blends Nepali and western Himalayan styles"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Cultural Heritage",
+                "text": "Under consideration for national monument status"
+              },
+              {
+                "subtitle": "Tourism Potential",
+                "text": "Developing as viewpoint and historical site"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Panoramic valley views",
+          "Ancient stone carvings",
+          "Nearby Gokuleshwar Temple"
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Baitadi_Fort.jpg/1200px-Baitadi_Fort.jpg",
+        "bestTimeToVisit": "October-April",
+        "travelTips": [
+          "Combine with visit to nearby market town",
+          "Hire local guide for historical context",
+          "Wear sturdy shoes for fort exploration"
+        ]
+      }
+    ]
+  }

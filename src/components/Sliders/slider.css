@@ -1,0 +1,353 @@
+/* Base styles and reset */
+:root {
+  --primary: #2e5eaa;
+  --primary-light: #4a7dcf;
+  --secondary: #ff7e3d;
+  --dark: #333;
+  --light: #f8f9fa;
+  --gray: #e9ecef;
+  --text: #212529;
+  --shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --transition: all 0.3s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: var(--text);
+  background-color: var(--light);
+  line-height: 1.6;
+}
+
+/* Slider wrapper */
+.slider-wrapper {
+  max-width: 1200px;
+  margin: 0rem auto;
+  padding: 0 1rem;
+}
+
+/* Card styling */
+.card-container {
+  position: relative;
+  height: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: var(--transition);
+  box-shadow: var(--shadow);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+}
+
+.card-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Card image */
+.card-container img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+  display: block;
+}
+
+/* Card content */
+.card-content {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.card-content h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--dark);
+  margin-bottom: 0.75rem;
+}
+
+.card-content p {
+  font-size: 0.95rem;
+  color: #555;
+  flex-grow: 1;
+  line-height: 1.5;
+}
+
+/* More button */
+.more-btn {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: var(--transition);
+  margin: 0 1.5rem 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.more-btn:hover {
+  background-color: var(--primary-light);
+}
+
+.more-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(46, 94, 170, 0.3);
+}
+
+/* Swiper customization */
+.swiper {
+  padding: 1rem 0.5rem 3rem !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--primary) !important;
+  background-color: white;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50%;
+  box-shadow: var(--shadow);
+  opacity: 0.9;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 1.2rem !important;
+  font-weight: bold;
+}
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: 0.3;
+}
+
+.swiper-pagination-bullet {
+  background: var(--primary) !important;
+  opacity: 0.5 !important;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1 !important;
+  background: var(--primary) !important;
+}
+
+/* Category header */
+.category-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--gray);
+}
+
+.category-header h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--dark);
+  position: relative;
+}
+
+.category-header h2::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -0.75rem;
+  width: 60px;
+  height: 3px;
+  background-color: var(--secondary);
+}
+
+.view-all {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  transition: var(--transition);
+}
+
+.view-all:hover {
+  color: var(--secondary);
+}
+
+.view-all svg {
+  margin-left: 0.3rem;
+}
+
+/* Image overlay effect */
+.card-image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-image-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.3));
+  transition: var(--transition);
+}
+
+.card-container:hover .card-image-container::after {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.15), rgba(0,0,0,0.4));
+}
+
+/* Location indicator */
+.location-indicator {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background-color: var(--secondary);
+  color: white;
+  padding: 0.35rem 0.75rem;
+  border-radius: 30px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  z-index: 1;
+}
+
+/* Category badge */
+.category-badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background-color: rgba(255, 255, 255, 0.85);
+  color: var(--primary);
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  z-index: 1;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+  .card-container {
+    height: 400px;
+  }
+  
+  .card-container img {
+    height: 200px;
+  }
+  
+  .card-content h3 {
+    font-size: 1.3rem;
+  }
+  
+  .card-content p {
+    font-size: 0.9rem;
+  }
+  
+  .more-btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+  
+  .category-header h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Focus states for accessibility */
+:focus {
+  outline: 3px solid rgba(46, 94, 170, 0.4);
+  outline-offset: 2px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--gray);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-light);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
+
+/* Add animation for card entrance */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.swiper-slide {
+  animation: fadeInUp 0.5s ease forwards;
+}
+
+/* Stagger animation for cards */
+.swiper-slide:nth-child(1) { animation-delay: 0.1s; }
+.swiper-slide:nth-child(2) { animation-delay: 0.2s; }
+.swiper-slide:nth-child(3) { animation-delay: 0.3s; }
+
+/* Loading state */
+.slider-loading {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid var(--gray);
+  border-top: 4px solid var(--primary);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Print styles */
+@media print {
+  .swiper-button-next,
+  .swiper-button-prev,
+  .swiper-pagination,
+  .more-btn {
+    display: none !important;
+  }
+  
+  .card-container {
+    box-shadow: none;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+}

@@ -1,0 +1,51 @@
+.header {
+  position:relative;
+  background-color: white;
+  padding: 12px 24px;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 1.5ch;
+  position: relative;
+}
+
+.header > div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 5px;
+}
+
+.header .logo {
+  min-width: 48px;
+}
+
+.header .logo img {
+  height: 80px;
+  width: auto;
+  border-radius: 3rem;
+}
+
+.header .actions {
+  display: flex;
+  gap: 16px;
+  margin-left: auto;
+}
+
+.header .actions button {
+  background: transparent;
+  border: none;
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.header .actions button:hover {
+  color: #00875A;
+}
+
+.header .actions a {
+  color: inherit;
+  text-decoration: none;
+}

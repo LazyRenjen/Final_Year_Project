@@ -1,0 +1,158 @@
+/* CreateProductModal.css */
+
+.create-product-modal {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .create-product-modal__header {
+    background-color: #f9fafb;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .create-product-modal__title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .create-product-modal__body {
+    padding: 2rem;
+  background-color: #fff;
+  max-height: 70vh; /* Adjust as needed */
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #c1c1c1 #f0f0f0;
+
+  }
+  
+  .create-product-modal__form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .create-product-modal__label {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: #444;
+  }
+  
+  .create-product-modal__input,
+  .create-product-modal__textarea,
+  .create-product-modal__select {
+    padding: 0.6rem 0.8rem;
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+    font-size: 0.95rem;
+    transition: border-color 0.2s ease;
+  }
+  
+  .create-product-modal__input:focus,
+  .create-product-modal__textarea:focus,
+  .create-product-modal__select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 0 0.15rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .create-product-modal__textarea {
+    resize: vertical;
+  }
+  
+  .create-product-modal__price-section {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .create-product-modal__discount-preview {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: #555;
+    padding: 0.75rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #0d6efd;
+  }
+  
+  .create-product-modal__original-price {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .create-product-modal__final-price {
+    font-weight: 600;
+    color: #198754;
+  }
+  
+  .create-product-modal__image-preview {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .create-product-modal__preview-img {
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    object-fit: contain;
+  }
+  
+  .create-product-modal__preview-placeholder {
+    padding: 1rem;
+    color: #dc3545;
+    background-color: #fff3f3;
+    border-radius: 6px;
+    font-weight: 500;
+    border: 1px dashed #dc3545;
+  }
+  
+  .create-product-modal__cancel-button,
+  .create-product-modal__create-button {
+    margin-top: 1.5rem;
+    min-width: 120px;
+  }
+  
+  .create-product-modal__cancel-button {
+    margin-right: 0.75rem;
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+  
+  .create-product-modal__cancel-button:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+  }
+  
+  .create-product-modal__create-button {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+  }
+  
+  .create-product-modal__create-button:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+  }
+  
+  @media (max-width: 576px) {
+    .create-product-modal__price-section {
+      flex-direction: column;
+    }
+  
+    .create-product-modal__body {
+      padding: 1.25rem;
+    }
+  }
+  
+/* Optional custom scrollbar for WebKit browsers */
+.create-product-modal__body::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .create-product-modal__body::-webkit-scrollbar-thumb {
+    background-color: #bbb;
+    border-radius: 4px;
+  }
+  
+  .create-product-modal__body::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+  }

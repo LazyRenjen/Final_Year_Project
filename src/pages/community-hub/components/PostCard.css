@@ -1,0 +1,715 @@
+/* CommunityHub.css - Enhanced Version */
+/* 1. Modern Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700;900&family=Montserrat:wght@800&display=swap');
+
+/* 2. Enhanced CSS Variables with Modern Colors */
+:root {
+  --primary: #4361ee;
+  --primary-light: #4895ef;
+  --primary-dark: #3a0ca3;
+  --success: #4cc9f0;
+  --success-light: #80ffdb;
+  --danger: #f72585;
+  --danger-light: #ff70a6;
+  --warning: #f8961e;
+  --warning-light: #ffd166;
+  --text: #1a1a2e;
+  --text-light: #4a4e69;
+  --light-bg: #f8f9fa;
+  --border: #e9ecef;
+  --glass-bg: rgba(255, 255, 255, 0.25);
+  --glass-border: rgba(255, 255, 255, 0.18);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.1), 0 10px 10px rgba(0, 0, 0, 0.04);
+  --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  --transition-bounce: all 0.5s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+  --border-radius: 12px;
+  --card-radius: 16px;
+  --blur: blur(8px);
+}
+
+/* 3. Main Container with Smooth Scroll */
+.community-hub-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  color: var(--text);
+  scroll-behavior: smooth;
+}
+
+/* 4. Enhanced Community Header with Glass Morphism */
+.community-header {
+  background: linear-gradient(135deg, 
+              rgba(67, 97, 238, 0.8) 0%, 
+              rgba(72, 149, 239, 0.9) 100%), 
+              url('https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  background-position: center;
+  padding: 6rem 2rem;
+  margin-bottom: 3rem;
+  border-radius: 0 0 var(--card-radius) var(--card-radius);
+  color: white;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: var(--shadow-xl);
+}
+
+.community-header::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: linear-gradient(to bottom, 
+              rgba(0,0,0,0.1) 0%, 
+              rgba(0,0,0,0.3) 100%);
+  z-index: 1;
+}
+
+.community-header-content {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.community-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(to right, #fff 0%, #f8f9fa 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: titleGradient 8s ease infinite;
+  background-size: 200% 200%;
+}
+
+@keyframes titleGradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.community-subtitle {
+  font-size: 1.25rem;
+  opacity: 0.9;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  line-height: 1.6;
+  backdrop-filter: var(--blur);
+  background: var(--glass-bg);
+  padding: 1rem 1.5rem;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--glass-border);
+}
+
+/* 5. Enhanced Buttons with Micro-interactions */
+.create-post-button,
+.login-button,
+.create-first-post-button,
+.login-prompt-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition-bounce);
+  border: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: var(--shadow-md);
+}
+
+.create-post-button {
+  background-color: var(--success);
+  color: var(--text);
+}
+
+.create-post-button:hover {
+  background-color: var(--success-light);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: var(--shadow-lg);
+}
+
+.create-post-button::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, 
+              rgba(255,255,255,0.2) 0%, 
+              rgba(255,255,255,0) 100%);
+  transform: translateX(-100%);
+  transition: transform 0.5s ease;
+  z-index: -1;
+}
+
+.create-post-button:hover::after {
+  transform: translateX(0);
+}
+
+.login-button {
+  background-color: var(--primary);
+  color: white;
+}
+
+.login-button:hover {
+  background-color: var(--primary-light);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: var(--shadow-lg);
+}
+
+.create-first-post-button,
+.login-prompt-button {
+  margin-top: 1.5rem;
+}
+
+/* 6. Enhanced Create Post Container with Floating Effect */
+.create-post-container {
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  padding: 2rem;
+  animation: fadeInUp 0.5s ease both;
+  background: white;
+  border-radius: var(--card-radius);
+  box-shadow: var(--shadow-lg);
+  transition: var(--transition);
+}
+
+.create-post-container:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-xl);
+}
+
+@keyframes fadeInUp {
+  from { 
+    opacity: 0; 
+    transform: translateY(20px); 
+  }
+  to { 
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+}
+
+/* 7. Community Content */
+.community-content {
+  padding: 0 1rem;
+}
+
+/* 8. Enhanced Loading State */
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+  color: var(--text-light);
+  min-height: 300px;
+}
+
+.loading-spinner {
+  width: 60px;
+  height: 60px;
+  border: 5px solid rgba(67, 97, 238, 0.1);
+  border-top-color: var(--primary);
+  border-radius: 50%;
+  animation: spin 1s linear infinite, pulse 2s ease infinite;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.loading-spinner::after {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  right: -8px;
+  bottom: -8px;
+  border: 5px solid rgba(72, 149, 239, 0.1);
+  border-radius: 50%;
+  animation: spinReverse 2s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes spinReverse {
+  to { transform: rotate(-360deg); }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+/* 9. Enhanced Error State */
+.error-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+  text-align: center;
+  background: rgba(247, 37, 133, 0.05);
+  border-radius: var(--card-radius);
+  border-left: 5px solid var(--danger);
+  animation: shake 0.5s ease;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-5px); }
+  40%, 80% { transform: translateX(5px); }
+}
+
+.error-message svg {
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+  color: var(--danger);
+  animation: pulse 1.5s ease infinite;
+}
+
+.retry-button {
+  background-color: var(--danger);
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition-bounce);
+  margin-top: 1.5rem;
+  box-shadow: 0 4px 6px rgba(247, 37, 133, 0.2);
+}
+
+.retry-button:hover {
+  background-color: var(--danger-light);
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: var(--shadow-lg);
+}
+
+/* 10. Enhanced No Posts State */
+.no-posts-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+  text-align: center;
+  background: var(--light-bg);
+  border-radius: var(--card-radius);
+  animation: fadeIn 0.8s ease;
+}
+
+.no-posts-message svg {
+  margin-bottom: 1.5rem;
+  font-size: 4rem;
+  color: var(--primary-light);
+  opacity: 0.7;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+.no-posts-message h3 {
+  color: var(--text);
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* 11. Enhanced Posts Container */
+.posts-container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  gap: 2rem;
+}
+
+/* 12. Enhanced Pagination */
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin: 4rem 0;
+}
+
+.pagination-button {
+  padding: 0.7rem 1.2rem;
+  margin: 0 0.5rem;
+  border: none;
+  background-color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: var(--transition);
+  box-shadow: var(--shadow-sm);
+  font-weight: 600;
+}
+
+.pagination-button:hover {
+  background-color: var(--primary-light);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.pagination-button.active {
+  background-color: var(--primary);
+  color: white;
+  transform: scale(1.1);
+  box-shadow: var(--shadow-lg);
+}
+
+.pagination-button.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none !important;
+}
+
+/* 13. Enhanced Post Card Styles */
+.post-card {
+  background: white;
+  border-radius: var(--card-radius);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  animation: fadeIn 0.5s ease both;
+  will-change: transform;
+}
+
+.post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.image-carousel {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  background: var(--light-bg);
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease;
+}
+
+.no-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--text-light);
+  font-size: 1.1rem;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.7);
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: var(--transition);
+  z-index: 2;
+  font-weight: bold;
+  color: var(--text);
+}
+
+.carousel-button:hover {
+  background: rgba(255, 255, 255, 0.9);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.carousel-button.left {
+  left: 20px;
+}
+
+.carousel-button.right {
+  right: 20px;
+}
+
+.carousel-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  z-index: 2;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.dot.active {
+  background: white;
+  transform: scale(1.2);
+}
+
+.post-content {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0;
+}
+
+
+.post-stars {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+
+.star {
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.star.filled {
+  color: #ffc107;
+}
+
+.star.empty {
+  color: #e0e0e0;
+}
+.post-location {
+  color: var(--primary);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.post-description {
+  color: var(--text-light);
+  line-height: 1.6;
+  margin: 0.5rem 0;
+}
+
+.post-info {
+  display: flex;
+  justify-content: space-between;
+  color: var(--text-light);
+  font-size: 0.9rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.separator {
+  margin: 0 0.5rem;
+  opacity: 0.5;
+}
+
+.comment-count {
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  margin-top: auto;
+}
+
+.view-button, .delete-button {
+  padding: 0.6rem 1.2rem;
+  border-radius: 50px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition);
+  border: none;
+}
+
+.view-button {
+  background-color: var(--primary);
+  color: white;
+}
+
+.view-button:hover {
+  background-color: var(--primary-dark);
+  transform: translateY(-2px);
+}
+
+.delete-button {
+  background-color: var(--danger-light);
+  color: var(--danger);
+}
+
+.delete-button:hover {
+  background-color: var(--danger);
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* 14. Like Button Animation */
+.like-button {
+  position: relative;
+  overflow: hidden;
+}
+
+.like-button.liked {
+  animation: heartBeat 0.5s ease;
+}
+
+@keyframes heartBeat {
+  0% { transform: scale(1); }
+  25% { transform: scale(1.2); }
+  50% { transform: scale(0.95); }
+  75% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+/* 15. Responsive Design */
+@media (max-width: 1024px) {
+  .community-title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .community-header {
+    padding: 4rem 1rem;
+  }
+  
+  .community-title {
+    font-size: 2.5rem;
+  }
+  
+  .community-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .post-card {
+    flex-direction: column;
+  }
+
+  .image-carousel {
+    height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .community-header {
+    padding: 3rem 1rem;
+  }
+  
+  .community-title {
+    font-size: 2rem;
+  }
+
+  .post-actions {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .view-button, .delete-button {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* 16. Accessibility Enhancements */
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 3px solid rgba(67, 97, 238, 0.5);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.3);
+}
+
+/* 17. Scroll Reveal Animation */
+[data-animate] {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+[data-animate="show"] {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* 18. Floating Action Button for Mobile */
+.floating-action-button {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--success);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-lg);
+  cursor: pointer;
+  transition: var(--transition-bounce);
+  z-index: 100;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.floating-action-button:hover {
+  transform: translateY(-5px) scale(1.1);
+  background-color: var(--success-light);
+}
+
+@media (min-width: 769px) {
+  .floating-action-button {
+    display: none;
+  }
+}

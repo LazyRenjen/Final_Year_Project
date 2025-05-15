@@ -1,0 +1,270 @@
+/* LoginForm.css */
+/* 1. First imports */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* 2. CSS Variables */
+:root {
+  --primary: #3182ce;
+  --primary-light: #63b3ed;
+  --primary-dark: #2c5282;
+  --danger: #e53e3e;
+  --danger-light: #fc8181;
+  --text: #2d3748;
+  --text-light: #4a5568;
+  --light-bg: #f7fafc;
+  --border: #e2e8f0;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  --transition: all 0.3s ease;
+  --border-radius: 8px;
+}
+
+/* 3. Login Form Container */
+.login-form {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2.5rem;
+  background-color: white;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-lg);
+  font-family: 'Poppins', sans-serif;
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* 4. Form Title */
+.form-title {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: var(--primary-dark);
+  position: relative;
+  padding-bottom: 0.5rem;
+}
+
+.form-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--primary), var(--primary-light));
+  border-radius: 2px;
+}
+
+/* 5. Form Groups */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: var(--text);
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  font-family: 'Poppins', sans-serif;
+  transition: var(--transition);
+  font-size: 1rem;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.2);
+}
+
+/* 6. Error Message */
+.error-message {
+  color: var(--danger);
+  background-color: rgba(229, 62, 62, 0.1);
+  padding: 0.8rem;
+  border-radius: var(--border-radius);
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+  text-align: center;
+  animation: shake 0.5s ease;
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-5px); }
+  40%, 80% { transform: translateX(5px); }
+}
+
+/* 7. Submit Button */
+.form-submit {
+  width: 100%;
+  padding: 0.9rem;
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: var(--transition);
+  margin-bottom: 1.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.form-submit:hover {
+  background-color: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.form-submit:active {
+  transform: translateY(0);
+}
+
+/* 8. Link to Signup */
+.login-form p {
+  text-align: center;
+  color: var(--text-light);
+  margin: 0;
+}
+
+.login-form a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: var(--transition);
+  position: relative;
+}
+
+.login-form a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: var(--primary);
+  transition: var(--transition);
+}
+
+.login-form a:hover {
+  color: var(--primary-dark);
+}
+
+.login-form a:hover::after {
+  width: 100%;
+}
+
+/* 9. Loading State */
+.form-submit.loading {
+  pointer-events: none;
+  opacity: 0.8;
+}
+
+.form-submit.loading::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-top-color: white;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+/* 10. Responsive Design */
+@media (max-width: 480px) {
+  .login-form {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+  
+  .form-title {
+    font-size: 1.5rem;
+  }
+}
+
+/* 11. Accessibility */
+.form-input:focus-visible,
+.form-submit:focus-visible,
+a:focus-visible {
+  outline: 3px solid rgba(49, 130, 206, 0.5);
+  outline-offset: 2px;
+}
+
+
+/* Add these styles to your existing Login.css file */
+
+.form-links {
+  margin-top: 12px;
+  text-align: right;
+}
+
+.forgot-password-link {
+  color: #3f51b5;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.forgot-password-link:hover {
+  text-decoration: underline;
+}
+
+.back-to-login {
+  color: #3f51b5;
+  font-size: 0.9rem;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.back-to-login:hover {
+  text-decoration: underline;
+}
+
+.message-text {
+  padding: 10px;
+  border-radius: 4px;
+  margin: 15px 0;
+  font-size: 0.9rem;
+}
+
+.error-message {
+  background-color: rgba(244, 67, 54, 0.1);
+  color: #f44336;
+  border: 1px solid rgba(244, 67, 54, 0.3);
+}
+
+.success-message {
+  background-color: rgba(76, 175, 80, 0.1);
+  color: #4caf50;
+  border: 1px solid rgba(76, 175, 80, 0.3);
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.link-button {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  padding: 8px 16px;
+}

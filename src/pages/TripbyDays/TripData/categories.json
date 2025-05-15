@@ -1,0 +1,29 @@
+{
+    "tripCategories": [
+      {
+        "id": "Trekking Adventures, Mountaineering & Climbing",
+        "title": "Experience The Trekking Adventures, Mountaineering & Climbing in Nepal Challenging ascents of Nepal's highest peaks",
+        "description": "Multi-day treks through the majestic Himalayas"
+      },
+      {
+        "id": "Jungle Safari & Wildlife Adventures",
+        "title": "Wildlife Safaris",
+        "description": "Explore Nepal's diverse wildlife and national parks"
+      },
+      {
+        "id": "Bungee Jumping & Other Extreme Sports",
+        "title": "Extreme Sports",
+        "description": "Adrenaline-pumping activities for thrill-seekers"
+      },
+      {
+        "id": "Paragliding & Aerial Adventures",
+        "title": "Paragliding & Aerial Adventures",
+        "description": "Experience Nepal's stunning landscapes from above"
+      },
+      {
+        "id": "White Water Rafting & Kayaking",
+        "title": "White Water Rafting & Kayaking",
+        "description": "Ride the rapids of Nepal's rivers"
+      }
+    ]
+  }

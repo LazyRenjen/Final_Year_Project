@@ -1,0 +1,454 @@
+{
+    "places": [
+      {
+        "name": "Janaki Temple",
+        "description": "A sacred Hindu temple dedicated to Goddess Sita, located in Janakpur.",
+        "detail": "Janaki Temple is an iconic religious site built in 1910 AD, featuring Mughal and Rajput architectural styles. It is believed to be the birthplace of Goddess Sita and a major pilgrimage site for Hindus.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Mythological Significance",
+                "text": "Associated with the Ramayana epic as the marriage place of Lord Rama and Sita"
+              },
+              {
+                "subtitle": "Construction",
+                "text": "Built by Queen Vrisha Bhanu of Tikamgarh, India"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Religious Tourism",
+                "text": "Hosts thousands of pilgrims during Vivah Panchami and Ram Navami festivals"
+              },
+              {
+                "subtitle": "Cultural Symbol",
+                "text": "A center for Maithili culture and traditions"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Vivah Mandap (Marriage Pavilion)",
+          "Ram-Sita Bibaha Festival",
+          "Janaki Temple Museum"
+        ],
+        "image": "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTqIZt6TIrUCQIEZfqb67AQ5VX8oDQ0uOULTGLRZrCphDSqykqnYySVSye-jSA9YZM0IMll2tKFh0BK5s_JSlpHr5dzsJT_Sk6jB4vSwQ",
+        "bestTimeToVisit": "October-March",
+        "travelTips": [
+          "Dress modestly as it is a religious site",
+          "Visit during festivals for a vibrant experience",
+          "Explore nearby ponds and other temples"
+        ]
+      },
+      {
+        "name": "Dhanushadham",
+        "description": "A sacred site linked to the Ramayana, believed to be the remains of Lord Rama's broken bow.",
+        "detail": "Located near Janakpur, Dhanushadham is a key pilgrimage site where devotees believe a fragment of Lord Rama's broken bow (from the Swayamvar of Sita) is preserved.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Mythological Connection",
+                "text": "Linked to the breaking of Shiva's bow in the Ramayana"
+              },
+              {
+                "subtitle": "Archaeological Findings",
+                "text": "Ancient relics and inscriptions found nearby"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Pilgrimage Site",
+                "text": "Draws devotees from Nepal and India"
+              },
+              {
+                "subtitle": "Tourism Development",
+                "text": "Part of the Ramayana Circuit promoted by Nepal and India"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Dhanusha Sarovar (Pond)",
+          "Annual religious fairs",
+          "Nearby ancient temples"
+        ],
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/4e/4e/6e/dhanusha-dham.jpg?w=1200&h=-1&s=1",
+        "bestTimeToVisit": "October-April",
+        "travelTips": [
+          "Combine visit with Janakpur trip",
+          "Respect local religious customs",
+          "Carry water and sun protection"
+        ]
+      },
+      {
+        "name": "Barahachhetra",
+        "description": "A holy Hindu pilgrimage site at the confluence of the Koka and Koshi rivers.",
+        "detail": "Barahachhetra is an ancient temple dedicated to Lord Vishnu's Varaha (boar) incarnation. It is one of the four major Chhetra (sacred sites) in Nepal.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Religious Texts Mention",
+                "text": "Cited in Puranas and Hindu scriptures"
+              },
+              {
+                "subtitle": "Archaeological Importance",
+                "text": "Nearby ruins suggest an ancient settlement"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Pilgrimage Destination",
+                "text": "Major draw during Makar Sankranti and other festivals"
+              },
+              {
+                "subtitle": "Cultural Heritage",
+                "text": "Preserves traditional Hindu rituals and practices"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Baraha Temple",
+          "Sacred river confluence",
+          "Annual Baraha Mela fair"
+        ],
+        "image": "https://www.imnepal.com/wp-content/uploads/2015/03/baraha-chhetra-sunsari.jpg",
+        "bestTimeToVisit": "October-March",
+        "travelTips": [
+          "Visit during festivals for full experience",
+          "Explore nearby villages",
+          "Follow temple dress code"
+        ]
+      },
+      {
+        "name": "Gaurighat",
+        "description": "A scenic riverbank area on the Koshi River with religious significance.",
+        "detail": "Gaurighat is known for its peaceful environment, ashrams, and a temple dedicated to Goddess Gauri. It serves as a meditation and retreat center.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Spiritual Legacy",
+                "text": "Associated with Hindu saints and sadhus for centuries"
+              },
+              {
+                "subtitle": "Flood History",
+                "text": "Rebuilt after Koshi River floods in 2008"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Meditation Retreat",
+                "text": "Popular for yoga and spiritual activities"
+              },
+              {
+                "subtitle": "Eco-Tourism",
+                "text": "Developing as a nature and culture destination"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Gauri Temple",
+          "Koshi River views",
+          "Spiritual ashrams"
+        ],
+        "image": "https://www.holidify.com/images/attr_square/5895.jpg",
+        "bestTimeToVisit": "October-March",
+        "travelTips": [
+          "Respect meditation spaces",
+          "Carry insect repellent",
+          "Visit nearby Koshi Tappu Wildlife Reserve"
+        ]
+      },
+      {
+        "name": "Koshi Tappu Wildlife Reserve",
+        "description": "A vital wetland ecosystem and bird sanctuary in eastern Nepal.",
+        "detail": "Koshi Tappu is Nepal's first Ramsar site, famous for birdwatching and its population of wild water buffalo (Arna). The reserve covers 175 sq km along the Koshi River.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Ecological Formation",
+                "text": "Created by Koshi River's changing course over centuries"
+              },
+              {
+                "subtitle": "Establishment",
+                "text": "Declared wildlife reserve in 1976"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Biodiversity Hotspot",
+                "text": "Home to 485 bird species and endangered species"
+              },
+              {
+                "subtitle": "Research Importance",
+                "text": "Key site for ornithological studies"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Wild Water Buffalo",
+          "Migratory Birds",
+          "River Safaris"
+        ],
+        "image": "https://www.welcomenepal.com/uploads/destination/koshi-tappu-wildlife-reserve-1.jpg",
+        "bestTimeToVisit": "November-February",
+        "travelTips": [
+          "Bring binoculars for birdwatching",
+          "Hire local guides",
+          "Follow park regulations"
+        ]
+      },
+      {
+        "name": "Patanthar",
+        "description": "A scenic hilltop offering panoramic views of the Terai plains and Himalayas.",
+        "detail": "Patanthar is a developing viewpoint destination in Udayapur district, providing breathtaking sunrise/sunset views and cool climate.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Indigenous Settlements",
+                "text": "Home to ethnic communities for generations"
+              },
+              {
+                "subtitle": "Strategic Location",
+                "text": "Historically used as lookout point"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Tourism Potential",
+                "text": "Emerging as a hill station for domestic tourists"
+              },
+              {
+                "subtitle": "Agricultural Importance",
+                "text": "Known for organic farming initiatives"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Sunrise/Sunset Views",
+          "Hiking Trails",
+          "Local Culture"
+        ],
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/4e/4e/6e/dhanusha-dham.jpg?w=1200&h=-1&s=1",
+        "bestTimeToVisit": "September-May",
+        "travelTips": [
+          "Carry warm clothing",
+          "Try local organic produce",
+          "Combine with Koshi Reserve visit"
+        ]
+      },
+      {
+        "name": "Chinnamasta Temple",
+        "description": "A unique Hindu temple dedicated to the self-decapitated goddess Chinnamasta.",
+        "detail": "Located in Saptari district, this tantric temple attracts devotees seeking blessings and spiritual power. The goddess is depicted holding her own severed head.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Tantric Tradition",
+                "text": "Important Shakti Peetha in Tantric Hinduism"
+              },
+              {
+                "subtitle": "Ancient Origins",
+                "text": "Mentioned in medieval religious texts"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Religious Tourism",
+                "text": "Draws tantric practitioners and curious visitors"
+              },
+              {
+                "subtitle": "Cultural Heritage",
+                "text": "Preserves unique Hindu traditions"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Unique Iconography",
+          "Annual Festivals",
+          "Tantric Rituals"
+        ],
+        "image": "https://www.holidify.com/images/cmsuploads/compressed/Chinnamasta_Temple_20170505145610.jpg",
+        "bestTimeToVisit": "October-March",
+        "travelTips": [
+          "Respect religious customs",
+          "Photography may be restricted",
+          "Dress conservatively"
+        ]
+      },
+      {
+        "name": "Bardibas",
+        "description": "A historic town and transportation hub with cultural significance.",
+        "detail": "Bardibas serves as gateway to eastern Nepal with historical trade importance. It features traditional Maithili architecture and handicrafts.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Trade History",
+                "text": "Part of ancient trade routes between hills and plains"
+              },
+              {
+                "subtitle": "British Era",
+                "text": "Developed as administrative center during Rana regime"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Transport Hub",
+                "text": "Key junction on East-West Highway"
+              },
+              {
+                "subtitle": "Cultural Preservation",
+                "text": "Center for Maithili language and arts"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Traditional Maithili Houses",
+          "Local Handicrafts",
+          "Bardibas Market"
+        ],
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/4e/4e/6e/dhanusha-dham.jpg?w=1200&h=-1&s=1",
+        "bestTimeToVisit": "October-March",
+        "travelTips": [
+          "Try local Maithili cuisine",
+          "Visit nearby villages",
+          "Buy traditional handicrafts"
+        ]
+      },
+      {
+        "name": "Siraha",
+        "description": "Cultural town known for its historic temples and vibrant festivals.",
+        "detail": "Siraha district headquarters features important religious sites and preserves Tharu and Maithili cultural traditions.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Ancient Settlements",
+                "text": "Archaeological finds suggest ancient habitation"
+              },
+              {
+                "subtitle": "Medieval Period",
+                "text": "Part of Mithila kingdom cultural sphere"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Agricultural Center",
+                "text": "Major producer of rice and sugarcane"
+              },
+              {
+                "subtitle": "Cultural Tourism",
+                "text": "Known for traditional dance and music"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Chandranath Temple",
+          "Local Festivals",
+          "Tharu Cultural Museum"
+        ],
+        "image": "https://www.holidify.com/images/cmsuploads/compressed/Siraha_20170505145610.jpg",
+        "bestTimeToVisit": "October-March",
+        "travelTips": [
+          "Visit during festivals",
+          "Explore rural villages",
+          "Try local sweets"
+        ]
+      },
+      {
+        "name": "Lahan",
+        "description": "Commercial town famous for its agricultural products and cultural diversity.",
+        "detail": "Lahan is known as the vegetable capital of Nepal, producing high-quality crops. It's a melting pot of Maithili, Tharu, and Newar cultures.",
+        "description2": [
+          {
+            "title": "Historical Facts",
+            "details": [
+              {
+                "subtitle": "Trade Center",
+                "text": "Developed as market town in early 20th century"
+              },
+              {
+                "subtitle": "Agricultural Development",
+                "text": "Pioneered commercial farming in the region"
+              }
+            ]
+          },
+          {
+            "title": "Modern Significance",
+            "details": [
+              {
+                "subtitle": "Economic Importance",
+                "text": "Major supplier of vegetables to Kathmandu"
+              },
+              {
+                "subtitle": "Cultural Exchange",
+                "text": "Exemplifies Nepal's multicultural society"
+              }
+            ]
+          }
+        ],
+        "highlights": [
+          "Agricultural Farms",
+          "Lahan Bazaar",
+          "Cultural Festivals"
+        ],
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/4e/4e/6e/dhanusha-dham.jpg?w=1200&h=-1&s=1",
+        "bestTimeToVisit": "October-April",
+        "travelTips": [
+          "Visit vegetable markets early",
+          "Try seasonal fruits",
+          "Experience local festivals"
+        ]
+      }
+    ]
+  }
